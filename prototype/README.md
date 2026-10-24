@@ -1,4 +1,4 @@
-# Protótipo — Painel de Retenção (CRM Alto Valor)
+# Protótipo — Painel de Retenção (Clientes Alto Valor)
 
 Painel estático (`index.html`, sem dependências, abre direto no navegador) que consome as tabelas já geradas em `docs/anac-data/processed`.
 Nada do pipeline existente foi alterado. Os dados são sintéticos; nenhum registro representa pessoa real.
@@ -44,4 +44,4 @@ Atenção: esses comandos exigem os CSVs originais da ANAC em `docs/anac-data/ra
 
 ## Confidencialidade
 
-repositório privado (exigência do desafio).
+Manter o repositório privado (exigência do desafio).
