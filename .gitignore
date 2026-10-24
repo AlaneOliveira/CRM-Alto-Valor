@@ -1,0 +1,7 @@
+# Fontes ANAC locais são grandes e podem ser baixadas novamente.
+docs/anac-data/raw/**/*.csv
+docs/anac-data/archive/**/*.csv
+
+# Artefatos locais de Python.
+__pycache__/
+*.py[cod]

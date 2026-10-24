@@ -1,0 +1,1501 @@
+﻿customer_id;synthetic_segment;age_band;home_airport_icao;home_city;home_state;join_date;tier_current;mundo_azul_member;clube_azul_subscriber;azul_itau_card;points_balance;preferred_channel;consent_marketing;record_nature
+C000001;alto_valor;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2023-07-22;Diamante;1;1;1;4952;App;1;synthetic
+C000002;crescimento;56-65;SBKP;Campinas;São Paulo;2023-05-03;Basico;1;0;1;20416;App;1;synthetic
+C000003;alto_valor;56-65;SBCF;Confins;Minas Gerais;2022-04-14;Diamante;1;0;1;44004;Email;1;synthetic
+C000004;ocasional;36-45;SBCF;Confins;Minas Gerais;2018-11-30;Basico;1;0;0;3158;App;1;synthetic
+C000005;ocasional;26-35;SBKP;Campinas;São Paulo;2021-05-08;Topazio;1;0;0;4273;App;1;synthetic
+C000006;em_risco;26-35;SBCF;Confins;Minas Gerais;2019-07-23;Topazio;1;0;1;3257;App;1;synthetic
+C000007;crescimento;56-65;SBRF;Recife;Pernambuco;2024-10-24;Safira;1;1;0;8164;WhatsApp;1;synthetic
+C000008;ocasional;46-55;SBCF;Confins;Minas Gerais;2020-01-08;Basico;1;1;0;1341;App;1;synthetic
+C000009;crescimento;36-45;SBBR;Brasília;Distrito Federal;2019-09-13;Topazio;1;0;1;11266;WhatsApp;0;synthetic
+C000010;em_risco;26-35;SBRF;Recife;Pernambuco;2025-03-01;Topazio;1;0;1;7617;WhatsApp;1;synthetic
+C000011;crescimento;36-45;SBKP;Campinas;São Paulo;2024-06-17;Safira;1;1;0;9360;App;1;synthetic
+C000012;crescimento;36-45;SBKP;Campinas;São Paulo;2019-03-15;Safira;1;0;0;404;Email;1;synthetic
+C000013;ocasional;26-35;SBCF;Confins;Minas Gerais;2021-12-13;Basico;1;0;0;699;WhatsApp;1;synthetic
+C000014;em_risco;56-65;SBKP;Campinas;São Paulo;2025-09-15;Safira;1;0;1;7289;Email;1;synthetic
+C000015;ocasional;56-65;SBGO;Goiânia;Goiás;2020-01-28;Basico;1;1;0;3208;App;1;synthetic
+C000016;crescimento;46-55;SBSL;São Luís;Maranhão;2025-08-07;Basico;1;1;0;2492;App;1;synthetic
+C000017;ocasional;56-65;SBCY;Cuiabá;Mato Grosso;2024-12-08;Basico;1;0;1;2587;WhatsApp;1;synthetic
+C000018;crescimento;66+;SBCF;Confins;Minas Gerais;2018-11-08;Topazio;1;0;0;14775;Email;1;synthetic
+C000019;em_risco;56-65;SBCF;Confins;Minas Gerais;2025-07-30;Topazio;1;0;0;4884;SMS;1;synthetic
+C000020;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-06-19;Basico;1;0;0;1964;WhatsApp;1;synthetic
+C000021;crescimento;46-55;SBRF;Recife;Pernambuco;2022-04-10;Basico;1;0;1;3901;SMS;1;synthetic
+C000022;crescimento;26-35;SBBR;Brasília;Distrito Federal;2022-06-09;Topazio;1;1;0;1221;App;1;synthetic
+C000023;ocasional;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2023-06-29;Topazio;1;0;0;1102;Email;1;synthetic
+C000024;alto_valor;56-65;SBGR;Guarulhos;São Paulo;2019-07-01;Diamante;1;1;1;5482;WhatsApp;1;synthetic
+C000025;ocasional;46-55;SBCF;Confins;Minas Gerais;2022-09-23;Topazio;1;0;0;8054;App;1;synthetic
+C000026;premium;26-35;SBSR;São José do Rio Preto;São Paulo;2024-07-08;Diamante;1;1;1;3671;WhatsApp;0;synthetic
+C000027;ocasional;18-25;SBRP;Ribeirão Preto;São Paulo;2019-10-21;Basico;1;0;0;10733;Email;1;synthetic
+C000028;ocasional;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-01-12;Basico;1;0;0;1880;WhatsApp;1;synthetic
+C000029;ocasional;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2023-10-28;Topazio;1;0;0;2879;Email;1;synthetic
+C000030;crescimento;56-65;SBVT;Vitória;Espírito Santo;2020-10-17;Topazio;1;0;0;440;WhatsApp;1;synthetic
+C000031;crescimento;46-55;SBRF;Recife;Pernambuco;2019-08-10;Basico;1;1;0;4791;Email;0;synthetic
+C000032;alto_valor;18-25;SBPA;Porto Alegre;Rio Grande do Sul;2021-06-12;Diamante;1;0;1;15063;App;0;synthetic
+C000033;ocasional;18-25;SBGR;Guarulhos;São Paulo;2022-10-27;Basico;1;0;0;851;Email;1;synthetic
+C000034;ocasional;46-55;SBRF;Recife;Pernambuco;2022-01-06;Basico;1;1;0;1082;App;1;synthetic
+C000035;premium;26-35;SBSP;São Paulo;São Paulo;2024-12-20;Safira;1;1;1;25105;Email;1;synthetic
+C000036;ocasional;46-55;SBKP;Campinas;São Paulo;2021-07-12;Topazio;1;0;0;2939;App;1;synthetic
+C000037;crescimento;18-25;SBVT;Vitória;Espírito Santo;2019-09-18;Safira;1;0;0;36670;Email;1;synthetic
+C000038;crescimento;46-55;SBRF;Recife;Pernambuco;2023-12-22;Basico;1;1;0;2326;App;1;synthetic
+C000039;premium;36-45;SBUL;Uberlândia;Minas Gerais;2019-04-12;Diamante;1;1;1;40510;Email;0;synthetic
+C000040;alto_valor;26-35;SBRP;Ribeirão Preto;São Paulo;2020-08-28;Diamante;1;1;1;9282;Email;0;synthetic
+C000041;alto_valor;26-35;SBRF;Recife;Pernambuco;2021-03-04;Safira;1;1;1;10949;Email;1;synthetic
+C000042;crescimento;36-45;SBMO;Maceió;Alagoas;2024-09-29;Topazio;1;0;0;4550;Email;1;synthetic
+C000043;alto_valor;56-65;SBGO;Goiânia;Goiás;2023-07-06;Topazio;1;1;1;26034;App;1;synthetic
+C000044;crescimento;56-65;SBCY;Cuiabá;Mato Grosso;2020-09-01;Topazio;1;1;1;46538;WhatsApp;1;synthetic
+C000045;alto_valor;36-45;SBSL;São Luís;Maranhão;2020-07-24;Topazio;1;1;0;4051;App;0;synthetic
+C000046;ocasional;56-65;SBFZ;Fortaleza;Ceará;2022-04-29;Basico;1;0;0;2917;WhatsApp;1;synthetic
+C000047;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-06-22;Basico;1;1;0;1288;WhatsApp;1;synthetic
+C000048;alto_valor;46-55;SBCF;Confins;Minas Gerais;2019-07-27;Topazio;1;1;1;1236;Email;1;synthetic
+C000049;em_risco;46-55;SBUL;Uberlândia;Minas Gerais;2019-04-13;Safira;1;0;0;8972;WhatsApp;1;synthetic
+C000050;ocasional;56-65;SBCF;Confins;Minas Gerais;2025-09-09;Basico;1;0;0;826;App;1;synthetic
+C000051;ocasional;46-55;SBSP;São Paulo;São Paulo;2025-04-26;Basico;1;0;0;257;WhatsApp;1;synthetic
+C000052;ocasional;26-35;SBKP;Campinas;São Paulo;2020-06-22;Basico;1;0;0;9974;SMS;1;synthetic
+C000053;crescimento;26-35;SBSV;Salvador;Bahia;2020-08-17;Topazio;1;0;1;16688;App;1;synthetic
+C000054;ocasional;26-35;SBKP;Campinas;São Paulo;2025-05-15;Basico;1;0;0;2877;App;1;synthetic
+C000055;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-02-26;Basico;1;0;0;2487;App;1;synthetic
+C000056;crescimento;46-55;SBRF;Recife;Pernambuco;2018-11-18;Topazio;1;1;1;2649;App;1;synthetic
+C000057;crescimento;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-12-19;Basico;1;0;0;1220;App;1;synthetic
+C000058;crescimento;26-35;SBCY;Cuiabá;Mato Grosso;2023-08-10;Safira;1;0;0;1730;App;1;synthetic
+C000059;crescimento;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2023-12-28;Basico;1;0;0;2717;WhatsApp;1;synthetic
+C000060;ocasional;46-55;SBKP;Campinas;São Paulo;2023-04-22;Basico;1;0;0;1280;WhatsApp;1;synthetic
+C000061;crescimento;36-45;SBCF;Confins;Minas Gerais;2024-09-15;Safira;1;1;1;1438;App;1;synthetic
+C000062;premium;18-25;SBSV;Salvador;Bahia;2021-09-28;Diamante;1;1;0;10544;App;1;synthetic
+C000063;ocasional;26-35;SBSV;Salvador;Bahia;2024-08-10;Basico;1;0;0;7467;App;1;synthetic
+C000064;premium;36-45;SBKP;Campinas;São Paulo;2021-07-08;Diamante;1;1;1;10136;App;1;synthetic
+C000065;em_risco;36-45;SBSP;São Paulo;São Paulo;2023-04-17;Safira;1;0;0;3961;App;1;synthetic
+C000066;em_risco;56-65;SBKP;Campinas;São Paulo;2020-09-22;Topazio;1;0;0;3207;WhatsApp;1;synthetic
+C000067;ocasional;46-55;SBKP;Campinas;São Paulo;2024-01-19;Basico;1;0;0;3671;WhatsApp;1;synthetic
+C000068;crescimento;36-45;SBKP;Campinas;São Paulo;2020-11-23;Topazio;1;1;0;3621;App;1;synthetic
+C000069;crescimento;26-35;SBCF;Confins;Minas Gerais;2022-12-10;Basico;1;0;1;4720;App;1;synthetic
+C000070;alto_valor;36-45;SBKP;Campinas;São Paulo;2024-05-21;Safira;1;0;0;9699;Email;0;synthetic
+C000071;alto_valor;66+;SBVT;Vitória;Espírito Santo;2024-03-30;Safira;1;1;0;58488;App;1;synthetic
+C000072;em_risco;36-45;SBRP;Ribeirão Preto;São Paulo;2024-08-07;Basico;1;0;0;795;Email;1;synthetic
+C000073;em_risco;26-35;SBKP;Campinas;São Paulo;2022-05-01;Topazio;1;0;0;3200;Email;1;synthetic
+C000074;crescimento;36-45;SBSP;São Paulo;São Paulo;2022-08-12;Safira;1;0;1;16444;App;1;synthetic
+C000075;crescimento;26-35;SBCF;Confins;Minas Gerais;2024-02-02;Topazio;1;0;0;3985;App;1;synthetic
+C000076;ocasional;36-45;SBRF;Recife;Pernambuco;2019-01-21;Basico;1;0;0;2251;Email;1;synthetic
+C000077;crescimento;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2020-02-09;Topazio;1;1;0;13973;App;1;synthetic
+C000078;ocasional;46-55;SBBE;Belém;Pará;2019-09-02;Basico;1;0;0;472;WhatsApp;1;synthetic
+C000079;premium;46-55;SBSP;São Paulo;São Paulo;2024-07-05;Safira;1;1;1;7671;SMS;1;synthetic
+C000080;ocasional;36-45;SBSP;São Paulo;São Paulo;2020-02-26;Basico;1;0;0;9235;SMS;1;synthetic
+C000081;ocasional;36-45;SBKP;Campinas;São Paulo;2021-03-31;Basico;1;1;0;1079;SMS;1;synthetic
+C000082;ocasional;56-65;SBGR;Guarulhos;São Paulo;2023-04-29;Basico;1;0;0;4944;App;0;synthetic
+C000083;em_risco;36-45;SBRF;Recife;Pernambuco;2019-04-30;Safira;1;0;1;3016;App;1;synthetic
+C000084;ocasional;26-35;SBSV;Salvador;Bahia;2025-01-12;Topazio;1;1;0;5886;App;1;synthetic
+C000085;alto_valor;66+;SBEG;Manaus;Amazonas;2020-06-03;Safira;1;1;1;11507;SMS;1;synthetic
+C000086;crescimento;26-35;SBSP;São Paulo;São Paulo;2024-11-26;Topazio;1;1;1;641;App;1;synthetic
+C000087;em_risco;46-55;SBCF;Confins;Minas Gerais;2019-10-22;Basico;1;0;0;3820;Email;1;synthetic
+C000088;crescimento;36-45;SBCF;Confins;Minas Gerais;2019-04-16;Topazio;1;1;0;4748;App;1;synthetic
+C000089;crescimento;56-65;SBSV;Salvador;Bahia;2018-11-27;Basico;1;0;0;24789;App;0;synthetic
+C000090;alto_valor;36-45;SBSV;Salvador;Bahia;2020-02-07;Diamante;1;1;1;37487;App;1;synthetic
+C000091;ocasional;36-45;SBSP;São Paulo;São Paulo;2020-05-10;Topazio;1;0;0;1410;App;1;synthetic
+C000092;ocasional;36-45;SBKP;Campinas;São Paulo;2025-03-06;Basico;1;1;0;10303;App;1;synthetic
+C000093;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-11-14;Basico;1;0;0;935;Email;1;synthetic
+C000094;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-04-10;Diamante;1;0;1;21408;Email;1;synthetic
+C000095;ocasional;46-55;SBKP;Campinas;São Paulo;2019-01-07;Basico;1;0;0;3289;App;1;synthetic
+C000096;alto_valor;56-65;SBCF;Confins;Minas Gerais;2021-05-16;Safira;1;1;1;9010;Email;1;synthetic
+C000097;crescimento;36-45;SBCT;Curitiba;Paraná;2023-01-18;Topazio;1;1;0;709;App;1;synthetic
+C000098;premium;26-35;SBFZ;Fortaleza;Ceará;2021-03-20;Diamante;1;1;0;8745;Email;1;synthetic
+C000099;em_risco;56-65;SBCF;Confins;Minas Gerais;2025-06-06;Topazio;1;0;0;2064;Email;0;synthetic
+C000100;crescimento;36-45;SBSP;São Paulo;São Paulo;2019-01-16;Basico;1;0;1;1553;SMS;0;synthetic
+C000101;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-09-06;Basico;1;0;0;5101;App;1;synthetic
+C000102;ocasional;56-65;SBKP;Campinas;São Paulo;2023-08-05;Basico;1;1;0;3304;App;1;synthetic
+C000103;ocasional;26-35;SBKP;Campinas;São Paulo;2020-02-17;Basico;1;0;0;2600;WhatsApp;1;synthetic
+C000104;ocasional;46-55;SBRF;Recife;Pernambuco;2024-04-22;Basico;1;0;0;1937;App;1;synthetic
+C000105;alto_valor;36-45;SBCF;Confins;Minas Gerais;2021-01-30;Safira;1;1;1;3052;App;1;synthetic
+C000106;crescimento;56-65;SBEG;Manaus;Amazonas;2023-05-14;Safira;1;0;0;16295;SMS;1;synthetic
+C000107;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-10-28;Basico;1;0;0;1670;Email;1;synthetic
+C000108;ocasional;36-45;SBRF;Recife;Pernambuco;2022-10-01;Basico;1;1;1;949;App;0;synthetic
+C000109;ocasional;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-02-18;Topazio;1;0;0;1972;App;1;synthetic
+C000110;alto_valor;36-45;SBRF;Recife;Pernambuco;2023-04-02;Safira;1;1;0;1540;App;1;synthetic
+C000111;ocasional;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2022-09-18;Basico;1;0;0;8327;App;1;synthetic
+C000112;crescimento;26-35;SBCF;Confins;Minas Gerais;2020-11-18;Safira;1;1;0;12394;Email;1;synthetic
+C000113;crescimento;66+;SBGR;Guarulhos;São Paulo;2021-02-27;Topazio;1;1;0;3196;App;1;synthetic
+C000114;ocasional;26-35;SBSP;São Paulo;São Paulo;2025-03-31;Basico;1;1;0;1021;App;1;synthetic
+C000115;alto_valor;36-45;SBPS;Porto Seguro;Bahia;2022-01-30;Topazio;1;1;1;3498;App;1;synthetic
+C000116;ocasional;36-45;SBFL;Florianópolis;Santa Catarina;2020-04-23;Basico;1;0;0;2755;WhatsApp;1;synthetic
+C000117;crescimento;46-55;SBKP;Campinas;São Paulo;2024-09-08;Topazio;1;0;0;21384;App;1;synthetic
+C000118;ocasional;26-35;SBRF;Recife;Pernambuco;2024-04-03;Basico;1;0;1;3023;App;1;synthetic
+C000119;alto_valor;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2021-08-22;Safira;1;0;1;62395;App;1;synthetic
+C000120;crescimento;26-35;SBKP;Campinas;São Paulo;2022-04-24;Basico;1;1;1;12084;App;1;synthetic
+C000121;crescimento;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2025-01-11;Topazio;1;0;0;13374;Email;1;synthetic
+C000122;alto_valor;18-25;SBRF;Recife;Pernambuco;2021-04-24;Safira;1;1;1;11060;App;1;synthetic
+C000123;alto_valor;26-35;SBSP;São Paulo;São Paulo;2024-09-24;Diamante;1;0;1;8552;WhatsApp;1;synthetic
+C000124;premium;26-35;SBKP;Campinas;São Paulo;2022-02-28;Diamante;1;1;1;4348;Email;1;synthetic
+C000125;crescimento;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2024-09-29;Basico;1;0;1;10994;Email;1;synthetic
+C000126;em_risco;26-35;SBKP;Campinas;São Paulo;2024-02-23;Topazio;1;0;1;4394;App;1;synthetic
+C000127;em_risco;26-35;SBSV;Salvador;Bahia;2022-12-19;Topazio;1;1;0;9516;App;1;synthetic
+C000128;ocasional;56-65;SBRF;Recife;Pernambuco;2020-09-23;Basico;1;0;0;4891;WhatsApp;1;synthetic
+C000129;em_risco;56-65;SBRF;Recife;Pernambuco;2022-11-14;Topazio;1;0;0;8932;Email;1;synthetic
+C000130;alto_valor;66+;SBKP;Campinas;São Paulo;2019-10-12;Safira;1;1;0;37273;App;1;synthetic
+C000131;ocasional;26-35;SBKP;Campinas;São Paulo;2024-11-21;Topazio;1;0;0;8150;WhatsApp;1;synthetic
+C000132;em_risco;36-45;SBCT;Curitiba;Paraná;2023-11-12;Topazio;1;0;0;2488;App;1;synthetic
+C000133;crescimento;46-55;SBSP;São Paulo;São Paulo;2021-05-02;Topazio;1;1;0;16395;App;1;synthetic
+C000134;em_risco;36-45;SBSP;São Paulo;São Paulo;2023-02-27;Safira;1;0;1;20123;Email;0;synthetic
+C000135;alto_valor;36-45;SBSP;São Paulo;São Paulo;2019-09-12;Diamante;1;0;0;7768;App;1;synthetic
+C000136;ocasional;66+;SBCF;Confins;Minas Gerais;2025-03-29;Basico;1;0;0;3150;SMS;1;synthetic
+C000137;ocasional;26-35;SBRF;Recife;Pernambuco;2024-01-18;Basico;1;0;1;287;WhatsApp;1;synthetic
+C000138;alto_valor;36-45;SBKP;Campinas;São Paulo;2023-07-14;Diamante;1;1;0;22930;Email;1;synthetic
+C000139;alto_valor;26-35;SBGR;Guarulhos;São Paulo;2024-04-21;Diamante;1;0;1;4674;Email;1;synthetic
+C000140;em_risco;26-35;SBEG;Manaus;Amazonas;2023-03-11;Basico;1;0;0;1662;App;1;synthetic
+C000141;ocasional;26-35;SBCF;Confins;Minas Gerais;2022-11-08;Topazio;1;0;0;1520;Email;1;synthetic
+C000142;em_risco;26-35;SBVT;Vitória;Espírito Santo;2024-04-28;Basico;1;1;0;6669;WhatsApp;1;synthetic
+C000143;premium;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2022-01-09;Diamante;1;1;0;67218;App;1;synthetic
+C000144;premium;46-55;SBEG;Manaus;Amazonas;2021-03-01;Diamante;1;1;1;4832;App;1;synthetic
+C000145;ocasional;26-35;SBMO;Maceió;Alagoas;2019-04-30;Basico;1;0;0;10360;App;1;synthetic
+C000146;crescimento;18-25;SBBE;Belém;Pará;2020-03-28;Basico;1;1;1;18823;WhatsApp;1;synthetic
+C000147;crescimento;36-45;SBGR;Guarulhos;São Paulo;2022-06-01;Topazio;1;1;1;11635;App;1;synthetic
+C000148;ocasional;36-45;SBCT;Curitiba;Paraná;2024-02-03;Basico;1;0;0;1319;App;1;synthetic
+C000149;crescimento;46-55;SBRF;Recife;Pernambuco;2024-06-24;Basico;1;1;0;1046;App;1;synthetic
+C000150;crescimento;36-45;SBSP;São Paulo;São Paulo;2021-01-05;Topazio;1;0;0;13782;WhatsApp;1;synthetic
+C000151;ocasional;56-65;SBCT;Curitiba;Paraná;2023-05-04;Topazio;1;1;0;1080;App;1;synthetic
+C000152;crescimento;56-65;SBMO;Maceió;Alagoas;2024-11-25;Basico;1;0;0;834;WhatsApp;1;synthetic
+C000153;crescimento;26-35;SBKP;Campinas;São Paulo;2021-05-15;Topazio;1;0;0;1843;App;0;synthetic
+C000154;ocasional;46-55;SBBR;Brasília;Distrito Federal;2022-07-23;Basico;1;0;0;1297;App;1;synthetic
+C000155;alto_valor;18-25;SBEG;Manaus;Amazonas;2019-10-02;Diamante;1;1;1;24439;App;1;synthetic
+C000156;premium;46-55;SBGR;Guarulhos;São Paulo;2019-03-26;Diamante;1;1;1;4880;App;1;synthetic
+C000157;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-06-18;Safira;1;0;0;8172;App;1;synthetic
+C000158;crescimento;36-45;SBKP;Campinas;São Paulo;2022-06-03;Topazio;1;1;1;9005;App;1;synthetic
+C000159;alto_valor;18-25;SBSP;São Paulo;São Paulo;2020-08-04;Topazio;1;1;1;8388;App;1;synthetic
+C000160;alto_valor;46-55;SBKP;Campinas;São Paulo;2021-01-04;Topazio;1;0;1;8330;WhatsApp;1;synthetic
+C000161;crescimento;36-45;SBGR;Guarulhos;São Paulo;2020-07-04;Topazio;1;1;0;1988;WhatsApp;1;synthetic
+C000162;ocasional;66+;SBCF;Confins;Minas Gerais;2021-11-15;Basico;1;0;0;290;App;1;synthetic
+C000163;crescimento;18-25;SBKP;Campinas;São Paulo;2019-03-26;Topazio;1;1;0;11322;App;1;synthetic
+C000164;ocasional;26-35;SBKP;Campinas;São Paulo;2019-06-20;Topazio;1;0;0;12909;Email;1;synthetic
+C000165;ocasional;56-65;SBCF;Confins;Minas Gerais;2025-09-22;Basico;1;0;0;912;SMS;1;synthetic
+C000166;premium;18-25;SBMO;Maceió;Alagoas;2025-06-26;Diamante;1;1;1;5038;App;1;synthetic
+C000167;crescimento;56-65;SBKP;Campinas;São Paulo;2024-04-01;Topazio;1;0;1;4973;App;1;synthetic
+C000168;ocasional;36-45;SBSP;São Paulo;São Paulo;2025-07-03;Basico;1;0;0;1780;Email;1;synthetic
+C000169;ocasional;36-45;SBCF;Confins;Minas Gerais;2020-11-10;Basico;1;0;1;4483;App;1;synthetic
+C000170;alto_valor;18-25;SBUL;Uberlândia;Minas Gerais;2019-06-03;Diamante;1;1;1;31134;WhatsApp;1;synthetic
+C000171;crescimento;66+;SBBE;Belém;Pará;2024-11-17;Basico;1;1;0;1970;App;1;synthetic
+C000172;em_risco;46-55;SBRF;Recife;Pernambuco;2021-01-03;Basico;1;0;0;12329;Email;1;synthetic
+C000173;premium;36-45;SBCF;Confins;Minas Gerais;2021-04-25;Diamante;1;1;1;7171;Email;1;synthetic
+C000174;em_risco;18-25;SBGR;Guarulhos;São Paulo;2023-02-05;Safira;1;0;1;1377;SMS;1;synthetic
+C000175;crescimento;46-55;SBMO;Maceió;Alagoas;2025-08-04;Basico;1;1;0;1892;Email;1;synthetic
+C000176;crescimento;46-55;SBSP;São Paulo;São Paulo;2023-09-03;Basico;1;0;0;3364;WhatsApp;1;synthetic
+C000177;crescimento;18-25;SBBE;Belém;Pará;2023-01-28;Basico;1;1;1;20505;App;1;synthetic
+C000178;ocasional;18-25;SBEG;Manaus;Amazonas;2020-11-20;Basico;1;0;0;3181;WhatsApp;0;synthetic
+C000179;em_risco;46-55;SBBE;Belém;Pará;2021-12-05;Basico;1;0;0;2875;App;1;synthetic
+C000180;alto_valor;36-45;SBFL;Florianópolis;Santa Catarina;2021-10-07;Diamante;1;1;0;2158;App;1;synthetic
+C000181;ocasional;46-55;SBGR;Guarulhos;São Paulo;2022-10-16;Basico;1;1;0;2321;SMS;1;synthetic
+C000182;ocasional;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-01-16;Topazio;1;0;0;9859;WhatsApp;1;synthetic
+C000183;crescimento;26-35;SBCF;Confins;Minas Gerais;2024-09-30;Topazio;1;0;1;626;Email;1;synthetic
+C000184;crescimento;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2019-12-14;Topazio;1;0;0;2594;App;1;synthetic
+C000185;crescimento;66+;SBCF;Confins;Minas Gerais;2022-04-30;Safira;1;0;1;10919;Email;1;synthetic
+C000186;ocasional;46-55;SBGR;Guarulhos;São Paulo;2018-10-05;Basico;1;0;0;1095;Email;1;synthetic
+C000187;ocasional;26-35;SBRF;Recife;Pernambuco;2023-11-29;Topazio;1;0;1;2306;WhatsApp;1;synthetic
+C000188;premium;46-55;SBRF;Recife;Pernambuco;2021-05-12;Safira;1;1;1;20061;Email;1;synthetic
+C000189;ocasional;46-55;SBKP;Campinas;São Paulo;2025-05-23;Basico;1;0;0;1696;WhatsApp;1;synthetic
+C000190;em_risco;36-45;SBRF;Recife;Pernambuco;2023-11-13;Safira;1;1;0;2621;WhatsApp;1;synthetic
+C000191;ocasional;46-55;SBCF;Confins;Minas Gerais;2024-08-02;Topazio;1;0;0;4213;Email;1;synthetic
+C000192;crescimento;36-45;SBPS;Porto Seguro;Bahia;2025-03-19;Basico;1;0;1;766;SMS;1;synthetic
+C000193;ocasional;26-35;SBCF;Confins;Minas Gerais;2020-02-10;Basico;1;0;0;711;WhatsApp;1;synthetic
+C000194;crescimento;36-45;SBCF;Confins;Minas Gerais;2025-04-21;Safira;1;1;1;35837;Email;1;synthetic
+C000195;ocasional;36-45;SBGR;Guarulhos;São Paulo;2018-11-13;Basico;1;0;0;408;WhatsApp;1;synthetic
+C000196;ocasional;46-55;SBFZ;Fortaleza;Ceará;2023-02-05;Basico;1;0;0;6228;App;1;synthetic
+C000197;em_risco;26-35;SBGR;Guarulhos;São Paulo;2021-07-27;Basico;1;0;0;1196;Email;1;synthetic
+C000198;ocasional;36-45;SBSP;São Paulo;São Paulo;2019-06-18;Topazio;1;0;1;2784;WhatsApp;1;synthetic
+C000199;alto_valor;36-45;SBKP;Campinas;São Paulo;2020-03-10;Safira;1;0;1;6407;Email;1;synthetic
+C000200;crescimento;26-35;SBSL;São Luís;Maranhão;2025-04-27;Basico;1;0;1;1387;Email;1;synthetic
+C000201;ocasional;36-45;SBKP;Campinas;São Paulo;2024-12-31;Topazio;1;0;0;26306;App;0;synthetic
+C000202;alto_valor;56-65;SBKP;Campinas;São Paulo;2021-07-03;Topazio;1;1;1;4101;App;1;synthetic
+C000203;ocasional;56-65;SBKP;Campinas;São Paulo;2020-02-21;Basico;1;0;0;2984;App;1;synthetic
+C000204;crescimento;36-45;SBCF;Confins;Minas Gerais;2024-04-05;Topazio;1;0;0;5964;App;1;synthetic
+C000205;crescimento;36-45;SBGR;Guarulhos;São Paulo;2023-05-22;Topazio;1;1;0;12154;App;1;synthetic
+C000206;ocasional;66+;SBKP;Campinas;São Paulo;2019-11-28;Basico;1;1;0;2068;WhatsApp;1;synthetic
+C000207;ocasional;26-35;SBRF;Recife;Pernambuco;2024-01-19;Basico;1;0;0;1053;App;1;synthetic
+C000208;ocasional;26-35;SBSG;Natal;Rio Grande do Norte;2020-09-15;Basico;1;1;0;398;WhatsApp;0;synthetic
+C000209;em_risco;36-45;SBKP;Campinas;São Paulo;2019-06-23;Basico;1;0;0;816;App;1;synthetic
+C000210;ocasional;56-65;SBCF;Confins;Minas Gerais;2021-09-02;Basico;1;0;0;1572;Email;1;synthetic
+C000211;em_risco;26-35;SBEG;Manaus;Amazonas;2025-05-06;Safira;1;0;0;4977;WhatsApp;1;synthetic
+C000212;crescimento;56-65;SBKP;Campinas;São Paulo;2022-11-21;Topazio;1;1;0;7507;Email;1;synthetic
+C000213;ocasional;46-55;SBSP;São Paulo;São Paulo;2019-09-21;Basico;1;0;0;6526;Email;1;synthetic
+C000214;em_risco;36-45;SBKP;Campinas;São Paulo;2022-07-26;Safira;1;0;1;7491;SMS;1;synthetic
+C000215;crescimento;66+;SBCF;Confins;Minas Gerais;2021-01-27;Topazio;1;0;0;963;Email;1;synthetic
+C000216;crescimento;36-45;SBSP;São Paulo;São Paulo;2019-04-06;Topazio;1;0;1;5459;WhatsApp;1;synthetic
+C000217;ocasional;36-45;SBSV;Salvador;Bahia;2023-12-04;Topazio;1;0;0;1021;SMS;1;synthetic
+C000218;ocasional;26-35;SBPS;Porto Seguro;Bahia;2020-09-11;Basico;1;0;0;1626;Email;1;synthetic
+C000219;em_risco;18-25;SBCF;Confins;Minas Gerais;2023-08-28;Safira;1;1;0;16426;App;1;synthetic
+C000220;ocasional;66+;SBKP;Campinas;São Paulo;2020-11-12;Basico;1;0;0;3604;App;1;synthetic
+C000221;em_risco;26-35;SBKP;Campinas;São Paulo;2021-08-09;Basico;1;0;1;2925;App;1;synthetic
+C000222;ocasional;36-45;SBKP;Campinas;São Paulo;2023-02-04;Basico;1;0;0;2752;Email;1;synthetic
+C000223;ocasional;66+;SBEG;Manaus;Amazonas;2019-08-13;Topazio;1;1;0;9019;App;1;synthetic
+C000224;ocasional;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2022-11-02;Basico;1;0;0;2814;SMS;0;synthetic
+C000225;ocasional;36-45;SBEG;Manaus;Amazonas;2022-10-18;Basico;1;0;0;1515;Email;1;synthetic
+C000226;ocasional;26-35;SBSP;São Paulo;São Paulo;2021-04-19;Basico;1;0;0;2609;WhatsApp;1;synthetic
+C000227;alto_valor;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-05-18;Safira;1;1;1;3242;WhatsApp;1;synthetic
+C000228;ocasional;26-35;SBCT;Curitiba;Paraná;2025-05-07;Topazio;1;0;0;15928;WhatsApp;1;synthetic
+C000229;em_risco;46-55;SBCF;Confins;Minas Gerais;2024-06-22;Basico;1;0;0;3450;App;1;synthetic
+C000230;ocasional;26-35;SBBE;Belém;Pará;2022-03-30;Basico;1;0;0;5379;App;1;synthetic
+C000231;crescimento;46-55;SBKP;Campinas;São Paulo;2020-08-23;Safira;1;0;1;12882;WhatsApp;1;synthetic
+C000232;ocasional;26-35;SBSP;São Paulo;São Paulo;2020-06-30;Basico;1;0;0;1158;App;1;synthetic
+C000233;crescimento;36-45;SBKP;Campinas;São Paulo;2023-01-08;Topazio;1;0;1;4901;WhatsApp;0;synthetic
+C000234;em_risco;56-65;SBRF;Recife;Pernambuco;2022-07-08;Safira;1;0;0;5720;App;1;synthetic
+C000235;em_risco;66+;SBKP;Campinas;São Paulo;2020-11-30;Safira;1;1;1;3756;App;1;synthetic
+C000236;ocasional;36-45;SBBR;Brasília;Distrito Federal;2021-09-17;Basico;1;0;1;742;Email;1;synthetic
+C000237;ocasional;36-45;SBBR;Brasília;Distrito Federal;2024-11-27;Topazio;1;0;1;8373;App;1;synthetic
+C000238;crescimento;36-45;SBKP;Campinas;São Paulo;2024-02-17;Topazio;1;1;1;5498;App;0;synthetic
+C000239;crescimento;36-45;SBKP;Campinas;São Paulo;2019-10-20;Topazio;1;1;0;5399;WhatsApp;1;synthetic
+C000240;ocasional;46-55;SBRF;Recife;Pernambuco;2025-03-30;Topazio;1;0;0;3161;Email;1;synthetic
+C000241;alto_valor;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2019-01-24;Safira;1;1;0;4704;Email;1;synthetic
+C000242;crescimento;66+;SBRP;Ribeirão Preto;São Paulo;2020-10-20;Safira;1;0;1;12019;SMS;1;synthetic
+C000243;crescimento;36-45;SBGO;Goiânia;Goiás;2023-09-26;Basico;1;0;1;5065;WhatsApp;1;synthetic
+C000244;ocasional;36-45;SBVT;Vitória;Espírito Santo;2022-02-15;Topazio;1;1;0;8172;App;0;synthetic
+C000245;ocasional;26-35;SBCF;Confins;Minas Gerais;2024-08-09;Topazio;1;0;0;1378;App;0;synthetic
+C000246;crescimento;36-45;SBKP;Campinas;São Paulo;2018-11-21;Basico;1;0;1;2373;Email;1;synthetic
+C000247;ocasional;18-25;SBCF;Confins;Minas Gerais;2024-01-10;Basico;1;0;0;2508;App;0;synthetic
+C000248;alto_valor;36-45;SBFL;Florianópolis;Santa Catarina;2025-04-15;Diamante;1;1;1;4082;App;1;synthetic
+C000249;crescimento;26-35;SBCF;Confins;Minas Gerais;2025-01-01;Basico;1;1;0;6139;Email;1;synthetic
+C000250;crescimento;26-35;SBGR;Guarulhos;São Paulo;2022-04-23;Safira;1;0;0;5038;Email;1;synthetic
+C000251;ocasional;26-35;SBPS;Porto Seguro;Bahia;2021-08-31;Basico;1;1;0;1474;App;0;synthetic
+C000252;ocasional;46-55;SBRF;Recife;Pernambuco;2020-12-16;Basico;1;0;0;1109;Email;1;synthetic
+C000253;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2019-03-21;Basico;1;1;0;2076;App;1;synthetic
+C000254;ocasional;56-65;SBKP;Campinas;São Paulo;2024-11-18;Basico;1;0;0;2147;App;1;synthetic
+C000255;em_risco;46-55;SBKP;Campinas;São Paulo;2022-02-02;Topazio;1;0;0;11915;App;1;synthetic
+C000256;em_risco;18-25;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-11-29;Topazio;1;0;1;2106;App;1;synthetic
+C000257;ocasional;26-35;SBCT;Curitiba;Paraná;2021-09-21;Basico;1;0;0;10711;SMS;1;synthetic
+C000258;crescimento;36-45;SBUL;Uberlândia;Minas Gerais;2020-09-14;Safira;1;0;0;1068;App;1;synthetic
+C000259;ocasional;46-55;SBKP;Campinas;São Paulo;2021-10-29;Topazio;1;1;0;30447;App;1;synthetic
+C000260;alto_valor;56-65;SBCF;Confins;Minas Gerais;2019-03-14;Safira;1;1;0;10265;WhatsApp;1;synthetic
+C000261;ocasional;36-45;SBKP;Campinas;São Paulo;2025-06-11;Basico;1;0;0;631;App;1;synthetic
+C000262;ocasional;36-45;SBUL;Uberlândia;Minas Gerais;2018-10-12;Topazio;1;0;0;8934;Email;1;synthetic
+C000263;crescimento;26-35;SBCF;Confins;Minas Gerais;2024-12-30;Topazio;1;0;0;2569;WhatsApp;1;synthetic
+C000264;crescimento;26-35;SBFZ;Fortaleza;Ceará;2019-01-27;Safira;1;1;0;8538;Email;1;synthetic
+C000265;crescimento;46-55;SBKP;Campinas;São Paulo;2023-06-13;Topazio;1;1;0;11681;App;1;synthetic
+C000266;alto_valor;26-35;SBFZ;Fortaleza;Ceará;2021-01-07;Safira;1;1;0;12582;Email;1;synthetic
+C000267;ocasional;26-35;SBFL;Florianópolis;Santa Catarina;2020-08-07;Topazio;1;0;0;947;App;1;synthetic
+C000268;ocasional;46-55;SBRF;Recife;Pernambuco;2019-12-18;Topazio;1;0;0;1921;WhatsApp;1;synthetic
+C000269;ocasional;36-45;SBEG;Manaus;Amazonas;2024-03-03;Basico;1;0;0;2963;SMS;1;synthetic
+C000270;crescimento;46-55;SBKP;Campinas;São Paulo;2024-12-23;Safira;1;1;0;5904;WhatsApp;1;synthetic
+C000271;em_risco;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2019-09-20;Topazio;1;0;1;2799;App;0;synthetic
+C000272;em_risco;26-35;SBGR;Guarulhos;São Paulo;2019-10-30;Basico;1;0;0;7797;Email;1;synthetic
+C000273;crescimento;46-55;SBRF;Recife;Pernambuco;2019-11-25;Safira;1;0;0;5638;App;1;synthetic
+C000274;ocasional;26-35;SBSV;Salvador;Bahia;2025-04-19;Basico;1;1;0;1489;App;1;synthetic
+C000275;alto_valor;26-35;SBKP;Campinas;São Paulo;2019-11-23;Topazio;1;0;1;832;App;1;synthetic
+C000276;ocasional;26-35;SBCF;Confins;Minas Gerais;2025-07-14;Topazio;1;0;0;38337;App;1;synthetic
+C000277;crescimento;36-45;SBSP;São Paulo;São Paulo;2022-01-08;Topazio;1;0;0;5263;SMS;1;synthetic
+C000278;premium;36-45;SBUL;Uberlândia;Minas Gerais;2021-04-04;Diamante;1;1;1;3344;App;1;synthetic
+C000279;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2024-08-08;Topazio;1;0;0;7235;Email;1;synthetic
+C000280;ocasional;46-55;SBKP;Campinas;São Paulo;2020-06-26;Basico;1;0;0;2590;WhatsApp;1;synthetic
+C000281;crescimento;36-45;SBVT;Vitória;Espírito Santo;2020-06-13;Basico;1;0;0;4590;App;1;synthetic
+C000282;ocasional;36-45;SBUL;Uberlândia;Minas Gerais;2019-08-18;Basico;1;0;0;1829;App;1;synthetic
+C000283;ocasional;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2022-11-18;Basico;1;0;0;900;App;0;synthetic
+C000284;ocasional;46-55;SBCF;Confins;Minas Gerais;2021-05-14;Basico;1;0;0;1754;App;1;synthetic
+C000285;premium;26-35;SBCF;Confins;Minas Gerais;2023-12-22;Diamante;1;1;1;3622;SMS;1;synthetic
+C000286;ocasional;26-35;SBCF;Confins;Minas Gerais;2022-01-09;Basico;1;0;0;3350;Email;1;synthetic
+C000287;em_risco;66+;SBRF;Recife;Pernambuco;2020-11-18;Topazio;1;1;1;1093;App;1;synthetic
+C000288;crescimento;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2018-12-22;Safira;1;0;1;4503;Email;0;synthetic
+C000289;crescimento;36-45;SBKP;Campinas;São Paulo;2023-11-14;Topazio;1;1;0;4590;App;1;synthetic
+C000290;ocasional;56-65;SBKP;Campinas;São Paulo;2021-08-25;Basico;1;0;0;2493;WhatsApp;0;synthetic
+C000291;em_risco;56-65;SBCF;Confins;Minas Gerais;2022-11-04;Safira;1;0;0;8491;WhatsApp;1;synthetic
+C000292;ocasional;36-45;SBGO;Goiânia;Goiás;2019-02-05;Basico;1;1;0;2022;App;1;synthetic
+C000293;alto_valor;46-55;SBKP;Campinas;São Paulo;2021-04-14;Diamante;1;0;1;18041;Email;1;synthetic
+C000294;em_risco;36-45;SBKP;Campinas;São Paulo;2024-01-23;Basico;1;0;0;1966;WhatsApp;1;synthetic
+C000295;alto_valor;46-55;SBSP;São Paulo;São Paulo;2020-09-22;Safira;1;1;0;17828;WhatsApp;1;synthetic
+C000296;alto_valor;36-45;SBKP;Campinas;São Paulo;2019-07-04;Diamante;1;0;1;14830;WhatsApp;1;synthetic
+C000297;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-09-05;Safira;1;1;1;2893;WhatsApp;1;synthetic
+C000298;premium;46-55;SBFZ;Fortaleza;Ceará;2023-06-11;Safira;1;1;1;16670;WhatsApp;1;synthetic
+C000299;crescimento;56-65;SBMO;Maceió;Alagoas;2021-02-08;Topazio;1;0;0;3813;WhatsApp;0;synthetic
+C000300;ocasional;36-45;SBMO;Maceió;Alagoas;2021-07-17;Topazio;1;1;1;2713;App;0;synthetic
+C000301;em_risco;36-45;SBKP;Campinas;São Paulo;2021-10-27;Safira;1;1;1;3814;App;1;synthetic
+C000302;ocasional;26-35;SBCF;Confins;Minas Gerais;2022-11-04;Basico;1;1;0;1077;App;1;synthetic
+C000303;em_risco;26-35;SBFL;Florianópolis;Santa Catarina;2023-03-15;Basico;1;0;0;6313;App;1;synthetic
+C000304;ocasional;36-45;SBBR;Brasília;Distrito Federal;2022-12-17;Topazio;1;0;0;3545;App;1;synthetic
+C000305;alto_valor;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2021-02-21;Topazio;1;1;1;4893;App;1;synthetic
+C000306;ocasional;56-65;SBKP;Campinas;São Paulo;2019-12-20;Basico;1;0;0;3869;WhatsApp;1;synthetic
+C000307;alto_valor;46-55;SBKP;Campinas;São Paulo;2021-01-12;Safira;1;1;1;13326;WhatsApp;0;synthetic
+C000308;ocasional;46-55;SBCT;Curitiba;Paraná;2021-07-06;Topazio;1;0;0;11681;Email;1;synthetic
+C000309;ocasional;26-35;SBBE;Belém;Pará;2020-09-15;Basico;1;0;0;2859;WhatsApp;1;synthetic
+C000310;crescimento;36-45;SBKP;Campinas;São Paulo;2022-06-08;Basico;1;1;0;9473;WhatsApp;1;synthetic
+C000311;crescimento;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-07-20;Basico;1;1;0;1211;SMS;1;synthetic
+C000312;crescimento;26-35;SBBE;Belém;Pará;2024-12-13;Basico;1;0;0;12093;App;1;synthetic
+C000313;crescimento;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2020-03-30;Safira;1;1;0;2240;WhatsApp;1;synthetic
+C000314;ocasional;18-25;SBUL;Uberlândia;Minas Gerais;2022-11-21;Basico;1;0;0;2735;Email;1;synthetic
+C000315;alto_valor;26-35;SBCF;Confins;Minas Gerais;2025-02-09;Topazio;1;0;1;10308;App;1;synthetic
+C000316;ocasional;46-55;SBKP;Campinas;São Paulo;2023-02-10;Basico;1;0;1;1132;App;1;synthetic
+C000317;ocasional;66+;SBRF;Recife;Pernambuco;2022-08-15;Basico;1;0;0;4080;Email;1;synthetic
+C000318;crescimento;26-35;SBBE;Belém;Pará;2021-04-22;Basico;1;1;1;5678;App;1;synthetic
+C000319;crescimento;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2019-03-26;Basico;1;1;0;1470;App;1;synthetic
+C000320;alto_valor;36-45;SBRF;Recife;Pernambuco;2020-07-06;Safira;1;1;0;11941;App;1;synthetic
+C000321;ocasional;56-65;SBBE;Belém;Pará;2018-10-23;Basico;1;0;0;2431;Email;1;synthetic
+C000322;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2022-07-29;Topazio;1;0;0;2827;WhatsApp;1;synthetic
+C000323;ocasional;46-55;SBKP;Campinas;São Paulo;2020-06-26;Basico;1;0;1;14722;Email;1;synthetic
+C000324;ocasional;56-65;SBBE;Belém;Pará;2022-12-16;Basico;1;0;0;1744;App;1;synthetic
+C000325;ocasional;46-55;SBSP;São Paulo;São Paulo;2021-12-16;Topazio;1;0;0;5610;App;1;synthetic
+C000326;ocasional;26-35;SBKP;Campinas;São Paulo;2023-03-18;Topazio;1;1;0;1084;App;1;synthetic
+C000327;ocasional;36-45;SBKP;Campinas;São Paulo;2020-02-25;Basico;1;1;0;1819;App;1;synthetic
+C000328;ocasional;18-25;SBKP;Campinas;São Paulo;2020-04-28;Basico;1;0;0;1140;SMS;1;synthetic
+C000329;alto_valor;36-45;SBCF;Confins;Minas Gerais;2022-12-30;Diamante;1;0;1;16245;Email;1;synthetic
+C000330;crescimento;46-55;SBRF;Recife;Pernambuco;2019-01-28;Topazio;1;0;1;8255;WhatsApp;1;synthetic
+C000331;ocasional;46-55;SBCF;Confins;Minas Gerais;2023-09-28;Topazio;1;0;0;1854;App;0;synthetic
+C000332;ocasional;46-55;SBKP;Campinas;São Paulo;2023-08-15;Topazio;1;0;0;12584;App;0;synthetic
+C000333;ocasional;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2020-05-13;Basico;1;0;0;1021;App;1;synthetic
+C000334;alto_valor;18-25;SBKP;Campinas;São Paulo;2021-07-18;Topazio;1;1;0;12266;App;1;synthetic
+C000335;alto_valor;26-35;SBCT;Curitiba;Paraná;2023-10-06;Safira;1;1;1;4537;App;1;synthetic
+C000336;ocasional;18-25;SBKP;Campinas;São Paulo;2019-12-09;Topazio;1;1;0;6868;WhatsApp;1;synthetic
+C000337;ocasional;36-45;SBBR;Brasília;Distrito Federal;2020-12-27;Topazio;1;0;1;8042;App;1;synthetic
+C000338;ocasional;46-55;SBKP;Campinas;São Paulo;2019-12-10;Basico;1;0;0;918;App;1;synthetic
+C000339;em_risco;56-65;SBCF;Confins;Minas Gerais;2019-10-03;Basico;1;0;1;1882;WhatsApp;1;synthetic
+C000340;ocasional;26-35;SBKP;Campinas;São Paulo;2019-07-24;Basico;1;0;0;1082;Email;1;synthetic
+C000341;alto_valor;26-35;SBCF;Confins;Minas Gerais;2025-04-14;Safira;1;0;0;11783;Email;1;synthetic
+C000342;premium;26-35;SBKP;Campinas;São Paulo;2020-06-17;Diamante;1;1;0;3474;Email;1;synthetic
+C000343;em_risco;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2021-11-23;Topazio;1;0;1;1538;App;1;synthetic
+C000344;ocasional;18-25;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-10-11;Basico;1;0;0;3095;App;1;synthetic
+C000345;ocasional;26-35;SBKP;Campinas;São Paulo;2022-07-10;Topazio;1;1;1;8846;App;1;synthetic
+C000346;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-12-09;Safira;1;0;0;3317;WhatsApp;1;synthetic
+C000347;ocasional;36-45;SBCF;Confins;Minas Gerais;2021-06-05;Topazio;1;0;0;2943;Email;1;synthetic
+C000348;ocasional;46-55;SBCY;Cuiabá;Mato Grosso;2021-01-22;Basico;1;1;0;2356;WhatsApp;1;synthetic
+C000349;alto_valor;18-25;SBCT;Curitiba;Paraná;2021-02-17;Diamante;1;0;1;70325;WhatsApp;1;synthetic
+C000350;crescimento;36-45;SBKP;Campinas;São Paulo;2019-09-16;Basico;1;0;0;3233;App;1;synthetic
+C000351;alto_valor;46-55;SBBE;Belém;Pará;2021-10-26;Topazio;1;0;0;5314;Email;1;synthetic
+C000352;alto_valor;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2018-10-21;Safira;1;1;0;1415;App;1;synthetic
+C000353;em_risco;56-65;SBGR;Guarulhos;São Paulo;2019-09-11;Basico;1;1;0;1761;App;1;synthetic
+C000354;crescimento;26-35;SBKP;Campinas;São Paulo;2023-09-04;Basico;1;1;1;1896;App;1;synthetic
+C000355;em_risco;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2022-02-25;Topazio;1;0;1;3497;App;1;synthetic
+C000356;crescimento;26-35;SBKP;Campinas;São Paulo;2020-08-14;Safira;1;1;0;9912;Email;1;synthetic
+C000357;crescimento;46-55;SBSP;São Paulo;São Paulo;2024-07-09;Basico;1;1;1;478;App;1;synthetic
+C000358;em_risco;46-55;SBCF;Confins;Minas Gerais;2023-06-05;Topazio;1;1;1;3286;Email;1;synthetic
+C000359;crescimento;46-55;SBSP;São Paulo;São Paulo;2024-10-30;Safira;1;0;1;3348;App;1;synthetic
+C000360;alto_valor;18-25;SBPA;Porto Alegre;Rio Grande do Sul;2025-05-05;Diamante;1;1;0;7178;App;0;synthetic
+C000361;ocasional;26-35;SBCT;Curitiba;Paraná;2021-12-10;Topazio;1;1;0;7180;Email;1;synthetic
+C000362;alto_valor;26-35;SBKP;Campinas;São Paulo;2025-02-09;Topazio;1;1;1;6750;App;1;synthetic
+C000363;premium;26-35;SBCF;Confins;Minas Gerais;2023-12-29;Safira;1;0;1;13993;App;1;synthetic
+C000364;alto_valor;66+;SBSP;São Paulo;São Paulo;2022-02-24;Diamante;1;0;1;2535;WhatsApp;1;synthetic
+C000365;ocasional;46-55;SBCF;Confins;Minas Gerais;2019-04-03;Basico;1;1;0;2131;Email;1;synthetic
+C000366;crescimento;18-25;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-12-30;Topazio;1;1;1;3488;Email;1;synthetic
+C000367;ocasional;26-35;SBKP;Campinas;São Paulo;2019-04-14;Basico;1;1;0;900;WhatsApp;1;synthetic
+C000368;ocasional;66+;SBPA;Porto Alegre;Rio Grande do Sul;2022-01-08;Basico;1;0;0;2091;App;1;synthetic
+C000369;crescimento;36-45;SBKP;Campinas;São Paulo;2021-12-16;Basico;1;1;1;740;WhatsApp;1;synthetic
+C000370;em_risco;36-45;SBKP;Campinas;São Paulo;2024-05-21;Safira;1;1;0;2295;App;0;synthetic
+C000371;premium;36-45;SBCF;Confins;Minas Gerais;2024-01-25;Diamante;1;1;1;4810;Email;1;synthetic
+C000372;crescimento;46-55;SBKP;Campinas;São Paulo;2021-08-08;Basico;1;0;0;1473;WhatsApp;0;synthetic
+C000373;crescimento;66+;SBSG;Natal;Rio Grande do Norte;2025-07-23;Safira;1;0;0;3620;Email;1;synthetic
+C000374;alto_valor;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2023-11-26;Topazio;1;1;1;13800;App;1;synthetic
+C000375;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-06-25;Basico;1;1;0;1046;App;0;synthetic
+C000376;crescimento;36-45;SBMO;Maceió;Alagoas;2018-11-11;Safira;1;0;1;28472;App;1;synthetic
+C000377;crescimento;36-45;SBRF;Recife;Pernambuco;2020-07-05;Basico;1;0;1;2207;Email;1;synthetic
+C000378;crescimento;46-55;SBKP;Campinas;São Paulo;2019-10-13;Basico;1;0;1;8125;WhatsApp;1;synthetic
+C000379;em_risco;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2019-04-29;Safira;1;1;1;8538;App;1;synthetic
+C000380;ocasional;56-65;SBSV;Salvador;Bahia;2019-05-03;Basico;1;0;0;1085;App;1;synthetic
+C000381;ocasional;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2024-06-20;Topazio;1;0;0;7439;WhatsApp;1;synthetic
+C000382;ocasional;46-55;SBBE;Belém;Pará;2024-02-12;Basico;1;0;1;673;App;1;synthetic
+C000383;crescimento;36-45;SBCF;Confins;Minas Gerais;2020-12-02;Topazio;1;1;0;9071;App;1;synthetic
+C000384;crescimento;36-45;SBFL;Florianópolis;Santa Catarina;2020-02-16;Safira;1;0;0;3248;App;1;synthetic
+C000385;ocasional;46-55;SBKP;Campinas;São Paulo;2019-08-09;Topazio;1;1;0;1636;App;1;synthetic
+C000386;ocasional;46-55;SBRF;Recife;Pernambuco;2022-11-20;Topazio;1;0;0;6929;Email;1;synthetic
+C000387;crescimento;26-35;SBCY;Cuiabá;Mato Grosso;2021-05-02;Topazio;1;0;0;33025;WhatsApp;1;synthetic
+C000388;crescimento;66+;SBBE;Belém;Pará;2021-12-08;Basico;1;1;0;1737;WhatsApp;1;synthetic
+C000389;ocasional;26-35;SBSP;São Paulo;São Paulo;2022-09-12;Basico;1;0;0;584;WhatsApp;1;synthetic
+C000390;ocasional;56-65;SBKP;Campinas;São Paulo;2020-08-04;Topazio;1;0;0;5549;WhatsApp;1;synthetic
+C000391;em_risco;26-35;SBKP;Campinas;São Paulo;2021-03-12;Topazio;1;1;0;710;WhatsApp;1;synthetic
+C000392;alto_valor;46-55;SBGO;Goiânia;Goiás;2025-08-03;Diamante;1;1;0;13199;App;1;synthetic
+C000393;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-12-01;Topazio;1;0;0;6302;WhatsApp;1;synthetic
+C000394;alto_valor;56-65;SBKP;Campinas;São Paulo;2022-12-23;Safira;1;1;1;5770;App;1;synthetic
+C000395;ocasional;66+;SBKP;Campinas;São Paulo;2024-01-11;Topazio;1;0;0;7622;App;1;synthetic
+C000396;ocasional;46-55;SBKP;Campinas;São Paulo;2023-10-17;Basico;1;0;0;1625;WhatsApp;1;synthetic
+C000397;ocasional;66+;SBKP;Campinas;São Paulo;2024-06-17;Basico;1;0;0;4212;WhatsApp;1;synthetic
+C000398;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-08-29;Basico;1;0;0;18810;WhatsApp;1;synthetic
+C000399;crescimento;46-55;SBKP;Campinas;São Paulo;2025-03-15;Topazio;1;0;0;6066;App;1;synthetic
+C000400;alto_valor;26-35;SBCF;Confins;Minas Gerais;2022-07-25;Safira;1;1;1;12201;App;1;synthetic
+C000401;crescimento;18-25;SBKP;Campinas;São Paulo;2024-04-14;Safira;1;1;1;7663;App;0;synthetic
+C000402;crescimento;36-45;SBFL;Florianópolis;Santa Catarina;2020-07-15;Safira;1;0;0;23861;App;1;synthetic
+C000403;crescimento;26-35;SBSV;Salvador;Bahia;2022-06-01;Basico;1;1;0;1750;App;1;synthetic
+C000404;ocasional;26-35;SBRF;Recife;Pernambuco;2018-10-14;Basico;1;0;0;3267;App;1;synthetic
+C000405;alto_valor;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2025-05-20;Diamante;1;0;1;16639;Email;1;synthetic
+C000406;crescimento;36-45;SBUL;Uberlândia;Minas Gerais;2021-12-10;Topazio;1;1;1;10104;Email;1;synthetic
+C000407;premium;26-35;SBEG;Manaus;Amazonas;2024-10-23;Diamante;1;1;1;5489;App;1;synthetic
+C000408;crescimento;66+;SBCT;Curitiba;Paraná;2023-04-04;Safira;1;0;0;2486;WhatsApp;1;synthetic
+C000409;em_risco;26-35;SBGR;Guarulhos;São Paulo;2025-02-27;Topazio;1;0;1;5600;App;1;synthetic
+C000410;ocasional;36-45;SBSL;São Luís;Maranhão;2022-10-18;Topazio;1;0;1;9424;WhatsApp;1;synthetic
+C000411;crescimento;36-45;SBRF;Recife;Pernambuco;2024-10-08;Safira;1;0;0;18063;App;1;synthetic
+C000412;ocasional;26-35;SBKP;Campinas;São Paulo;2024-09-12;Basico;1;0;1;1957;SMS;1;synthetic
+C000413;alto_valor;26-35;SBKP;Campinas;São Paulo;2023-06-15;Safira;1;0;1;5150;WhatsApp;1;synthetic
+C000414;alto_valor;36-45;SBCF;Confins;Minas Gerais;2025-07-04;Topazio;1;1;1;6559;App;0;synthetic
+C000415;crescimento;26-35;SBRF;Recife;Pernambuco;2025-03-02;Basico;1;0;1;6796;Email;1;synthetic
+C000416;alto_valor;26-35;SBCT;Curitiba;Paraná;2021-07-09;Safira;1;1;1;1185;WhatsApp;1;synthetic
+C000417;crescimento;36-45;SBSP;São Paulo;São Paulo;2019-08-15;Topazio;1;0;1;9513;WhatsApp;1;synthetic
+C000418;ocasional;26-35;SBSP;São Paulo;São Paulo;2019-04-04;Basico;1;0;0;4372;Email;1;synthetic
+C000419;crescimento;18-25;SBEG;Manaus;Amazonas;2025-06-04;Topazio;1;0;1;2822;App;1;synthetic
+C000420;ocasional;46-55;SBCT;Curitiba;Paraná;2023-10-12;Basico;1;0;1;5653;App;1;synthetic
+C000421;ocasional;56-65;SBFZ;Fortaleza;Ceará;2020-07-16;Topazio;1;0;0;4255;WhatsApp;1;synthetic
+C000422;ocasional;26-35;SBKP;Campinas;São Paulo;2021-09-26;Basico;1;0;0;2594;App;1;synthetic
+C000423;alto_valor;26-35;SBKP;Campinas;São Paulo;2025-09-08;Safira;1;1;1;8113;Email;1;synthetic
+C000424;alto_valor;46-55;SBGR;Guarulhos;São Paulo;2022-09-29;Topazio;1;1;0;17779;Email;1;synthetic
+C000425;crescimento;66+;SBRF;Recife;Pernambuco;2022-08-27;Topazio;1;0;0;27377;App;1;synthetic
+C000426;ocasional;18-25;SBKP;Campinas;São Paulo;2019-09-07;Basico;1;0;0;51508;Email;1;synthetic
+C000427;ocasional;56-65;SBSG;Natal;Rio Grande do Norte;2020-03-13;Topazio;1;0;0;3562;App;1;synthetic
+C000428;alto_valor;18-25;SBRF;Recife;Pernambuco;2020-04-28;Topazio;1;1;0;1613;SMS;1;synthetic
+C000429;ocasional;36-45;SBRF;Recife;Pernambuco;2024-11-13;Basico;1;1;0;1573;App;1;synthetic
+C000430;ocasional;46-55;SBSG;Natal;Rio Grande do Norte;2019-12-06;Topazio;1;0;0;8775;App;1;synthetic
+C000431;ocasional;56-65;SBKP;Campinas;São Paulo;2024-09-19;Basico;1;1;0;889;Email;1;synthetic
+C000432;em_risco;26-35;SBCF;Confins;Minas Gerais;2019-08-26;Safira;1;1;0;3134;App;1;synthetic
+C000433;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2019-06-19;Topazio;1;0;0;4184;App;1;synthetic
+C000434;crescimento;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-03-02;Topazio;1;0;0;1804;App;1;synthetic
+C000435;crescimento;46-55;SBCF;Confins;Minas Gerais;2024-01-01;Topazio;1;1;0;1987;Email;0;synthetic
+C000436;alto_valor;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2020-06-02;Safira;1;1;1;36713;Email;1;synthetic
+C000437;ocasional;56-65;SBKP;Campinas;São Paulo;2019-10-29;Basico;1;0;0;1626;SMS;1;synthetic
+C000438;crescimento;56-65;SBKP;Campinas;São Paulo;2019-08-31;Safira;1;0;0;8384;SMS;1;synthetic
+C000439;premium;66+;SBKP;Campinas;São Paulo;2022-06-07;Diamante;1;1;1;24229;WhatsApp;1;synthetic
+C000440;em_risco;56-65;SBKP;Campinas;São Paulo;2022-06-08;Topazio;1;0;0;896;Email;1;synthetic
+C000441;premium;56-65;SBSP;São Paulo;São Paulo;2022-06-27;Diamante;1;1;1;20914;App;1;synthetic
+C000442;ocasional;46-55;SBCF;Confins;Minas Gerais;2019-10-04;Basico;1;0;0;5313;WhatsApp;1;synthetic
+C000443;ocasional;36-45;SBBE;Belém;Pará;2024-10-12;Topazio;1;0;0;9816;App;1;synthetic
+C000444;em_risco;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2023-03-28;Safira;1;0;0;21223;App;1;synthetic
+C000445;em_risco;46-55;SBCF;Confins;Minas Gerais;2019-12-14;Basico;1;0;0;3814;Email;1;synthetic
+C000446;ocasional;36-45;SBKP;Campinas;São Paulo;2020-05-28;Basico;1;0;0;2229;Email;1;synthetic
+C000447;alto_valor;36-45;SBSR;São José do Rio Preto;São Paulo;2024-05-22;Diamante;1;0;1;15156;WhatsApp;1;synthetic
+C000448;alto_valor;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2025-09-12;Topazio;1;1;0;8624;App;1;synthetic
+C000449;alto_valor;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2024-08-25;Topazio;1;1;1;8410;App;0;synthetic
+C000450;ocasional;56-65;SBCF;Confins;Minas Gerais;2024-06-17;Basico;1;0;0;2031;App;1;synthetic
+C000451;crescimento;36-45;SBMO;Maceió;Alagoas;2025-01-10;Safira;1;0;0;19965;App;1;synthetic
+C000452;ocasional;26-35;SBSP;São Paulo;São Paulo;2023-12-06;Basico;1;0;0;1515;WhatsApp;1;synthetic
+C000453;ocasional;36-45;SBKP;Campinas;São Paulo;2020-06-26;Topazio;1;0;0;26090;WhatsApp;1;synthetic
+C000454;ocasional;36-45;SBCF;Confins;Minas Gerais;2021-04-13;Basico;1;0;0;8880;App;1;synthetic
+C000455;alto_valor;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-11-07;Topazio;1;1;0;3369;WhatsApp;1;synthetic
+C000456;crescimento;36-45;SBEG;Manaus;Amazonas;2019-05-11;Basico;1;1;0;2054;App;1;synthetic
+C000457;ocasional;26-35;SBCT;Curitiba;Paraná;2025-02-22;Topazio;1;1;0;3192;WhatsApp;1;synthetic
+C000458;alto_valor;46-55;SBKP;Campinas;São Paulo;2024-11-14;Safira;1;0;0;20859;SMS;1;synthetic
+C000459;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-05-23;Topazio;1;1;0;9015;App;1;synthetic
+C000460;crescimento;46-55;SBCF;Confins;Minas Gerais;2024-07-27;Safira;1;0;1;14965;Email;1;synthetic
+C000461;crescimento;36-45;SBCF;Confins;Minas Gerais;2018-10-16;Basico;1;1;0;3637;App;1;synthetic
+C000462;ocasional;36-45;SBSP;São Paulo;São Paulo;2021-08-02;Basico;1;0;0;3902;App;1;synthetic
+C000463;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-02-26;Basico;1;1;0;698;App;1;synthetic
+C000464;ocasional;26-35;SBCT;Curitiba;Paraná;2020-06-07;Basico;1;0;0;12878;Email;1;synthetic
+C000465;crescimento;36-45;SBRF;Recife;Pernambuco;2020-02-21;Safira;1;0;1;7825;WhatsApp;1;synthetic
+C000466;ocasional;36-45;SBCF;Confins;Minas Gerais;2022-08-30;Basico;1;0;0;478;App;1;synthetic
+C000467;ocasional;46-55;SBKP;Campinas;São Paulo;2023-10-13;Basico;1;0;0;1966;App;1;synthetic
+C000468;premium;66+;SBCF;Confins;Minas Gerais;2021-08-14;Diamante;1;1;0;6304;WhatsApp;1;synthetic
+C000469;ocasional;66+;SBUL;Uberlândia;Minas Gerais;2021-05-05;Topazio;1;0;0;4422;WhatsApp;1;synthetic
+C000470;em_risco;56-65;SBRF;Recife;Pernambuco;2022-11-01;Safira;1;1;0;18421;WhatsApp;0;synthetic
+C000471;ocasional;18-25;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-11-25;Topazio;1;1;0;10047;App;1;synthetic
+C000472;alto_valor;36-45;SBSR;São José do Rio Preto;São Paulo;2019-06-27;Safira;1;1;0;6806;WhatsApp;1;synthetic
+C000473;alto_valor;26-35;SBCF;Confins;Minas Gerais;2020-12-09;Diamante;1;1;1;19599;App;1;synthetic
+C000474;crescimento;36-45;SBCF;Confins;Minas Gerais;2024-05-14;Safira;1;0;1;16239;App;1;synthetic
+C000475;em_risco;46-55;SBKP;Campinas;São Paulo;2021-06-17;Safira;1;0;1;4909;WhatsApp;1;synthetic
+C000476;crescimento;36-45;SBSP;São Paulo;São Paulo;2024-06-05;Topazio;1;0;0;1689;Email;1;synthetic
+C000477;ocasional;66+;SBRF;Recife;Pernambuco;2025-07-22;Topazio;1;0;0;2579;Email;0;synthetic
+C000478;alto_valor;36-45;SBCF;Confins;Minas Gerais;2023-10-23;Diamante;1;1;0;5259;App;1;synthetic
+C000479;alto_valor;36-45;SBBR;Brasília;Distrito Federal;2025-07-15;Diamante;1;1;1;15174;App;1;synthetic
+C000480;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-08-11;Basico;1;0;0;2448;App;1;synthetic
+C000481;crescimento;46-55;SBBE;Belém;Pará;2024-07-28;Safira;1;1;1;9100;WhatsApp;1;synthetic
+C000482;alto_valor;36-45;SBSR;São José do Rio Preto;São Paulo;2023-10-21;Topazio;1;1;1;3322;App;1;synthetic
+C000483;crescimento;66+;SBCT;Curitiba;Paraná;2021-08-04;Safira;1;0;0;11306;App;0;synthetic
+C000484;ocasional;46-55;SBCF;Confins;Minas Gerais;2022-06-08;Basico;1;1;0;1104;WhatsApp;0;synthetic
+C000485;alto_valor;36-45;SBCF;Confins;Minas Gerais;2024-08-04;Diamante;1;1;1;13114;WhatsApp;1;synthetic
+C000486;ocasional;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-03-19;Topazio;1;1;0;13741;App;1;synthetic
+C000487;em_risco;66+;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-03-17;Safira;1;0;0;2376;App;1;synthetic
+C000488;ocasional;66+;SBSP;São Paulo;São Paulo;2025-05-07;Topazio;1;1;0;7457;App;1;synthetic
+C000489;em_risco;56-65;SBPS;Porto Seguro;Bahia;2024-03-23;Topazio;1;0;1;2804;Email;1;synthetic
+C000490;crescimento;46-55;SBRF;Recife;Pernambuco;2022-04-10;Safira;1;0;1;1519;App;1;synthetic
+C000491;crescimento;56-65;SBUL;Uberlândia;Minas Gerais;2019-02-11;Safira;1;1;0;5402;App;0;synthetic
+C000492;alto_valor;56-65;SBKP;Campinas;São Paulo;2022-01-18;Diamante;1;0;0;13101;App;0;synthetic
+C000493;crescimento;46-55;SBFZ;Fortaleza;Ceará;2025-04-26;Topazio;1;0;0;5067;App;1;synthetic
+C000494;ocasional;36-45;SBGR;Guarulhos;São Paulo;2021-01-23;Basico;1;0;0;2377;Email;1;synthetic
+C000495;crescimento;66+;SBCF;Confins;Minas Gerais;2025-06-05;Basico;1;1;1;1920;App;1;synthetic
+C000496;ocasional;56-65;SBCT;Curitiba;Paraná;2024-07-04;Basico;1;1;0;10933;Email;1;synthetic
+C000497;ocasional;26-35;SBKP;Campinas;São Paulo;2020-01-05;Basico;1;0;0;2925;Email;1;synthetic
+C000498;alto_valor;46-55;SBGR;Guarulhos;São Paulo;2019-03-15;Safira;1;0;1;12341;Email;1;synthetic
+C000499;em_risco;26-35;SBKP;Campinas;São Paulo;2022-02-01;Basico;1;0;0;20437;Email;1;synthetic
+C000500;alto_valor;46-55;SBPS;Porto Seguro;Bahia;2023-05-14;Safira;1;1;1;21337;WhatsApp;1;synthetic
+C000501;alto_valor;66+;SBCF;Confins;Minas Gerais;2020-10-28;Diamante;1;1;0;1885;App;1;synthetic
+C000502;alto_valor;36-45;SBSP;São Paulo;São Paulo;2021-03-20;Safira;1;1;0;1398;App;1;synthetic
+C000503;premium;46-55;SBCT;Curitiba;Paraná;2023-12-17;Safira;1;1;1;5027;WhatsApp;1;synthetic
+C000504;alto_valor;56-65;SBBE;Belém;Pará;2023-04-23;Topazio;1;1;1;7562;SMS;1;synthetic
+C000505;em_risco;18-25;SBCF;Confins;Minas Gerais;2021-12-01;Safira;1;1;0;5231;App;1;synthetic
+C000506;crescimento;46-55;SBRF;Recife;Pernambuco;2022-03-17;Safira;1;0;0;7672;WhatsApp;1;synthetic
+C000507;crescimento;26-35;SBRF;Recife;Pernambuco;2024-07-19;Topazio;1;0;0;2576;WhatsApp;0;synthetic
+C000508;alto_valor;56-65;SBSR;São José do Rio Preto;São Paulo;2022-09-14;Topazio;1;1;0;3338;App;1;synthetic
+C000509;crescimento;36-45;SBEG;Manaus;Amazonas;2018-11-14;Topazio;1;1;0;6471;Email;1;synthetic
+C000510;alto_valor;66+;SBPA;Porto Alegre;Rio Grande do Sul;2019-07-01;Safira;1;0;0;6255;WhatsApp;1;synthetic
+C000511;em_risco;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2018-12-18;Topazio;1;1;0;9074;Email;1;synthetic
+C000512;ocasional;26-35;SBKP;Campinas;São Paulo;2023-09-01;Topazio;1;0;0;6088;App;1;synthetic
+C000513;crescimento;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-12-21;Basico;1;1;1;2357;App;1;synthetic
+C000514;em_risco;66+;SBSV;Salvador;Bahia;2021-12-01;Basico;1;1;0;1491;WhatsApp;1;synthetic
+C000515;crescimento;56-65;SBSV;Salvador;Bahia;2024-07-05;Topazio;1;1;0;5503;Email;1;synthetic
+C000516;crescimento;26-35;SBKP;Campinas;São Paulo;2024-11-29;Safira;1;0;1;20425;Email;1;synthetic
+C000517;alto_valor;26-35;SBRF;Recife;Pernambuco;2019-11-21;Topazio;1;1;1;4563;WhatsApp;1;synthetic
+C000518;ocasional;56-65;SBKP;Campinas;São Paulo;2020-01-09;Basico;1;0;0;1208;Email;0;synthetic
+C000519;ocasional;36-45;SBBR;Brasília;Distrito Federal;2024-09-08;Basico;1;0;0;1102;Email;1;synthetic
+C000520;crescimento;26-35;SBVT;Vitória;Espírito Santo;2023-05-07;Basico;1;0;1;4986;App;1;synthetic
+C000521;ocasional;26-35;SBKP;Campinas;São Paulo;2023-05-29;Basico;1;0;0;215;App;1;synthetic
+C000522;alto_valor;36-45;SBCF;Confins;Minas Gerais;2024-11-05;Diamante;1;1;1;9579;WhatsApp;1;synthetic
+C000523;ocasional;26-35;SBSP;São Paulo;São Paulo;2021-03-25;Basico;1;0;0;1197;WhatsApp;1;synthetic
+C000524;crescimento;46-55;SBRF;Recife;Pernambuco;2024-06-26;Topazio;1;0;0;10221;App;1;synthetic
+C000525;ocasional;66+;SBKP;Campinas;São Paulo;2021-06-07;Topazio;1;0;0;1547;WhatsApp;1;synthetic
+C000526;ocasional;46-55;SBFL;Florianópolis;Santa Catarina;2022-02-06;Basico;1;0;0;4783;SMS;1;synthetic
+C000527;alto_valor;46-55;SBGR;Guarulhos;São Paulo;2020-04-27;Diamante;1;1;0;16284;Email;1;synthetic
+C000528;em_risco;26-35;SBCT;Curitiba;Paraná;2020-02-20;Topazio;1;0;0;9268;WhatsApp;1;synthetic
+C000529;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-02-09;Topazio;1;0;0;8787;WhatsApp;1;synthetic
+C000530;alto_valor;46-55;SBBE;Belém;Pará;2020-02-25;Safira;1;0;0;4595;Email;1;synthetic
+C000531;alto_valor;46-55;SBKP;Campinas;São Paulo;2025-03-23;Topazio;1;1;1;3739;App;0;synthetic
+C000532;crescimento;26-35;SBKP;Campinas;São Paulo;2023-12-18;Topazio;1;0;1;6600;WhatsApp;1;synthetic
+C000533;ocasional;46-55;SBKP;Campinas;São Paulo;2023-07-12;Basico;1;1;0;1066;App;1;synthetic
+C000534;ocasional;36-45;SBMO;Maceió;Alagoas;2022-05-07;Basico;1;0;0;2078;App;1;synthetic
+C000535;ocasional;46-55;SBCF;Confins;Minas Gerais;2022-01-07;Topazio;1;0;0;10802;App;1;synthetic
+C000536;ocasional;56-65;SBCF;Confins;Minas Gerais;2021-08-17;Basico;1;0;0;632;Email;1;synthetic
+C000537;crescimento;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-12-13;Basico;1;0;1;1395;Email;1;synthetic
+C000538;ocasional;26-35;SBKP;Campinas;São Paulo;2025-08-05;Topazio;1;1;0;2982;App;1;synthetic
+C000539;crescimento;36-45;SBKP;Campinas;São Paulo;2022-09-16;Safira;1;0;1;4184;App;1;synthetic
+C000540;ocasional;36-45;SBSP;São Paulo;São Paulo;2021-02-23;Basico;1;1;0;1632;Email;1;synthetic
+C000541;alto_valor;56-65;SBCF;Confins;Minas Gerais;2019-12-11;Safira;1;1;1;7924;WhatsApp;1;synthetic
+C000542;ocasional;36-45;SBRF;Recife;Pernambuco;2022-12-03;Basico;1;1;0;1622;App;1;synthetic
+C000543;ocasional;46-55;SBKP;Campinas;São Paulo;2019-08-16;Topazio;1;0;0;2950;Email;1;synthetic
+C000544;premium;26-35;SBUL;Uberlândia;Minas Gerais;2022-07-14;Diamante;1;0;1;71380;WhatsApp;1;synthetic
+C000545;ocasional;56-65;SBCF;Confins;Minas Gerais;2022-08-29;Basico;1;0;0;4383;WhatsApp;1;synthetic
+C000546;ocasional;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2020-06-19;Basico;1;0;0;1959;Email;1;synthetic
+C000547;ocasional;26-35;SBKP;Campinas;São Paulo;2021-05-11;Topazio;1;0;0;10264;App;1;synthetic
+C000548;ocasional;36-45;SBSR;São José do Rio Preto;São Paulo;2021-06-16;Basico;1;0;0;10003;WhatsApp;1;synthetic
+C000549;ocasional;36-45;SBKP;Campinas;São Paulo;2019-03-22;Basico;1;0;1;1655;Email;1;synthetic
+C000550;em_risco;56-65;SBCF;Confins;Minas Gerais;2023-06-27;Basico;1;1;1;4241;SMS;1;synthetic
+C000551;em_risco;26-35;SBGO;Goiânia;Goiás;2022-08-08;Basico;1;0;0;6740;WhatsApp;1;synthetic
+C000552;ocasional;18-25;SBRF;Recife;Pernambuco;2024-01-19;Basico;1;0;0;2835;SMS;0;synthetic
+C000553;ocasional;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2022-12-22;Basico;1;0;0;239;WhatsApp;1;synthetic
+C000554;crescimento;26-35;SBKP;Campinas;São Paulo;2025-08-06;Topazio;1;0;1;1339;App;1;synthetic
+C000555;crescimento;56-65;SBRF;Recife;Pernambuco;2020-04-29;Safira;1;0;0;16650;App;1;synthetic
+C000556;crescimento;46-55;SBBR;Brasília;Distrito Federal;2022-05-09;Safira;1;0;1;7483;App;1;synthetic
+C000557;em_risco;46-55;SBCT;Curitiba;Paraná;2025-04-01;Basico;1;1;1;20562;App;1;synthetic
+C000558;premium;26-35;SBCF;Confins;Minas Gerais;2020-03-31;Diamante;1;0;1;9993;WhatsApp;1;synthetic
+C000559;crescimento;36-45;SBKP;Campinas;São Paulo;2021-08-11;Basico;1;0;0;1024;App;1;synthetic
+C000560;ocasional;26-35;SBRF;Recife;Pernambuco;2019-11-14;Basico;1;0;0;3663;App;1;synthetic
+C000561;crescimento;36-45;SBCF;Confins;Minas Gerais;2023-09-09;Basico;1;1;0;4591;Email;1;synthetic
+C000562;crescimento;26-35;SBSP;São Paulo;São Paulo;2024-08-17;Safira;1;1;0;4673;App;1;synthetic
+C000563;crescimento;26-35;SBCT;Curitiba;Paraná;2024-07-11;Basico;1;1;0;15533;WhatsApp;1;synthetic
+C000564;crescimento;46-55;SBCF;Confins;Minas Gerais;2020-02-17;Topazio;1;0;0;1754;SMS;1;synthetic
+C000565;ocasional;56-65;SBFZ;Fortaleza;Ceará;2020-08-20;Topazio;1;0;0;2417;App;1;synthetic
+C000566;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2023-02-08;Basico;1;0;1;4206;Email;1;synthetic
+C000567;em_risco;18-25;SBKP;Campinas;São Paulo;2024-06-20;Basico;1;0;1;1408;Email;1;synthetic
+C000568;crescimento;26-35;SBSR;São José do Rio Preto;São Paulo;2023-07-27;Safira;1;1;0;2064;App;1;synthetic
+C000569;alto_valor;56-65;SBKP;Campinas;São Paulo;2021-02-10;Topazio;1;1;1;11013;SMS;1;synthetic
+C000570;crescimento;36-45;SBSP;São Paulo;São Paulo;2019-07-18;Safira;1;0;1;26386;App;1;synthetic
+C000571;alto_valor;56-65;SBRF;Recife;Pernambuco;2022-06-05;Diamante;1;1;0;8244;Email;1;synthetic
+C000572;crescimento;36-45;SBCT;Curitiba;Paraná;2020-08-16;Basico;1;1;0;4931;Email;1;synthetic
+C000573;ocasional;56-65;SBBR;Brasília;Distrito Federal;2023-09-26;Basico;1;0;0;998;App;1;synthetic
+C000574;ocasional;46-55;SBRF;Recife;Pernambuco;2021-02-25;Topazio;1;0;0;1563;WhatsApp;1;synthetic
+C000575;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2025-02-14;Basico;1;0;0;2769;WhatsApp;1;synthetic
+C000576;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-11-10;Basico;1;0;0;7996;Email;1;synthetic
+C000577;ocasional;18-25;SBKP;Campinas;São Paulo;2021-06-15;Basico;1;0;0;2238;SMS;1;synthetic
+C000578;alto_valor;18-25;SBUL;Uberlândia;Minas Gerais;2021-08-13;Safira;1;1;1;3206;App;1;synthetic
+C000579;ocasional;26-35;SBCT;Curitiba;Paraná;2021-09-03;Basico;1;0;0;599;Email;1;synthetic
+C000580;ocasional;36-45;SBBE;Belém;Pará;2022-05-20;Topazio;1;0;1;3292;Email;0;synthetic
+C000581;ocasional;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2022-06-08;Basico;1;0;0;2323;Email;1;synthetic
+C000582;em_risco;36-45;SBKP;Campinas;São Paulo;2024-02-05;Topazio;1;0;0;3527;Email;1;synthetic
+C000583;crescimento;26-35;SBKP;Campinas;São Paulo;2021-03-28;Safira;1;0;1;30687;WhatsApp;1;synthetic
+C000584;crescimento;18-25;SBBE;Belém;Pará;2022-07-25;Safira;1;0;1;32975;WhatsApp;1;synthetic
+C000585;crescimento;36-45;SBCT;Curitiba;Paraná;2019-09-28;Topazio;1;0;0;5273;WhatsApp;1;synthetic
+C000586;ocasional;46-55;SBRF;Recife;Pernambuco;2019-06-23;Topazio;1;0;0;10133;WhatsApp;1;synthetic
+C000587;crescimento;26-35;SBCF;Confins;Minas Gerais;2019-01-25;Safira;1;0;1;66897;App;1;synthetic
+C000588;ocasional;46-55;SBKP;Campinas;São Paulo;2023-05-23;Basico;1;1;0;2441;App;1;synthetic
+C000589;em_risco;46-55;SBEG;Manaus;Amazonas;2022-04-27;Safira;1;0;0;11493;WhatsApp;1;synthetic
+C000590;alto_valor;66+;SBCF;Confins;Minas Gerais;2019-10-01;Topazio;1;1;1;3556;App;1;synthetic
+C000591;crescimento;56-65;SBRP;Ribeirão Preto;São Paulo;2022-12-16;Topazio;1;1;0;2264;App;1;synthetic
+C000592;ocasional;26-35;SBKP;Campinas;São Paulo;2024-04-30;Topazio;1;0;0;23576;App;1;synthetic
+C000593;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-12-03;Basico;1;0;0;744;App;1;synthetic
+C000594;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-01-07;Basico;1;0;0;11511;WhatsApp;1;synthetic
+C000595;ocasional;46-55;SBVT;Vitória;Espírito Santo;2024-03-10;Basico;1;0;0;9889;WhatsApp;1;synthetic
+C000596;crescimento;36-45;SBKP;Campinas;São Paulo;2021-05-14;Safira;1;0;0;2201;WhatsApp;0;synthetic
+C000597;ocasional;56-65;SBCF;Confins;Minas Gerais;2019-01-07;Basico;1;0;0;8761;Email;1;synthetic
+C000598;ocasional;26-35;SBKP;Campinas;São Paulo;2024-04-11;Basico;1;1;0;2195;Email;1;synthetic
+C000599;ocasional;26-35;SBGR;Guarulhos;São Paulo;2023-11-22;Basico;1;0;0;3000;WhatsApp;1;synthetic
+C000600;crescimento;46-55;SBKP;Campinas;São Paulo;2022-11-29;Safira;1;0;1;9435;App;1;synthetic
+C000601;ocasional;46-55;SBCF;Confins;Minas Gerais;2019-03-20;Topazio;1;0;0;1293;Email;1;synthetic
+C000602;crescimento;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-03-12;Safira;1;0;1;28968;WhatsApp;1;synthetic
+C000603;premium;56-65;SBKP;Campinas;São Paulo;2019-11-20;Safira;1;1;0;27494;Email;1;synthetic
+C000604;ocasional;56-65;SBRF;Recife;Pernambuco;2020-01-21;Topazio;1;0;0;11705;App;1;synthetic
+C000605;ocasional;26-35;SBRF;Recife;Pernambuco;2024-03-29;Basico;1;0;0;4875;Email;1;synthetic
+C000606;alto_valor;26-35;SBCF;Confins;Minas Gerais;2020-12-29;Topazio;1;0;1;1230;Email;1;synthetic
+C000607;crescimento;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2022-05-19;Basico;1;0;0;2447;Email;1;synthetic
+C000608;crescimento;46-55;SBBR;Brasília;Distrito Federal;2021-04-14;Topazio;1;0;0;1923;Email;1;synthetic
+C000609;crescimento;26-35;SBSP;São Paulo;São Paulo;2018-10-11;Basico;1;1;1;2231;SMS;1;synthetic
+C000610;ocasional;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-07-14;Basico;1;0;0;1661;App;1;synthetic
+C000611;ocasional;18-25;SBRF;Recife;Pernambuco;2022-10-30;Basico;1;1;0;1793;App;1;synthetic
+C000612;crescimento;56-65;SBKP;Campinas;São Paulo;2019-09-12;Safira;1;0;0;10807;WhatsApp;1;synthetic
+C000613;crescimento;36-45;SBCT;Curitiba;Paraná;2024-06-03;Safira;1;0;0;11527;App;1;synthetic
+C000614;crescimento;36-45;SBCY;Cuiabá;Mato Grosso;2022-09-28;Topazio;1;1;0;37240;App;1;synthetic
+C000615;em_risco;26-35;SBKP;Campinas;São Paulo;2024-02-03;Basico;1;0;1;4174;App;1;synthetic
+C000616;em_risco;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2019-04-15;Basico;1;1;0;2719;App;1;synthetic
+C000617;ocasional;56-65;SBKP;Campinas;São Paulo;2024-07-24;Basico;1;0;0;2697;App;1;synthetic
+C000618;crescimento;26-35;SBEG;Manaus;Amazonas;2020-03-30;Basico;1;0;1;3816;Email;1;synthetic
+C000619;ocasional;36-45;SBRF;Recife;Pernambuco;2022-12-03;Basico;1;1;0;1419;WhatsApp;1;synthetic
+C000620;premium;66+;SBRF;Recife;Pernambuco;2021-07-09;Diamante;1;1;1;22764;WhatsApp;1;synthetic
+C000621;em_risco;18-25;SBGL;Rio de Janeiro;Rio de Janeiro;2023-11-19;Basico;1;0;1;360;App;1;synthetic
+C000622;crescimento;26-35;SBCT;Curitiba;Paraná;2025-06-10;Safira;1;0;0;12300;WhatsApp;1;synthetic
+C000623;ocasional;36-45;SBKP;Campinas;São Paulo;2019-04-27;Basico;1;1;0;8116;Email;1;synthetic
+C000624;crescimento;66+;SBCF;Confins;Minas Gerais;2021-02-10;Basico;1;1;1;4017;WhatsApp;0;synthetic
+C000625;ocasional;26-35;SBCT;Curitiba;Paraná;2020-01-12;Basico;1;0;0;3789;App;1;synthetic
+C000626;alto_valor;46-55;SBRF;Recife;Pernambuco;2018-12-19;Topazio;1;0;1;1274;Email;1;synthetic
+C000627;crescimento;36-45;SBKP;Campinas;São Paulo;2022-02-25;Basico;1;0;1;5299;WhatsApp;1;synthetic
+C000628;alto_valor;56-65;SBBE;Belém;Pará;2024-08-10;Safira;1;1;0;119381;App;1;synthetic
+C000629;crescimento;26-35;SBCY;Cuiabá;Mato Grosso;2024-05-22;Topazio;1;1;0;4544;Email;1;synthetic
+C000630;premium;56-65;SBGR;Guarulhos;São Paulo;2021-12-25;Diamante;1;1;1;14191;App;0;synthetic
+C000631;ocasional;46-55;SBCF;Confins;Minas Gerais;2023-07-14;Topazio;1;0;0;3835;Email;1;synthetic
+C000632;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-08-09;Safira;1;1;0;14868;WhatsApp;1;synthetic
+C000633;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-06-21;Basico;1;1;0;3963;WhatsApp;1;synthetic
+C000634;alto_valor;26-35;SBEG;Manaus;Amazonas;2023-07-08;Topazio;1;1;0;8103;App;1;synthetic
+C000635;crescimento;36-45;SBRP;Ribeirão Preto;São Paulo;2022-06-20;Topazio;1;0;0;2323;App;1;synthetic
+C000636;em_risco;18-25;SBRP;Ribeirão Preto;São Paulo;2025-09-25;Topazio;1;0;0;7262;App;1;synthetic
+C000637;crescimento;36-45;SBKP;Campinas;São Paulo;2021-12-06;Basico;1;1;0;1942;Email;1;synthetic
+C000638;alto_valor;26-35;SBCT;Curitiba;Paraná;2025-04-22;Topazio;1;1;0;10442;WhatsApp;0;synthetic
+C000639;em_risco;46-55;SBCF;Confins;Minas Gerais;2025-01-29;Safira;1;0;0;8765;WhatsApp;1;synthetic
+C000640;ocasional;46-55;SBCT;Curitiba;Paraná;2019-06-21;Basico;1;0;0;1531;WhatsApp;1;synthetic
+C000641;crescimento;66+;SBPS;Porto Seguro;Bahia;2021-06-08;Topazio;1;0;0;5393;WhatsApp;1;synthetic
+C000642;em_risco;66+;SBKP;Campinas;São Paulo;2019-11-18;Safira;1;1;0;4611;App;1;synthetic
+C000643;ocasional;36-45;SBRF;Recife;Pernambuco;2025-02-18;Topazio;1;0;0;2976;App;1;synthetic
+C000644;ocasional;26-35;SBRF;Recife;Pernambuco;2019-06-30;Basico;1;0;0;1637;WhatsApp;1;synthetic
+C000645;crescimento;46-55;SBCY;Cuiabá;Mato Grosso;2025-06-09;Safira;1;0;1;4739;WhatsApp;1;synthetic
+C000646;crescimento;36-45;SBRF;Recife;Pernambuco;2024-10-01;Topazio;1;1;0;4064;WhatsApp;1;synthetic
+C000647;em_risco;46-55;SBPS;Porto Seguro;Bahia;2020-12-16;Basico;1;1;0;1970;App;1;synthetic
+C000648;crescimento;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2025-05-01;Basico;1;0;1;10251;WhatsApp;1;synthetic
+C000649;em_risco;36-45;SBSP;São Paulo;São Paulo;2021-09-11;Safira;1;0;0;7601;Email;1;synthetic
+C000650;alto_valor;36-45;SBSR;São José do Rio Preto;São Paulo;2021-04-27;Safira;1;0;0;8905;WhatsApp;1;synthetic
+C000651;em_risco;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2024-03-24;Basico;1;1;0;7941;WhatsApp;1;synthetic
+C000652;ocasional;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-09-04;Basico;1;1;0;787;Email;1;synthetic
+C000653;crescimento;46-55;SBCF;Confins;Minas Gerais;2020-07-01;Basico;1;1;1;5626;SMS;1;synthetic
+C000654;ocasional;36-45;SBSP;São Paulo;São Paulo;2020-03-05;Topazio;1;0;0;2480;App;0;synthetic
+C000655;em_risco;26-35;SBSV;Salvador;Bahia;2022-05-15;Basico;1;0;0;1894;WhatsApp;1;synthetic
+C000656;alto_valor;36-45;SBSP;São Paulo;São Paulo;2025-01-21;Topazio;1;1;0;2219;WhatsApp;1;synthetic
+C000657;alto_valor;26-35;SBKP;Campinas;São Paulo;2019-09-15;Diamante;1;0;1;4388;App;1;synthetic
+C000658;alto_valor;46-55;SBBR;Brasília;Distrito Federal;2025-05-29;Safira;1;1;0;24185;WhatsApp;1;synthetic
+C000659;crescimento;26-35;SBKP;Campinas;São Paulo;2019-02-15;Safira;1;1;1;12124;App;1;synthetic
+C000660;ocasional;66+;SBKP;Campinas;São Paulo;2025-05-21;Basico;1;0;1;2272;WhatsApp;1;synthetic
+C000661;crescimento;56-65;SBKP;Campinas;São Paulo;2023-01-02;Topazio;1;0;1;9811;SMS;1;synthetic
+C000662;ocasional;26-35;SBSP;São Paulo;São Paulo;2022-03-28;Basico;1;0;0;5625;Email;1;synthetic
+C000663;crescimento;26-35;SBCF;Confins;Minas Gerais;2021-10-30;Safira;1;0;0;25474;App;1;synthetic
+C000664;em_risco;26-35;SBRF;Recife;Pernambuco;2024-08-01;Topazio;1;1;0;4158;Email;1;synthetic
+C000665;crescimento;36-45;SBCF;Confins;Minas Gerais;2020-01-04;Safira;1;1;0;7005;App;1;synthetic
+C000666;crescimento;36-45;SBSP;São Paulo;São Paulo;2022-09-22;Basico;1;0;0;3888;Email;1;synthetic
+C000667;crescimento;66+;SBKP;Campinas;São Paulo;2024-08-31;Basico;1;1;1;4444;App;1;synthetic
+C000668;ocasional;56-65;SBRF;Recife;Pernambuco;2021-04-19;Basico;1;0;0;2004;WhatsApp;1;synthetic
+C000669;ocasional;66+;SBKP;Campinas;São Paulo;2019-08-30;Basico;1;0;0;939;App;1;synthetic
+C000670;crescimento;36-45;SBKP;Campinas;São Paulo;2022-02-06;Safira;1;1;0;700;Email;1;synthetic
+C000671;alto_valor;46-55;SBKP;Campinas;São Paulo;2025-09-27;Topazio;1;1;0;6905;App;1;synthetic
+C000672;alto_valor;26-35;SBGO;Goiânia;Goiás;2022-04-14;Diamante;1;1;0;7348;App;1;synthetic
+C000673;em_risco;56-65;SBKP;Campinas;São Paulo;2021-08-13;Topazio;1;1;1;5725;App;1;synthetic
+C000674;ocasional;46-55;SBKP;Campinas;São Paulo;2023-12-16;Topazio;1;0;0;2163;Email;1;synthetic
+C000675;alto_valor;66+;SBSL;São Luís;Maranhão;2022-10-26;Safira;1;1;1;1691;WhatsApp;1;synthetic
+C000676;alto_valor;36-45;SBRF;Recife;Pernambuco;2025-05-06;Diamante;1;1;1;38707;WhatsApp;1;synthetic
+C000677;ocasional;46-55;SBBE;Belém;Pará;2024-09-27;Topazio;1;0;1;7454;App;0;synthetic
+C000678;ocasional;46-55;SBBR;Brasília;Distrito Federal;2025-02-02;Topazio;1;0;0;3114;App;1;synthetic
+C000679;ocasional;46-55;SBKP;Campinas;São Paulo;2024-04-17;Basico;1;1;0;3783;App;1;synthetic
+C000680;ocasional;56-65;SBKP;Campinas;São Paulo;2021-08-09;Basico;1;0;0;5697;App;1;synthetic
+C000681;alto_valor;36-45;SBBE;Belém;Pará;2019-10-27;Diamante;1;1;1;9951;App;1;synthetic
+C000682;ocasional;26-35;SBCT;Curitiba;Paraná;2024-06-21;Basico;1;0;0;2335;Email;1;synthetic
+C000683;em_risco;26-35;SBKP;Campinas;São Paulo;2019-02-13;Topazio;1;0;0;12659;App;1;synthetic
+C000684;alto_valor;26-35;SBPS;Porto Seguro;Bahia;2020-02-07;Safira;1;1;0;16123;App;1;synthetic
+C000685;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-01-08;Basico;1;0;0;3944;App;1;synthetic
+C000686;ocasional;36-45;SBSP;São Paulo;São Paulo;2022-09-08;Basico;1;0;0;750;WhatsApp;1;synthetic
+C000687;alto_valor;46-55;SBKP;Campinas;São Paulo;2021-05-20;Topazio;1;1;0;51056;App;0;synthetic
+C000688;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2022-07-01;Basico;1;0;0;1074;WhatsApp;1;synthetic
+C000689;alto_valor;36-45;SBBR;Brasília;Distrito Federal;2022-09-14;Safira;1;1;1;5165;Email;1;synthetic
+C000690;crescimento;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2024-11-29;Safira;1;0;1;18587;App;1;synthetic
+C000691;em_risco;26-35;SBRF;Recife;Pernambuco;2021-10-12;Topazio;1;0;0;13618;WhatsApp;1;synthetic
+C000692;crescimento;36-45;SBFZ;Fortaleza;Ceará;2022-08-06;Topazio;1;0;1;6933;WhatsApp;1;synthetic
+C000693;em_risco;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2023-07-07;Topazio;1;0;0;684;WhatsApp;1;synthetic
+C000694;em_risco;36-45;SBKP;Campinas;São Paulo;2019-05-29;Safira;1;0;1;12338;Email;1;synthetic
+C000695;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-08-24;Topazio;1;0;0;4740;App;1;synthetic
+C000696;ocasional;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2019-06-06;Topazio;1;0;0;6545;App;1;synthetic
+C000697;ocasional;36-45;SBRF;Recife;Pernambuco;2024-12-12;Basico;1;0;1;3080;App;0;synthetic
+C000698;premium;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2024-12-27;Safira;1;1;1;6278;App;1;synthetic
+C000699;alto_valor;66+;SBCF;Confins;Minas Gerais;2021-01-04;Safira;1;1;1;10926;Email;1;synthetic
+C000700;ocasional;26-35;SBCF;Confins;Minas Gerais;2020-02-20;Basico;1;0;0;1001;WhatsApp;1;synthetic
+C000701;alto_valor;36-45;SBBE;Belém;Pará;2020-07-08;Diamante;1;0;0;8627;App;1;synthetic
+C000702;ocasional;46-55;SBRF;Recife;Pernambuco;2020-08-06;Topazio;1;0;0;7978;WhatsApp;1;synthetic
+C000703;premium;26-35;SBSP;São Paulo;São Paulo;2021-04-24;Diamante;1;1;1;3861;Email;1;synthetic
+C000704;em_risco;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-08-09;Basico;1;1;1;2006;WhatsApp;1;synthetic
+C000705;crescimento;46-55;SBKP;Campinas;São Paulo;2022-10-10;Topazio;1;0;0;2469;Email;1;synthetic
+C000706;ocasional;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2022-09-25;Topazio;1;1;0;17925;App;1;synthetic
+C000707;ocasional;56-65;SBFZ;Fortaleza;Ceará;2021-09-20;Basico;1;0;0;6932;App;1;synthetic
+C000708;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-06-12;Basico;1;0;0;2683;App;1;synthetic
+C000709;alto_valor;36-45;SBCY;Cuiabá;Mato Grosso;2025-01-01;Safira;1;1;0;6131;WhatsApp;1;synthetic
+C000710;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2021-04-12;Basico;1;0;0;3308;App;1;synthetic
+C000711;em_risco;26-35;SBSP;São Paulo;São Paulo;2019-01-17;Basico;1;1;1;5822;App;1;synthetic
+C000712;crescimento;56-65;SBKP;Campinas;São Paulo;2018-11-18;Safira;1;0;1;13572;SMS;0;synthetic
+C000713;ocasional;18-25;SBCF;Confins;Minas Gerais;2020-05-18;Basico;1;1;0;4286;SMS;1;synthetic
+C000714;crescimento;18-25;SBSP;São Paulo;São Paulo;2024-02-09;Safira;1;0;0;35474;App;1;synthetic
+C000715;crescimento;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-05-14;Topazio;1;0;0;2141;Email;1;synthetic
+C000716;ocasional;26-35;SBCF;Confins;Minas Gerais;2020-10-02;Topazio;1;0;0;5718;WhatsApp;1;synthetic
+C000717;ocasional;46-55;SBCY;Cuiabá;Mato Grosso;2024-08-26;Basico;1;0;0;12728;App;1;synthetic
+C000718;ocasional;26-35;SBKP;Campinas;São Paulo;2020-06-15;Basico;1;0;1;3585;App;1;synthetic
+C000719;ocasional;18-25;SBKP;Campinas;São Paulo;2019-09-20;Basico;1;0;1;16661;Email;1;synthetic
+C000720;alto_valor;26-35;SBKP;Campinas;São Paulo;2019-04-28;Diamante;1;1;0;4759;App;1;synthetic
+C000721;alto_valor;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-12-02;Safira;1;1;1;19163;WhatsApp;1;synthetic
+C000722;ocasional;56-65;SBSV;Salvador;Bahia;2021-11-22;Basico;1;0;0;4352;App;1;synthetic
+C000723;ocasional;36-45;SBKP;Campinas;São Paulo;2023-09-15;Topazio;1;0;0;3874;Email;0;synthetic
+C000724;ocasional;18-25;SBKP;Campinas;São Paulo;2023-12-15;Topazio;1;0;0;2218;App;0;synthetic
+C000725;alto_valor;36-45;SBCT;Curitiba;Paraná;2020-06-21;Diamante;1;1;1;762;App;1;synthetic
+C000726;crescimento;36-45;SBCF;Confins;Minas Gerais;2022-06-17;Topazio;1;1;0;23076;WhatsApp;1;synthetic
+C000727;crescimento;18-25;SBGO;Goiânia;Goiás;2019-06-19;Topazio;1;0;1;6493;Email;1;synthetic
+C000728;crescimento;36-45;SBCF;Confins;Minas Gerais;2022-04-21;Basico;1;0;0;1406;App;1;synthetic
+C000729;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-12-14;Basico;1;1;0;7467;Email;1;synthetic
+C000730;ocasional;36-45;SBEG;Manaus;Amazonas;2019-06-17;Topazio;1;0;0;2769;Email;1;synthetic
+C000731;alto_valor;36-45;SBSP;São Paulo;São Paulo;2019-08-25;Topazio;1;1;1;3071;App;1;synthetic
+C000732;alto_valor;26-35;SBGR;Guarulhos;São Paulo;2024-10-19;Diamante;1;1;0;24602;App;1;synthetic
+C000733;ocasional;66+;SBCY;Cuiabá;Mato Grosso;2022-08-17;Topazio;1;0;0;15276;Email;1;synthetic
+C000734;premium;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2022-07-23;Diamante;1;1;1;22524;Email;1;synthetic
+C000735;em_risco;36-45;SBKP;Campinas;São Paulo;2019-04-07;Topazio;1;0;0;1819;App;1;synthetic
+C000736;em_risco;66+;SBKP;Campinas;São Paulo;2025-05-09;Basico;1;0;0;2115;App;1;synthetic
+C000737;em_risco;36-45;SBCF;Confins;Minas Gerais;2019-01-23;Safira;1;0;0;10971;Email;1;synthetic
+C000738;ocasional;36-45;SBKP;Campinas;São Paulo;2021-09-03;Basico;1;0;0;494;App;1;synthetic
+C000739;em_risco;36-45;SBGR;Guarulhos;São Paulo;2019-08-13;Safira;1;0;1;13451;App;1;synthetic
+C000740;premium;36-45;SBSP;São Paulo;São Paulo;2023-01-01;Diamante;1;1;1;12934;Email;1;synthetic
+C000741;ocasional;66+;SBKP;Campinas;São Paulo;2020-02-29;Basico;1;1;0;2123;WhatsApp;0;synthetic
+C000742;crescimento;26-35;SBSP;São Paulo;São Paulo;2019-11-19;Basico;1;1;0;2352;WhatsApp;1;synthetic
+C000743;premium;36-45;SBGO;Goiânia;Goiás;2019-04-30;Diamante;1;1;0;10612;App;1;synthetic
+C000744;ocasional;26-35;SBRF;Recife;Pernambuco;2023-01-08;Basico;1;0;0;4838;App;0;synthetic
+C000745;crescimento;36-45;SBSP;São Paulo;São Paulo;2023-04-30;Topazio;1;1;0;3270;App;0;synthetic
+C000746;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-08-14;Diamante;1;0;1;4178;Email;1;synthetic
+C000747;ocasional;46-55;SBKP;Campinas;São Paulo;2021-10-11;Basico;1;0;0;11479;Email;1;synthetic
+C000748;premium;56-65;SBSP;São Paulo;São Paulo;2020-10-01;Diamante;1;1;0;9221;App;1;synthetic
+C000749;ocasional;56-65;SBKP;Campinas;São Paulo;2025-07-26;Basico;1;1;0;13141;Email;0;synthetic
+C000750;ocasional;36-45;SBCT;Curitiba;Paraná;2024-06-25;Basico;1;1;0;707;App;1;synthetic
+C000751;ocasional;26-35;SBRF;Recife;Pernambuco;2018-11-28;Topazio;1;0;0;16984;WhatsApp;1;synthetic
+C000752;em_risco;26-35;SBRF;Recife;Pernambuco;2023-10-20;Topazio;1;0;0;1561;App;1;synthetic
+C000753;ocasional;26-35;SBCF;Confins;Minas Gerais;2023-09-05;Topazio;1;0;0;2505;App;1;synthetic
+C000754;alto_valor;36-45;SBPS;Porto Seguro;Bahia;2021-10-23;Diamante;1;1;1;3243;WhatsApp;1;synthetic
+C000755;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-10-07;Basico;1;0;0;1105;App;1;synthetic
+C000756;alto_valor;36-45;SBCF;Confins;Minas Gerais;2020-09-07;Diamante;1;1;1;11692;WhatsApp;1;synthetic
+C000757;alto_valor;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2024-11-26;Safira;1;0;0;6309;SMS;1;synthetic
+C000758;crescimento;36-45;SBCF;Confins;Minas Gerais;2024-02-26;Safira;1;1;0;22451;SMS;1;synthetic
+C000759;crescimento;56-65;SBGR;Guarulhos;São Paulo;2020-06-15;Topazio;1;1;0;34301;App;1;synthetic
+C000760;em_risco;26-35;SBCF;Confins;Minas Gerais;2022-01-11;Topazio;1;0;1;4104;App;1;synthetic
+C000761;crescimento;36-45;SBGO;Goiânia;Goiás;2024-04-21;Topazio;1;0;0;14811;App;1;synthetic
+C000762;crescimento;36-45;SBKP;Campinas;São Paulo;2023-06-07;Basico;1;0;0;2638;App;1;synthetic
+C000763;ocasional;36-45;SBSP;São Paulo;São Paulo;2024-07-12;Basico;1;0;0;5228;App;1;synthetic
+C000764;crescimento;36-45;SBBE;Belém;Pará;2020-09-20;Safira;1;0;1;4702;Email;1;synthetic
+C000765;ocasional;18-25;SBSP;São Paulo;São Paulo;2018-12-25;Basico;1;0;0;10800;App;1;synthetic
+C000766;crescimento;36-45;SBCF;Confins;Minas Gerais;2022-01-12;Topazio;1;0;0;5345;WhatsApp;1;synthetic
+C000767;premium;36-45;SBVT;Vitória;Espírito Santo;2019-11-21;Diamante;1;1;1;2873;Email;1;synthetic
+C000768;crescimento;46-55;SBCF;Confins;Minas Gerais;2022-12-19;Safira;1;1;0;15899;App;1;synthetic
+C000769;ocasional;46-55;SBGR;Guarulhos;São Paulo;2023-06-25;Basico;1;0;1;533;App;1;synthetic
+C000770;em_risco;26-35;SBMO;Maceió;Alagoas;2020-04-12;Topazio;1;0;1;1709;SMS;1;synthetic
+C000771;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-01-16;Topazio;1;0;0;1434;Email;0;synthetic
+C000772;ocasional;46-55;SBRF;Recife;Pernambuco;2021-08-16;Basico;1;0;0;3964;Email;1;synthetic
+C000773;em_risco;36-45;SBMO;Maceió;Alagoas;2019-05-28;Safira;1;0;0;1923;WhatsApp;1;synthetic
+C000774;ocasional;18-25;SBKP;Campinas;São Paulo;2025-04-10;Basico;1;0;1;2375;Email;1;synthetic
+C000775;alto_valor;46-55;SBCT;Curitiba;Paraná;2022-01-09;Topazio;1;0;0;8716;App;1;synthetic
+C000776;crescimento;36-45;SBCT;Curitiba;Paraná;2020-03-08;Basico;1;0;0;12256;App;1;synthetic
+C000777;crescimento;18-25;SBCY;Cuiabá;Mato Grosso;2021-07-30;Basico;1;0;0;4197;App;1;synthetic
+C000778;premium;36-45;SBKP;Campinas;São Paulo;2018-11-01;Diamante;1;1;1;8932;WhatsApp;1;synthetic
+C000779;em_risco;46-55;SBKP;Campinas;São Paulo;2023-04-11;Safira;1;0;0;5942;App;1;synthetic
+C000780;crescimento;56-65;SBRF;Recife;Pernambuco;2024-09-02;Topazio;1;0;0;3873;SMS;1;synthetic
+C000781;crescimento;26-35;SBRF;Recife;Pernambuco;2023-04-05;Basico;1;0;0;3585;Email;1;synthetic
+C000782;ocasional;46-55;SBKP;Campinas;São Paulo;2021-06-21;Basico;1;0;1;5400;WhatsApp;1;synthetic
+C000783;ocasional;56-65;SBRF;Recife;Pernambuco;2022-09-24;Basico;1;0;0;1969;WhatsApp;1;synthetic
+C000784;crescimento;26-35;SBGR;Guarulhos;São Paulo;2022-07-04;Topazio;1;0;0;3041;WhatsApp;1;synthetic
+C000785;crescimento;66+;SBKP;Campinas;São Paulo;2019-05-07;Topazio;1;0;1;5057;Email;1;synthetic
+C000786;premium;26-35;SBCF;Confins;Minas Gerais;2021-07-29;Diamante;1;1;0;3001;App;1;synthetic
+C000787;alto_valor;36-45;SBCT;Curitiba;Paraná;2024-12-20;Topazio;1;1;1;9289;App;1;synthetic
+C000788;ocasional;46-55;SBFZ;Fortaleza;Ceará;2019-10-21;Basico;1;0;0;10189;App;0;synthetic
+C000789;em_risco;36-45;SBRF;Recife;Pernambuco;2019-10-17;Topazio;1;1;0;2012;App;1;synthetic
+C000790;premium;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-08-06;Safira;1;1;0;11999;Email;1;synthetic
+C000791;alto_valor;46-55;SBSV;Salvador;Bahia;2023-09-03;Diamante;1;1;1;2975;WhatsApp;1;synthetic
+C000792;crescimento;26-35;SBRF;Recife;Pernambuco;2024-02-01;Safira;1;0;1;28868;App;1;synthetic
+C000793;ocasional;36-45;SBKP;Campinas;São Paulo;2024-03-13;Topazio;1;0;0;1621;App;1;synthetic
+C000794;crescimento;18-25;SBFZ;Fortaleza;Ceará;2021-07-31;Basico;1;1;0;2065;WhatsApp;1;synthetic
+C000795;em_risco;36-45;SBGO;Goiânia;Goiás;2025-06-26;Topazio;1;0;0;13992;WhatsApp;0;synthetic
+C000796;ocasional;26-35;SBCF;Confins;Minas Gerais;2021-04-19;Topazio;1;0;0;4806;WhatsApp;1;synthetic
+C000797;ocasional;46-55;SBKP;Campinas;São Paulo;2024-05-06;Basico;1;1;1;328;App;1;synthetic
+C000798;ocasional;36-45;SBFZ;Fortaleza;Ceará;2022-11-21;Basico;1;0;0;18771;App;1;synthetic
+C000799;ocasional;46-55;SBCF;Confins;Minas Gerais;2018-12-11;Topazio;1;0;0;17352;WhatsApp;1;synthetic
+C000800;ocasional;46-55;SBRF;Recife;Pernambuco;2020-03-10;Topazio;1;0;0;56853;App;1;synthetic
+C000801;em_risco;18-25;SBKP;Campinas;São Paulo;2019-06-03;Topazio;1;1;0;2436;Email;1;synthetic
+C000802;crescimento;26-35;SBKP;Campinas;São Paulo;2022-11-21;Safira;1;1;1;4349;App;1;synthetic
+C000803;alto_valor;36-45;SBCT;Curitiba;Paraná;2021-11-03;Safira;1;1;0;5654;App;1;synthetic
+C000804;ocasional;26-35;SBCT;Curitiba;Paraná;2022-03-23;Basico;1;1;0;6962;WhatsApp;0;synthetic
+C000805;ocasional;46-55;SBCF;Confins;Minas Gerais;2019-06-24;Topazio;1;0;0;23825;App;1;synthetic
+C000806;crescimento;18-25;SBKP;Campinas;São Paulo;2022-01-09;Safira;1;1;0;8592;WhatsApp;1;synthetic
+C000807;alto_valor;26-35;SBBE;Belém;Pará;2022-04-24;Diamante;1;0;0;7830;App;0;synthetic
+C000808;ocasional;36-45;SBRF;Recife;Pernambuco;2023-07-20;Basico;1;1;0;761;WhatsApp;1;synthetic
+C000809;ocasional;56-65;SBFZ;Fortaleza;Ceará;2025-01-19;Basico;1;0;0;2182;App;1;synthetic
+C000810;crescimento;18-25;SBSV;Salvador;Bahia;2023-12-12;Topazio;1;0;0;6509;App;1;synthetic
+C000811;crescimento;36-45;SBBR;Brasília;Distrito Federal;2020-12-03;Basico;1;0;0;655;App;1;synthetic
+C000812;ocasional;26-35;SBCY;Cuiabá;Mato Grosso;2022-11-04;Basico;1;0;0;10135;WhatsApp;1;synthetic
+C000813;alto_valor;56-65;SBKP;Campinas;São Paulo;2024-10-12;Topazio;1;1;0;4281;App;1;synthetic
+C000814;premium;36-45;SBRF;Recife;Pernambuco;2021-01-14;Diamante;1;1;0;5976;App;1;synthetic
+C000815;ocasional;56-65;SBRF;Recife;Pernambuco;2025-03-02;Basico;1;0;0;9530;Email;1;synthetic
+C000816;ocasional;18-25;SBCF;Confins;Minas Gerais;2023-01-03;Topazio;1;0;0;8744;WhatsApp;1;synthetic
+C000817;alto_valor;26-35;SBMO;Maceió;Alagoas;2023-12-12;Safira;1;1;0;3366;App;0;synthetic
+C000818;premium;46-55;SBVT;Vitória;Espírito Santo;2025-08-25;Safira;1;1;1;6063;Email;1;synthetic
+C000819;ocasional;46-55;SBKP;Campinas;São Paulo;2023-05-16;Basico;1;1;0;4446;WhatsApp;0;synthetic
+C000820;em_risco;36-45;SBRF;Recife;Pernambuco;2024-03-02;Basico;1;1;0;3162;WhatsApp;1;synthetic
+C000821;crescimento;18-25;SBRF;Recife;Pernambuco;2021-05-20;Topazio;1;0;0;3434;WhatsApp;0;synthetic
+C000822;ocasional;56-65;SBKP;Campinas;São Paulo;2024-06-20;Basico;1;0;0;783;WhatsApp;1;synthetic
+C000823;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-08-04;Diamante;1;1;1;7317;App;1;synthetic
+C000824;alto_valor;46-55;SBRF;Recife;Pernambuco;2021-03-24;Diamante;1;1;0;5803;App;1;synthetic
+C000825;ocasional;18-25;SBSP;São Paulo;São Paulo;2024-11-04;Basico;1;0;0;6139;App;0;synthetic
+C000826;ocasional;36-45;SBKP;Campinas;São Paulo;2023-07-06;Topazio;1;0;0;4503;App;1;synthetic
+C000827;crescimento;36-45;SBCT;Curitiba;Paraná;2019-02-28;Basico;1;1;0;1414;WhatsApp;1;synthetic
+C000828;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2018-12-27;Topazio;1;1;1;2581;WhatsApp;1;synthetic
+C000829;ocasional;46-55;SBBE;Belém;Pará;2020-05-24;Basico;1;0;0;895;WhatsApp;1;synthetic
+C000830;ocasional;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2020-11-26;Basico;1;0;0;2142;App;1;synthetic
+C000831;alto_valor;46-55;SBRF;Recife;Pernambuco;2019-07-25;Topazio;1;0;1;2867;App;1;synthetic
+C000832;crescimento;36-45;SBKP;Campinas;São Paulo;2025-06-13;Safira;1;1;0;10422;WhatsApp;1;synthetic
+C000833;ocasional;36-45;SBKP;Campinas;São Paulo;2025-01-26;Topazio;1;0;1;2325;App;1;synthetic
+C000834;crescimento;56-65;SBFZ;Fortaleza;Ceará;2024-10-08;Safira;1;1;1;14917;Email;1;synthetic
+C000835;em_risco;26-35;SBRF;Recife;Pernambuco;2024-11-22;Basico;1;0;1;2839;SMS;1;synthetic
+C000836;crescimento;36-45;SBKP;Campinas;São Paulo;2020-10-29;Safira;1;0;1;1647;WhatsApp;1;synthetic
+C000837;ocasional;36-45;SBCF;Confins;Minas Gerais;2022-09-20;Topazio;1;1;0;2284;Email;1;synthetic
+C000838;alto_valor;46-55;SBCT;Curitiba;Paraná;2024-11-05;Diamante;1;1;0;26247;WhatsApp;1;synthetic
+C000839;ocasional;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2019-10-04;Basico;1;0;1;1935;App;1;synthetic
+C000840;ocasional;26-35;SBFL;Florianópolis;Santa Catarina;2021-11-03;Basico;1;0;0;18376;App;1;synthetic
+C000841;ocasional;36-45;SBBE;Belém;Pará;2021-04-26;Topazio;1;0;1;9119;App;1;synthetic
+C000842;ocasional;36-45;SBCF;Confins;Minas Gerais;2018-12-12;Topazio;1;0;0;5215;App;1;synthetic
+C000843;ocasional;26-35;SBPS;Porto Seguro;Bahia;2025-03-03;Basico;1;0;0;3368;WhatsApp;1;synthetic
+C000844;em_risco;26-35;SBCT;Curitiba;Paraná;2022-06-19;Basico;1;0;0;3686;App;1;synthetic
+C000845;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-11-20;Topazio;1;0;0;18661;WhatsApp;0;synthetic
+C000846;ocasional;26-35;SBCF;Confins;Minas Gerais;2020-04-12;Basico;1;0;0;1088;Email;1;synthetic
+C000847;crescimento;46-55;SBCT;Curitiba;Paraná;2020-11-01;Topazio;1;0;0;1959;App;1;synthetic
+C000848;ocasional;46-55;SBRF;Recife;Pernambuco;2021-09-14;Topazio;1;0;1;2391;App;1;synthetic
+C000849;ocasional;36-45;SBRF;Recife;Pernambuco;2023-06-23;Basico;1;0;1;4690;App;1;synthetic
+C000850;ocasional;26-35;SBRF;Recife;Pernambuco;2021-10-04;Topazio;1;0;0;7243;App;1;synthetic
+C000851;crescimento;26-35;SBKP;Campinas;São Paulo;2020-09-01;Safira;1;0;1;8754;App;0;synthetic
+C000852;alto_valor;36-45;SBCF;Confins;Minas Gerais;2021-01-20;Safira;1;1;0;10112;App;1;synthetic
+C000853;crescimento;36-45;SBCF;Confins;Minas Gerais;2019-12-13;Topazio;1;0;0;5808;WhatsApp;1;synthetic
+C000854;crescimento;18-25;SBBR;Brasília;Distrito Federal;2019-10-29;Topazio;1;0;1;17005;App;1;synthetic
+C000855;alto_valor;46-55;SBKP;Campinas;São Paulo;2024-12-15;Topazio;1;1;1;5890;WhatsApp;0;synthetic
+C000856;alto_valor;66+;SBCF;Confins;Minas Gerais;2018-12-03;Safira;1;1;1;30890;App;0;synthetic
+C000857;em_risco;46-55;SBEG;Manaus;Amazonas;2020-06-22;Topazio;1;0;0;6205;App;1;synthetic
+C000858;ocasional;36-45;SBKP;Campinas;São Paulo;2024-12-18;Topazio;1;0;0;6670;Email;1;synthetic
+C000859;crescimento;56-65;SBSP;São Paulo;São Paulo;2024-05-15;Safira;1;0;0;2926;Email;1;synthetic
+C000860;ocasional;36-45;SBCT;Curitiba;Paraná;2024-04-16;Topazio;1;0;0;2044;WhatsApp;1;synthetic
+C000861;crescimento;18-25;SBKP;Campinas;São Paulo;2023-03-15;Basico;1;1;1;13498;App;1;synthetic
+C000862;em_risco;18-25;SBKP;Campinas;São Paulo;2022-07-01;Basico;1;0;0;8410;Email;1;synthetic
+C000863;crescimento;46-55;SBBR;Brasília;Distrito Federal;2021-12-07;Basico;1;0;0;3363;App;1;synthetic
+C000864;ocasional;56-65;SBSP;São Paulo;São Paulo;2025-01-01;Basico;1;0;0;611;App;1;synthetic
+C000865;crescimento;26-35;SBSL;São Luís;Maranhão;2019-10-23;Basico;1;0;1;2698;WhatsApp;1;synthetic
+C000866;ocasional;66+;SBPA;Porto Alegre;Rio Grande do Sul;2020-01-19;Basico;1;0;0;4503;App;1;synthetic
+C000867;ocasional;66+;SBKP;Campinas;São Paulo;2022-08-19;Basico;1;0;0;1499;Email;1;synthetic
+C000868;crescimento;36-45;SBMO;Maceió;Alagoas;2025-08-20;Basico;1;1;0;16594;Email;1;synthetic
+C000869;ocasional;46-55;SBFL;Florianópolis;Santa Catarina;2022-05-08;Basico;1;0;1;5585;Email;1;synthetic
+C000870;ocasional;66+;SBCF;Confins;Minas Gerais;2020-04-08;Basico;1;0;0;2683;WhatsApp;1;synthetic
+C000871;crescimento;36-45;SBKP;Campinas;São Paulo;2020-02-21;Safira;1;0;1;9232;WhatsApp;1;synthetic
+C000872;crescimento;46-55;SBGR;Guarulhos;São Paulo;2019-08-05;Basico;1;1;0;2791;WhatsApp;0;synthetic
+C000873;ocasional;26-35;SBKP;Campinas;São Paulo;2022-07-27;Basico;1;0;0;8058;WhatsApp;1;synthetic
+C000874;alto_valor;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2022-09-20;Diamante;1;1;0;5087;SMS;1;synthetic
+C000875;ocasional;56-65;SBCF;Confins;Minas Gerais;2019-06-13;Topazio;1;0;0;15951;Email;1;synthetic
+C000876;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-02-26;Topazio;1;0;1;24534;App;1;synthetic
+C000877;alto_valor;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2025-08-09;Diamante;1;1;0;3828;App;1;synthetic
+C000878;ocasional;36-45;SBKP;Campinas;São Paulo;2018-11-27;Basico;1;0;0;2734;App;0;synthetic
+C000879;ocasional;26-35;SBBE;Belém;Pará;2023-02-25;Basico;1;0;0;930;App;1;synthetic
+C000880;em_risco;46-55;SBCT;Curitiba;Paraná;2018-12-15;Topazio;1;0;1;1217;WhatsApp;1;synthetic
+C000881;ocasional;36-45;SBKP;Campinas;São Paulo;2023-09-10;Basico;1;0;0;3472;Email;1;synthetic
+C000882;alto_valor;36-45;SBGR;Guarulhos;São Paulo;2025-08-31;Topazio;1;1;1;6742;WhatsApp;1;synthetic
+C000883;ocasional;26-35;SBGO;Goiânia;Goiás;2022-04-25;Topazio;1;0;0;7812;App;1;synthetic
+C000884;ocasional;46-55;SBSG;Natal;Rio Grande do Norte;2022-10-24;Basico;1;1;0;1305;App;1;synthetic
+C000885;em_risco;36-45;SBRF;Recife;Pernambuco;2024-02-03;Basico;1;0;0;5318;App;1;synthetic
+C000886;ocasional;26-35;SBCF;Confins;Minas Gerais;2018-12-08;Topazio;1;0;0;7639;WhatsApp;1;synthetic
+C000887;ocasional;36-45;SBKP;Campinas;São Paulo;2020-03-07;Basico;1;0;0;777;App;1;synthetic
+C000888;ocasional;46-55;SBRF;Recife;Pernambuco;2020-06-08;Basico;1;0;0;386;Email;1;synthetic
+C000889;ocasional;56-65;SBCF;Confins;Minas Gerais;2025-05-27;Basico;1;0;0;7534;App;1;synthetic
+C000890;crescimento;36-45;SBKP;Campinas;São Paulo;2025-01-17;Topazio;1;1;1;18196;WhatsApp;1;synthetic
+C000891;premium;36-45;SBRF;Recife;Pernambuco;2022-05-02;Diamante;1;1;1;3141;Email;0;synthetic
+C000892;ocasional;26-35;SBSL;São Luís;Maranhão;2022-04-01;Basico;1;0;0;1123;App;1;synthetic
+C000893;alto_valor;66+;SBKP;Campinas;São Paulo;2023-08-28;Diamante;1;1;1;14260;SMS;0;synthetic
+C000894;premium;66+;SBRF;Recife;Pernambuco;2025-03-04;Diamante;1;1;1;53811;WhatsApp;1;synthetic
+C000895;crescimento;36-45;SBCT;Curitiba;Paraná;2019-06-23;Topazio;1;0;1;10261;SMS;1;synthetic
+C000896;alto_valor;26-35;SBEG;Manaus;Amazonas;2023-05-18;Safira;1;1;1;2494;App;1;synthetic
+C000897;crescimento;36-45;SBGR;Guarulhos;São Paulo;2023-04-17;Safira;1;1;1;1634;WhatsApp;1;synthetic
+C000898;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2021-12-23;Basico;1;0;0;719;App;1;synthetic
+C000899;ocasional;26-35;SBCT;Curitiba;Paraná;2020-12-23;Basico;1;0;0;1942;WhatsApp;1;synthetic
+C000900;alto_valor;46-55;SBBR;Brasília;Distrito Federal;2025-02-02;Diamante;1;1;1;7089;WhatsApp;1;synthetic
+C000901;crescimento;18-25;SBKP;Campinas;São Paulo;2024-02-14;Safira;1;0;1;6066;App;1;synthetic
+C000902;ocasional;36-45;SBCF;Confins;Minas Gerais;2022-05-06;Basico;1;0;0;5937;WhatsApp;1;synthetic
+C000903;ocasional;66+;SBKP;Campinas;São Paulo;2021-07-02;Topazio;1;0;1;16201;App;1;synthetic
+C000904;ocasional;46-55;SBSP;São Paulo;São Paulo;2024-01-26;Basico;1;0;0;1958;App;1;synthetic
+C000905;alto_valor;26-35;SBSV;Salvador;Bahia;2022-05-15;Topazio;1;1;1;13215;App;1;synthetic
+C000906;alto_valor;26-35;SBKP;Campinas;São Paulo;2024-10-21;Topazio;1;0;0;2630;WhatsApp;0;synthetic
+C000907;em_risco;26-35;SBKP;Campinas;São Paulo;2024-11-26;Safira;1;1;0;8592;App;1;synthetic
+C000908;crescimento;26-35;SBSV;Salvador;Bahia;2023-10-17;Basico;1;0;0;1303;WhatsApp;1;synthetic
+C000909;em_risco;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-03-31;Safira;1;1;1;9596;App;1;synthetic
+C000910;em_risco;46-55;SBKP;Campinas;São Paulo;2020-03-20;Basico;1;0;0;1979;Email;1;synthetic
+C000911;em_risco;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2024-10-21;Topazio;1;0;1;6517;WhatsApp;1;synthetic
+C000912;ocasional;46-55;SBKP;Campinas;São Paulo;2023-10-18;Topazio;1;1;0;5054;Email;0;synthetic
+C000913;ocasional;46-55;SBCF;Confins;Minas Gerais;2025-01-02;Basico;1;0;0;2074;WhatsApp;1;synthetic
+C000914;ocasional;36-45;SBRF;Recife;Pernambuco;2022-04-26;Basico;1;0;0;2665;WhatsApp;1;synthetic
+C000915;alto_valor;46-55;SBCF;Confins;Minas Gerais;2019-03-01;Diamante;1;0;0;41734;SMS;1;synthetic
+C000916;crescimento;36-45;SBPS;Porto Seguro;Bahia;2022-11-19;Topazio;1;1;0;5101;WhatsApp;1;synthetic
+C000917;ocasional;46-55;SBGR;Guarulhos;São Paulo;2020-08-03;Basico;1;0;0;2244;Email;1;synthetic
+C000918;crescimento;26-35;SBKP;Campinas;São Paulo;2018-11-16;Safira;1;0;1;14284;WhatsApp;1;synthetic
+C000919;crescimento;66+;SBSP;São Paulo;São Paulo;2022-02-16;Basico;1;0;1;3616;App;1;synthetic
+C000920;alto_valor;36-45;SBEG;Manaus;Amazonas;2021-02-07;Diamante;1;0;1;15683;App;1;synthetic
+C000921;crescimento;26-35;SBRF;Recife;Pernambuco;2022-08-05;Safira;1;0;1;4830;App;1;synthetic
+C000922;ocasional;36-45;SBKP;Campinas;São Paulo;2021-06-15;Topazio;1;0;0;6034;App;0;synthetic
+C000923;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2019-02-17;Basico;1;0;0;1634;App;1;synthetic
+C000924;ocasional;46-55;SBRF;Recife;Pernambuco;2024-08-09;Basico;1;0;0;2212;Email;1;synthetic
+C000925;crescimento;26-35;SBCF;Confins;Minas Gerais;2021-05-19;Topazio;1;1;1;15656;WhatsApp;1;synthetic
+C000926;alto_valor;46-55;SBRF;Recife;Pernambuco;2022-09-10;Safira;1;0;1;15940;WhatsApp;1;synthetic
+C000927;premium;36-45;SBCF;Confins;Minas Gerais;2022-12-25;Diamante;1;1;1;11105;SMS;0;synthetic
+C000928;em_risco;36-45;SBCF;Confins;Minas Gerais;2024-04-17;Basico;1;0;0;4077;App;1;synthetic
+C000929;ocasional;56-65;SBKP;Campinas;São Paulo;2025-02-06;Basico;1;0;0;6870;Email;1;synthetic
+C000930;em_risco;36-45;SBFL;Florianópolis;Santa Catarina;2022-02-09;Basico;1;0;1;2524;App;1;synthetic
+C000931;ocasional;46-55;SBCF;Confins;Minas Gerais;2020-01-17;Basico;1;1;0;1940;App;1;synthetic
+C000932;premium;56-65;SBSP;São Paulo;São Paulo;2022-02-27;Diamante;1;1;1;18644;App;1;synthetic
+C000933;crescimento;36-45;SBCY;Cuiabá;Mato Grosso;2021-08-07;Topazio;1;1;0;6894;WhatsApp;1;synthetic
+C000934;ocasional;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-01-30;Topazio;1;0;0;8745;App;1;synthetic
+C000935;crescimento;18-25;SBCF;Confins;Minas Gerais;2018-12-30;Safira;1;0;0;4201;App;1;synthetic
+C000936;crescimento;26-35;SBCF;Confins;Minas Gerais;2021-04-29;Topazio;1;1;1;7545;Email;1;synthetic
+C000937;alto_valor;46-55;SBSP;São Paulo;São Paulo;2024-01-09;Diamante;1;1;1;3695;SMS;1;synthetic
+C000938;crescimento;56-65;SBKP;Campinas;São Paulo;2019-03-08;Topazio;1;1;0;9693;App;1;synthetic
+C000939;alto_valor;56-65;SBCF;Confins;Minas Gerais;2019-04-02;Topazio;1;0;1;3706;App;1;synthetic
+C000940;em_risco;46-55;SBRF;Recife;Pernambuco;2021-08-23;Basico;1;0;1;7926;SMS;1;synthetic
+C000941;crescimento;46-55;SBCF;Confins;Minas Gerais;2019-08-04;Safira;1;0;1;20327;App;1;synthetic
+C000942;ocasional;18-25;SBSL;São Luís;Maranhão;2020-03-16;Basico;1;0;0;4106;App;1;synthetic
+C000943;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-06-13;Basico;1;0;0;9684;WhatsApp;1;synthetic
+C000944;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-12-31;Topazio;1;1;0;3014;Email;1;synthetic
+C000945;ocasional;26-35;SBCF;Confins;Minas Gerais;2019-12-01;Basico;1;0;0;1999;App;1;synthetic
+C000946;ocasional;66+;SBSG;Natal;Rio Grande do Norte;2024-02-09;Basico;1;0;0;1312;Email;1;synthetic
+C000947;ocasional;36-45;SBCF;Confins;Minas Gerais;2020-08-15;Basico;1;0;0;6149;Email;1;synthetic
+C000948;premium;56-65;SBGR;Guarulhos;São Paulo;2020-01-02;Diamante;1;1;1;59952;App;1;synthetic
+C000949;crescimento;36-45;SBSR;São José do Rio Preto;São Paulo;2021-04-04;Basico;1;0;0;5137;Email;1;synthetic
+C000950;ocasional;36-45;SBCF;Confins;Minas Gerais;2020-08-23;Topazio;1;0;0;2415;App;0;synthetic
+C000951;crescimento;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2025-06-27;Basico;1;1;0;1241;App;1;synthetic
+C000952;crescimento;56-65;SBKP;Campinas;São Paulo;2022-10-25;Basico;1;1;0;2479;Email;1;synthetic
+C000953;ocasional;26-35;SBRF;Recife;Pernambuco;2020-08-17;Basico;1;0;0;1701;WhatsApp;1;synthetic
+C000954;crescimento;46-55;SBKP;Campinas;São Paulo;2022-09-29;Safira;1;1;1;10170;App;1;synthetic
+C000955;alto_valor;36-45;SBCF;Confins;Minas Gerais;2025-03-21;Diamante;1;1;1;18183;App;0;synthetic
+C000956;alto_valor;66+;SBRF;Recife;Pernambuco;2020-07-06;Topazio;1;1;0;2473;App;1;synthetic
+C000957;crescimento;46-55;SBRF;Recife;Pernambuco;2024-04-06;Topazio;1;1;1;3530;Email;1;synthetic
+C000958;ocasional;46-55;SBKP;Campinas;São Paulo;2023-12-02;Basico;1;1;0;856;WhatsApp;1;synthetic
+C000959;crescimento;36-45;SBCY;Cuiabá;Mato Grosso;2020-12-08;Safira;1;0;0;13866;WhatsApp;1;synthetic
+C000960;alto_valor;18-25;SBRF;Recife;Pernambuco;2023-01-01;Safira;1;1;1;3508;WhatsApp;1;synthetic
+C000961;alto_valor;46-55;SBRF;Recife;Pernambuco;2020-12-11;Safira;1;0;1;1649;SMS;1;synthetic
+C000962;crescimento;36-45;SBRF;Recife;Pernambuco;2020-07-22;Topazio;1;1;1;1852;App;1;synthetic
+C000963;crescimento;46-55;SBRF;Recife;Pernambuco;2024-06-16;Safira;1;0;0;3802;SMS;1;synthetic
+C000964;crescimento;46-55;SBCF;Confins;Minas Gerais;2020-08-24;Safira;1;1;0;5869;Email;1;synthetic
+C000965;ocasional;56-65;SBPS;Porto Seguro;Bahia;2021-11-25;Basico;1;0;1;722;App;1;synthetic
+C000966;ocasional;26-35;SBKP;Campinas;São Paulo;2021-04-24;Basico;1;0;0;992;WhatsApp;1;synthetic
+C000967;crescimento;26-35;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-06-12;Basico;1;1;1;1532;App;0;synthetic
+C000968;em_risco;36-45;SBSV;Salvador;Bahia;2018-10-19;Topazio;1;0;0;3151;WhatsApp;1;synthetic
+C000969;ocasional;66+;SBSV;Salvador;Bahia;2022-10-03;Topazio;1;0;0;7097;App;1;synthetic
+C000970;ocasional;46-55;SBGO;Goiânia;Goiás;2021-05-26;Basico;1;0;0;1022;WhatsApp;1;synthetic
+C000971;crescimento;46-55;SBCF;Confins;Minas Gerais;2024-07-03;Basico;1;0;0;1300;App;1;synthetic
+C000972;crescimento;56-65;SBSP;São Paulo;São Paulo;2021-03-24;Topazio;1;0;0;1472;App;1;synthetic
+C000973;ocasional;18-25;SBUL;Uberlândia;Minas Gerais;2018-12-27;Basico;1;0;0;2729;App;1;synthetic
+C000974;em_risco;36-45;SBMO;Maceió;Alagoas;2023-04-02;Topazio;1;1;0;41762;App;1;synthetic
+C000975;alto_valor;26-35;SBKP;Campinas;São Paulo;2018-11-18;Diamante;1;1;1;3073;App;1;synthetic
+C000976;alto_valor;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2020-12-14;Diamante;1;1;0;5114;WhatsApp;1;synthetic
+C000977;alto_valor;18-25;SBRP;Ribeirão Preto;São Paulo;2025-09-29;Topazio;1;1;0;6532;App;1;synthetic
+C000978;ocasional;26-35;SBSP;São Paulo;São Paulo;2022-08-05;Topazio;1;0;0;4103;WhatsApp;1;synthetic
+C000979;crescimento;36-45;SBBR;Brasília;Distrito Federal;2024-11-04;Topazio;1;1;0;1340;WhatsApp;1;synthetic
+C000980;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2020-02-19;Topazio;1;1;0;12617;WhatsApp;1;synthetic
+C000981;ocasional;46-55;SBCT;Curitiba;Paraná;2024-12-07;Basico;1;0;0;797;App;1;synthetic
+C000982;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2024-08-01;Topazio;1;1;0;9030;App;1;synthetic
+C000983;ocasional;66+;SBCT;Curitiba;Paraná;2020-02-25;Topazio;1;0;0;5129;WhatsApp;1;synthetic
+C000984;ocasional;36-45;SBCF;Confins;Minas Gerais;2020-06-08;Topazio;1;1;1;731;WhatsApp;0;synthetic
+C000985;premium;56-65;SBBE;Belém;Pará;2022-12-31;Safira;1;1;0;5008;Email;1;synthetic
+C000986;ocasional;26-35;SBBE;Belém;Pará;2019-02-21;Basico;1;0;0;1591;App;1;synthetic
+C000987;crescimento;36-45;SBBE;Belém;Pará;2022-03-17;Topazio;1;0;0;33240;SMS;1;synthetic
+C000988;em_risco;46-55;SBGR;Guarulhos;São Paulo;2022-02-18;Safira;1;1;0;5233;App;1;synthetic
+C000989;crescimento;56-65;SBBE;Belém;Pará;2019-05-19;Basico;1;1;0;895;WhatsApp;1;synthetic
+C000990;premium;26-35;SBSV;Salvador;Bahia;2018-12-10;Diamante;1;1;1;6332;WhatsApp;1;synthetic
+C000991;ocasional;56-65;SBCY;Cuiabá;Mato Grosso;2019-06-05;Basico;1;0;1;942;App;1;synthetic
+C000992;crescimento;36-45;SBFZ;Fortaleza;Ceará;2023-01-22;Topazio;1;0;1;4620;SMS;1;synthetic
+C000993;em_risco;46-55;SBKP;Campinas;São Paulo;2023-01-10;Basico;1;1;1;4408;SMS;1;synthetic
+C000994;alto_valor;26-35;SBCT;Curitiba;Paraná;2018-11-30;Safira;1;1;1;20519;SMS;1;synthetic
+C000995;crescimento;18-25;SBKP;Campinas;São Paulo;2020-12-03;Topazio;1;1;0;3776;App;1;synthetic
+C000996;ocasional;36-45;SBKP;Campinas;São Paulo;2021-04-12;Basico;1;1;0;1896;App;1;synthetic
+C000997;ocasional;56-65;SBCF;Confins;Minas Gerais;2021-04-19;Topazio;1;0;0;6193;Email;1;synthetic
+C000998;ocasional;18-25;SBKP;Campinas;São Paulo;2020-08-29;Topazio;1;0;0;4036;App;1;synthetic
+C000999;crescimento;56-65;SBBE;Belém;Pará;2018-12-15;Topazio;1;0;0;7873;Email;1;synthetic
+C001000;ocasional;46-55;SBMO;Maceió;Alagoas;2019-09-27;Basico;1;1;0;8386;WhatsApp;1;synthetic
+C001001;ocasional;56-65;SBRF;Recife;Pernambuco;2018-12-04;Basico;1;0;0;880;WhatsApp;0;synthetic
+C001002;ocasional;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2024-12-20;Topazio;1;0;1;12994;WhatsApp;1;synthetic
+C001003;ocasional;36-45;SBBR;Brasília;Distrito Federal;2020-12-27;Basico;1;0;0;2452;App;1;synthetic
+C001004;alto_valor;26-35;SBKP;Campinas;São Paulo;2019-11-04;Safira;1;0;1;4093;WhatsApp;1;synthetic
+C001005;ocasional;56-65;SBRF;Recife;Pernambuco;2024-06-01;Basico;1;0;1;3863;SMS;1;synthetic
+C001006;ocasional;36-45;SBCF;Confins;Minas Gerais;2021-08-13;Basico;1;0;0;2713;App;1;synthetic
+C001007;ocasional;46-55;SBBR;Brasília;Distrito Federal;2020-02-24;Basico;1;0;0;3570;App;1;synthetic
+C001008;alto_valor;36-45;SBBE;Belém;Pará;2019-11-11;Diamante;1;0;0;8749;App;1;synthetic
+C001009;ocasional;26-35;SBGR;Guarulhos;São Paulo;2024-01-31;Basico;1;0;0;2050;WhatsApp;1;synthetic
+C001010;crescimento;36-45;SBKP;Campinas;São Paulo;2024-04-20;Basico;1;0;0;1612;Email;1;synthetic
+C001011;ocasional;36-45;SBKP;Campinas;São Paulo;2021-05-21;Basico;1;0;0;1649;SMS;1;synthetic
+C001012;ocasional;56-65;SBKP;Campinas;São Paulo;2023-07-11;Basico;1;0;0;12408;App;1;synthetic
+C001013;em_risco;46-55;SBSP;São Paulo;São Paulo;2020-02-09;Safira;1;0;0;68261;WhatsApp;0;synthetic
+C001014;crescimento;36-45;SBSG;Natal;Rio Grande do Norte;2023-04-25;Topazio;1;0;0;3693;WhatsApp;1;synthetic
+C001015;alto_valor;36-45;SBSP;São Paulo;São Paulo;2019-09-03;Diamante;1;0;1;20783;WhatsApp;1;synthetic
+C001016;em_risco;36-45;SBCF;Confins;Minas Gerais;2020-12-25;Topazio;1;0;0;9015;App;1;synthetic
+C001017;ocasional;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2024-08-27;Topazio;1;1;0;5061;Email;1;synthetic
+C001018;crescimento;56-65;SBSP;São Paulo;São Paulo;2019-06-05;Basico;1;1;0;5058;Email;1;synthetic
+C001019;ocasional;46-55;SBKP;Campinas;São Paulo;2019-04-16;Topazio;1;0;0;5573;App;1;synthetic
+C001020;ocasional;46-55;SBKP;Campinas;São Paulo;2022-08-27;Basico;1;0;0;1814;WhatsApp;0;synthetic
+C001021;crescimento;46-55;SBFL;Florianópolis;Santa Catarina;2020-01-29;Topazio;1;1;0;3953;SMS;1;synthetic
+C001022;ocasional;56-65;SBBE;Belém;Pará;2020-06-10;Basico;1;1;0;3905;App;0;synthetic
+C001023;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-07-06;Topazio;1;1;1;6407;WhatsApp;1;synthetic
+C001024;alto_valor;46-55;SBCF;Confins;Minas Gerais;2024-12-16;Topazio;1;1;1;2575;App;1;synthetic
+C001025;premium;36-45;SBCF;Confins;Minas Gerais;2022-10-28;Diamante;1;1;1;9443;App;1;synthetic
+C001026;ocasional;36-45;SBRF;Recife;Pernambuco;2024-02-21;Basico;1;0;0;1577;App;0;synthetic
+C001027;ocasional;36-45;SBKP;Campinas;São Paulo;2022-11-29;Basico;1;0;0;13129;WhatsApp;0;synthetic
+C001028;alto_valor;46-55;SBGR;Guarulhos;São Paulo;2022-03-22;Diamante;1;1;0;5926;App;1;synthetic
+C001029;ocasional;36-45;SBBE;Belém;Pará;2022-02-08;Basico;1;0;0;1644;SMS;1;synthetic
+C001030;em_risco;56-65;SBVT;Vitória;Espírito Santo;2018-10-13;Safira;1;0;0;9891;WhatsApp;1;synthetic
+C001031;ocasional;26-35;SBKP;Campinas;São Paulo;2022-12-22;Basico;1;1;0;438;Email;1;synthetic
+C001032;ocasional;36-45;SBEG;Manaus;Amazonas;2020-11-17;Basico;1;0;0;6688;App;1;synthetic
+C001033;ocasional;26-35;SBCT;Curitiba;Paraná;2025-01-24;Basico;1;0;0;468;App;1;synthetic
+C001034;crescimento;56-65;SBCF;Confins;Minas Gerais;2019-06-27;Topazio;1;0;1;2178;WhatsApp;1;synthetic
+C001035;crescimento;36-45;SBCY;Cuiabá;Mato Grosso;2022-07-20;Safira;1;1;0;2220;SMS;1;synthetic
+C001036;crescimento;56-65;SBSV;Salvador;Bahia;2020-06-09;Basico;1;1;0;3704;WhatsApp;1;synthetic
+C001037;premium;46-55;SBUL;Uberlândia;Minas Gerais;2024-12-30;Diamante;1;1;1;11086;App;1;synthetic
+C001038;ocasional;36-45;SBKP;Campinas;São Paulo;2022-08-31;Basico;1;0;0;1369;WhatsApp;1;synthetic
+C001039;crescimento;26-35;SBBE;Belém;Pará;2020-11-23;Topazio;1;1;0;2021;WhatsApp;1;synthetic
+C001040;alto_valor;46-55;SBRF;Recife;Pernambuco;2018-12-04;Diamante;1;1;1;9420;App;1;synthetic
+C001041;em_risco;36-45;SBCT;Curitiba;Paraná;2021-09-05;Topazio;1;1;0;3547;Email;1;synthetic
+C001042;ocasional;18-25;SBFZ;Fortaleza;Ceará;2019-06-01;Basico;1;1;0;2364;Email;1;synthetic
+C001043;ocasional;56-65;SBKP;Campinas;São Paulo;2022-05-14;Topazio;1;0;0;2695;Email;1;synthetic
+C001044;em_risco;26-35;SBKP;Campinas;São Paulo;2019-04-26;Safira;1;0;1;6132;App;1;synthetic
+C001045;ocasional;56-65;SBEG;Manaus;Amazonas;2021-05-12;Basico;1;0;0;1434;App;0;synthetic
+C001046;crescimento;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-12-12;Basico;1;0;1;3386;App;1;synthetic
+C001047;crescimento;56-65;SBRF;Recife;Pernambuco;2023-11-25;Basico;1;1;0;5188;App;0;synthetic
+C001048;ocasional;46-55;SBKP;Campinas;São Paulo;2024-04-14;Basico;1;0;0;2332;WhatsApp;1;synthetic
+C001049;ocasional;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-03-10;Basico;1;1;1;1569;WhatsApp;1;synthetic
+C001050;premium;26-35;SBRF;Recife;Pernambuco;2024-02-08;Diamante;1;1;0;19556;Email;1;synthetic
+C001051;ocasional;26-35;SBRF;Recife;Pernambuco;2020-06-29;Basico;1;0;0;1629;App;1;synthetic
+C001052;alto_valor;26-35;SBKP;Campinas;São Paulo;2022-11-13;Diamante;1;0;0;15018;App;1;synthetic
+C001053;ocasional;26-35;SBCF;Confins;Minas Gerais;2024-08-29;Basico;1;1;0;3655;SMS;1;synthetic
+C001054;crescimento;36-45;SBKP;Campinas;São Paulo;2019-03-13;Safira;1;0;0;5174;App;1;synthetic
+C001055;ocasional;66+;SBPS;Porto Seguro;Bahia;2025-02-04;Basico;1;0;0;1055;App;1;synthetic
+C001056;ocasional;46-55;SBUL;Uberlândia;Minas Gerais;2024-08-15;Basico;1;0;1;2010;Email;1;synthetic
+C001057;ocasional;26-35;SBRF;Recife;Pernambuco;2019-04-13;Basico;1;0;0;2617;Email;1;synthetic
+C001058;crescimento;36-45;SBBR;Brasília;Distrito Federal;2019-10-11;Topazio;1;1;1;2720;SMS;1;synthetic
+C001059;alto_valor;18-25;SBCF;Confins;Minas Gerais;2019-09-27;Topazio;1;1;1;2302;App;1;synthetic
+C001060;alto_valor;26-35;SBCT;Curitiba;Paraná;2018-11-03;Safira;1;0;0;23366;WhatsApp;1;synthetic
+C001061;em_risco;46-55;SBRF;Recife;Pernambuco;2019-11-04;Topazio;1;0;1;1500;App;1;synthetic
+C001062;crescimento;26-35;SBGR;Guarulhos;São Paulo;2023-11-14;Topazio;1;0;0;2297;SMS;1;synthetic
+C001063;em_risco;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2023-07-30;Basico;1;0;1;2834;WhatsApp;1;synthetic
+C001064;premium;36-45;SBKP;Campinas;São Paulo;2020-03-13;Diamante;1;0;1;1902;App;1;synthetic
+C001065;alto_valor;26-35;SBRF;Recife;Pernambuco;2022-06-14;Safira;1;1;1;10801;App;1;synthetic
+C001066;alto_valor;18-25;SBGL;Rio de Janeiro;Rio de Janeiro;2018-11-24;Diamante;1;1;1;15090;App;1;synthetic
+C001067;crescimento;46-55;SBRP;Ribeirão Preto;São Paulo;2021-09-29;Basico;1;0;0;1539;WhatsApp;1;synthetic
+C001068;em_risco;26-35;SBBE;Belém;Pará;2022-08-20;Basico;1;0;0;2739;App;1;synthetic
+C001069;em_risco;36-45;SBKP;Campinas;São Paulo;2021-04-19;Topazio;1;0;0;31328;App;1;synthetic
+C001070;ocasional;46-55;SBSV;Salvador;Bahia;2025-04-19;Topazio;1;0;0;1743;WhatsApp;1;synthetic
+C001071;ocasional;36-45;SBSV;Salvador;Bahia;2019-07-18;Basico;1;1;0;6143;WhatsApp;1;synthetic
+C001072;crescimento;36-45;SBCT;Curitiba;Paraná;2022-03-09;Basico;1;0;0;5792;Email;1;synthetic
+C001073;crescimento;46-55;SBRF;Recife;Pernambuco;2022-04-26;Topazio;1;1;0;45631;App;0;synthetic
+C001074;crescimento;46-55;SBSG;Natal;Rio Grande do Norte;2021-09-22;Safira;1;0;1;5198;Email;1;synthetic
+C001075;em_risco;36-45;SBKP;Campinas;São Paulo;2020-08-26;Topazio;1;0;0;3456;App;1;synthetic
+C001076;ocasional;26-35;SBKP;Campinas;São Paulo;2023-07-15;Topazio;1;0;0;5961;WhatsApp;1;synthetic
+C001077;ocasional;18-25;SBRF;Recife;Pernambuco;2025-05-22;Basico;1;1;0;5059;App;0;synthetic
+C001078;crescimento;36-45;SBCT;Curitiba;Paraná;2025-02-27;Basico;1;1;1;850;Email;1;synthetic
+C001079;ocasional;36-45;SBEG;Manaus;Amazonas;2019-12-26;Topazio;1;0;0;3870;App;1;synthetic
+C001080;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-02-20;Basico;1;0;1;1680;WhatsApp;0;synthetic
+C001081;alto_valor;18-25;SBGR;Guarulhos;São Paulo;2024-05-19;Diamante;1;0;1;1675;SMS;1;synthetic
+C001082;em_risco;36-45;SBCT;Curitiba;Paraná;2020-09-18;Topazio;1;1;0;2743;App;0;synthetic
+C001083;crescimento;46-55;SBCF;Confins;Minas Gerais;2018-10-15;Safira;1;1;0;1118;Email;1;synthetic
+C001084;ocasional;36-45;SBSR;São José do Rio Preto;São Paulo;2019-03-12;Topazio;1;0;0;2831;Email;1;synthetic
+C001085;ocasional;36-45;SBCY;Cuiabá;Mato Grosso;2019-05-13;Basico;1;1;0;10883;WhatsApp;1;synthetic
+C001086;ocasional;36-45;SBBR;Brasília;Distrito Federal;2024-01-27;Basico;1;0;0;2528;Email;1;synthetic
+C001087;ocasional;46-55;SBBE;Belém;Pará;2019-05-16;Topazio;1;0;0;3305;App;1;synthetic
+C001088;ocasional;18-25;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-10-24;Basico;1;1;0;1024;WhatsApp;1;synthetic
+C001089;ocasional;36-45;SBRF;Recife;Pernambuco;2020-11-28;Basico;1;1;0;874;App;1;synthetic
+C001090;ocasional;36-45;SBGR;Guarulhos;São Paulo;2021-07-05;Topazio;1;1;1;2059;WhatsApp;1;synthetic
+C001091;alto_valor;46-55;SBKP;Campinas;São Paulo;2021-01-02;Diamante;1;1;0;7289;Email;1;synthetic
+C001092;ocasional;56-65;SBKP;Campinas;São Paulo;2024-05-09;Basico;1;0;0;6405;App;1;synthetic
+C001093;ocasional;56-65;SBKP;Campinas;São Paulo;2023-06-02;Basico;1;0;0;1389;App;1;synthetic
+C001094;crescimento;56-65;SBCF;Confins;Minas Gerais;2023-02-25;Basico;1;1;1;1133;WhatsApp;1;synthetic
+C001095;ocasional;18-25;SBSG;Natal;Rio Grande do Norte;2021-11-29;Topazio;1;0;0;11069;Email;1;synthetic
+C001096;crescimento;56-65;SBCF;Confins;Minas Gerais;2019-03-26;Topazio;1;1;0;1725;Email;0;synthetic
+C001097;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-11-23;Safira;1;1;1;18384;App;1;synthetic
+C001098;ocasional;26-35;SBCY;Cuiabá;Mato Grosso;2020-10-23;Basico;1;0;0;905;Email;1;synthetic
+C001099;crescimento;26-35;SBKP;Campinas;São Paulo;2023-01-07;Topazio;1;0;0;20861;Email;1;synthetic
+C001100;ocasional;56-65;SBSP;São Paulo;São Paulo;2021-01-17;Basico;1;0;0;10951;App;1;synthetic
+C001101;em_risco;36-45;SBRF;Recife;Pernambuco;2023-02-13;Topazio;1;0;1;1461;WhatsApp;1;synthetic
+C001102;crescimento;26-35;SBRF;Recife;Pernambuco;2024-06-29;Topazio;1;0;0;25613;App;1;synthetic
+C001103;em_risco;26-35;SBRP;Ribeirão Preto;São Paulo;2025-05-01;Basico;1;0;0;826;App;1;synthetic
+C001104;crescimento;36-45;SBKP;Campinas;São Paulo;2022-05-05;Basico;1;1;0;1416;App;1;synthetic
+C001105;em_risco;56-65;SBBR;Brasília;Distrito Federal;2024-08-06;Basico;1;1;1;6229;WhatsApp;1;synthetic
+C001106;ocasional;18-25;SBKP;Campinas;São Paulo;2023-01-15;Basico;1;0;0;1336;App;1;synthetic
+C001107;ocasional;66+;SBSP;São Paulo;São Paulo;2022-05-01;Topazio;1;0;0;4595;WhatsApp;1;synthetic
+C001108;ocasional;46-55;SBRF;Recife;Pernambuco;2025-04-05;Topazio;1;0;0;15299;SMS;1;synthetic
+C001109;ocasional;26-35;SBCF;Confins;Minas Gerais;2024-05-04;Basico;1;0;0;11510;App;1;synthetic
+C001110;ocasional;36-45;SBEG;Manaus;Amazonas;2019-06-14;Topazio;1;0;0;3326;App;1;synthetic
+C001111;crescimento;46-55;SBEG;Manaus;Amazonas;2019-01-02;Safira;1;0;1;4202;App;1;synthetic
+C001112;ocasional;26-35;SBCT;Curitiba;Paraná;2025-01-01;Basico;1;0;1;1320;App;0;synthetic
+C001113;em_risco;26-35;SBVT;Vitória;Espírito Santo;2018-10-20;Topazio;1;1;0;3713;App;1;synthetic
+C001114;ocasional;18-25;SBKP;Campinas;São Paulo;2019-09-15;Basico;1;0;0;3536;WhatsApp;1;synthetic
+C001115;em_risco;56-65;SBKP;Campinas;São Paulo;2019-10-24;Topazio;1;0;0;14880;Email;1;synthetic
+C001116;ocasional;36-45;SBSP;São Paulo;São Paulo;2021-09-27;Basico;1;0;0;1368;App;1;synthetic
+C001117;em_risco;46-55;SBKP;Campinas;São Paulo;2020-11-21;Safira;1;0;0;14394;Email;0;synthetic
+C001118;ocasional;56-65;SBRF;Recife;Pernambuco;2024-12-15;Basico;1;1;0;2058;App;1;synthetic
+C001119;alto_valor;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2021-08-30;Safira;1;1;1;5506;Email;1;synthetic
+C001120;crescimento;46-55;SBRF;Recife;Pernambuco;2019-05-24;Basico;1;1;1;1738;Email;1;synthetic
+C001121;ocasional;46-55;SBCY;Cuiabá;Mato Grosso;2025-09-29;Basico;1;1;0;4245;SMS;1;synthetic
+C001122;alto_valor;36-45;SBRF;Recife;Pernambuco;2021-04-29;Safira;1;1;0;5258;App;1;synthetic
+C001123;ocasional;56-65;SBKP;Campinas;São Paulo;2025-07-16;Basico;1;0;1;1810;WhatsApp;1;synthetic
+C001124;ocasional;26-35;SBCF;Confins;Minas Gerais;2021-04-05;Basico;1;0;0;2261;App;1;synthetic
+C001125;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-05-26;Basico;1;0;0;399;App;1;synthetic
+C001126;ocasional;26-35;SBKP;Campinas;São Paulo;2020-12-29;Basico;1;0;1;3469;App;1;synthetic
+C001127;crescimento;26-35;SBUL;Uberlândia;Minas Gerais;2023-11-17;Safira;1;0;1;5268;Email;1;synthetic
+C001128;ocasional;46-55;SBCF;Confins;Minas Gerais;2022-03-18;Basico;1;0;0;2384;App;1;synthetic
+C001129;alto_valor;36-45;SBKP;Campinas;São Paulo;2020-06-24;Diamante;1;0;1;6555;App;1;synthetic
+C001130;ocasional;46-55;SBRF;Recife;Pernambuco;2022-03-02;Basico;1;0;0;803;WhatsApp;1;synthetic
+C001131;ocasional;26-35;SBRF;Recife;Pernambuco;2022-07-11;Basico;1;0;1;7489;WhatsApp;0;synthetic
+C001132;premium;18-25;SBPS;Porto Seguro;Bahia;2024-01-09;Diamante;1;1;1;32776;WhatsApp;1;synthetic
+C001133;crescimento;26-35;SBSV;Salvador;Bahia;2025-01-07;Basico;1;0;0;4131;Email;1;synthetic
+C001134;alto_valor;18-25;SBSV;Salvador;Bahia;2023-07-12;Safira;1;0;1;5410;WhatsApp;1;synthetic
+C001135;crescimento;56-65;SBCF;Confins;Minas Gerais;2021-08-25;Safira;1;0;0;25555;Email;1;synthetic
+C001136;ocasional;36-45;SBRF;Recife;Pernambuco;2019-10-31;Topazio;1;1;0;3725;Email;1;synthetic
+C001137;crescimento;18-25;SBPA;Porto Alegre;Rio Grande do Sul;2019-01-26;Safira;1;1;1;14201;App;1;synthetic
+C001138;crescimento;18-25;SBKP;Campinas;São Paulo;2021-06-19;Safira;1;1;0;29558;App;1;synthetic
+C001139;ocasional;36-45;SBSP;São Paulo;São Paulo;2022-08-04;Basico;1;1;0;1276;SMS;1;synthetic
+C001140;ocasional;18-25;SBPA;Porto Alegre;Rio Grande do Sul;2022-12-17;Basico;1;0;0;1862;App;1;synthetic
+C001141;crescimento;36-45;SBGR;Guarulhos;São Paulo;2021-10-23;Basico;1;1;1;2486;Email;1;synthetic
+C001142;alto_valor;46-55;SBCF;Confins;Minas Gerais;2018-10-23;Diamante;1;0;1;37916;App;1;synthetic
+C001143;ocasional;26-35;SBRF;Recife;Pernambuco;2019-10-14;Topazio;1;0;1;4382;App;1;synthetic
+C001144;crescimento;46-55;SBKP;Campinas;São Paulo;2024-08-10;Basico;1;0;0;1053;App;0;synthetic
+C001145;ocasional;46-55;SBCF;Confins;Minas Gerais;2025-01-13;Topazio;1;1;0;2587;App;1;synthetic
+C001146;alto_valor;56-65;SBGO;Goiânia;Goiás;2023-10-01;Safira;1;1;0;2591;App;1;synthetic
+C001147;crescimento;36-45;SBRP;Ribeirão Preto;São Paulo;2019-12-04;Topazio;1;0;1;10352;WhatsApp;1;synthetic
+C001148;alto_valor;46-55;SBCF;Confins;Minas Gerais;2020-08-13;Topazio;1;1;0;2802;WhatsApp;0;synthetic
+C001149;crescimento;36-45;SBFZ;Fortaleza;Ceará;2020-04-19;Basico;1;0;0;658;Email;1;synthetic
+C001150;ocasional;26-35;SBKP;Campinas;São Paulo;2020-12-18;Basico;1;0;0;1337;App;1;synthetic
+C001151;ocasional;56-65;SBPS;Porto Seguro;Bahia;2024-06-08;Basico;1;1;0;5975;App;1;synthetic
+C001152;ocasional;26-35;SBSV;Salvador;Bahia;2020-07-11;Basico;1;0;0;6041;App;1;synthetic
+C001153;em_risco;26-35;SBCF;Confins;Minas Gerais;2025-09-02;Basico;1;1;0;4085;App;1;synthetic
+C001154;crescimento;56-65;SBKP;Campinas;São Paulo;2021-01-22;Basico;1;0;1;3242;SMS;1;synthetic
+C001155;alto_valor;26-35;SBKP;Campinas;São Paulo;2021-10-05;Topazio;1;0;1;8080;WhatsApp;0;synthetic
+C001156;crescimento;36-45;SBBE;Belém;Pará;2020-08-09;Basico;1;0;0;12607;WhatsApp;1;synthetic
+C001157;ocasional;26-35;SBCF;Confins;Minas Gerais;2025-03-27;Basico;1;0;0;1865;App;1;synthetic
+C001158;ocasional;56-65;SBKP;Campinas;São Paulo;2020-10-30;Basico;1;0;0;1135;App;1;synthetic
+C001159;ocasional;56-65;SBSG;Natal;Rio Grande do Norte;2018-12-06;Basico;1;1;0;1611;App;1;synthetic
+C001160;alto_valor;46-55;SBCF;Confins;Minas Gerais;2021-10-04;Diamante;1;1;1;4005;App;1;synthetic
+C001161;em_risco;26-35;SBBR;Brasília;Distrito Federal;2024-07-01;Topazio;1;1;1;4253;App;1;synthetic
+C001162;crescimento;56-65;SBCF;Confins;Minas Gerais;2023-01-02;Basico;1;0;1;1188;Email;1;synthetic
+C001163;ocasional;56-65;SBRF;Recife;Pernambuco;2019-04-24;Topazio;1;0;0;13156;Email;1;synthetic
+C001164;crescimento;18-25;SBMO;Maceió;Alagoas;2023-06-30;Topazio;1;1;0;1419;App;1;synthetic
+C001165;crescimento;66+;SBRF;Recife;Pernambuco;2019-05-01;Topazio;1;0;0;2156;Email;1;synthetic
+C001166;crescimento;46-55;SBCT;Curitiba;Paraná;2024-01-02;Basico;1;1;1;1352;Email;1;synthetic
+C001167;alto_valor;26-35;SBKP;Campinas;São Paulo;2021-08-12;Safira;1;0;1;4921;WhatsApp;1;synthetic
+C001168;ocasional;26-35;SBRF;Recife;Pernambuco;2020-12-17;Basico;1;0;1;1518;WhatsApp;1;synthetic
+C001169;crescimento;36-45;SBKP;Campinas;São Paulo;2019-09-16;Basico;1;0;1;847;App;1;synthetic
+C001170;ocasional;36-45;SBGR;Guarulhos;São Paulo;2021-10-01;Topazio;1;0;0;12695;Email;1;synthetic
+C001171;ocasional;66+;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-04-03;Basico;1;0;0;4539;App;1;synthetic
+C001172;alto_valor;36-45;SBSV;Salvador;Bahia;2024-08-10;Diamante;1;0;0;8565;App;1;synthetic
+C001173;crescimento;36-45;SBFZ;Fortaleza;Ceará;2020-09-13;Basico;1;0;0;1557;App;1;synthetic
+C001174;alto_valor;46-55;SBKP;Campinas;São Paulo;2024-10-14;Diamante;1;1;0;969;Email;1;synthetic
+C001175;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2021-06-23;Basico;1;1;0;6634;App;1;synthetic
+C001176;crescimento;26-35;SBSP;São Paulo;São Paulo;2019-11-18;Topazio;1;1;0;5625;SMS;1;synthetic
+C001177;crescimento;56-65;SBSP;São Paulo;São Paulo;2019-07-04;Safira;1;0;0;14574;WhatsApp;0;synthetic
+C001178;ocasional;18-25;SBGR;Guarulhos;São Paulo;2019-06-28;Basico;1;0;0;382;Email;1;synthetic
+C001179;ocasional;18-25;SBKP;Campinas;São Paulo;2023-04-13;Topazio;1;0;0;4713;App;1;synthetic
+C001180;ocasional;46-55;SBRP;Ribeirão Preto;São Paulo;2023-04-21;Basico;1;1;1;6691;App;1;synthetic
+C001181;alto_valor;56-65;SBBR;Brasília;Distrito Federal;2022-10-30;Diamante;1;0;1;2134;SMS;1;synthetic
+C001182;crescimento;66+;SBRP;Ribeirão Preto;São Paulo;2019-11-15;Safira;1;1;0;3267;App;1;synthetic
+C001183;em_risco;36-45;SBSV;Salvador;Bahia;2023-11-13;Basico;1;0;0;4245;App;1;synthetic
+C001184;ocasional;56-65;SBSG;Natal;Rio Grande do Norte;2018-11-22;Basico;1;0;0;3736;App;1;synthetic
+C001185;premium;36-45;SBKP;Campinas;São Paulo;2019-06-18;Diamante;1;1;1;7811;App;1;synthetic
+C001186;alto_valor;18-25;SBGO;Goiânia;Goiás;2024-12-16;Safira;1;0;1;14884;App;1;synthetic
+C001187;premium;36-45;SBRF;Recife;Pernambuco;2022-05-18;Safira;1;1;0;23168;App;1;synthetic
+C001188;ocasional;46-55;SBRF;Recife;Pernambuco;2023-10-01;Basico;1;0;0;4631;WhatsApp;0;synthetic
+C001189;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2019-07-10;Topazio;1;0;0;3098;App;1;synthetic
+C001190;crescimento;26-35;SBRF;Recife;Pernambuco;2020-05-20;Safira;1;0;0;9831;App;1;synthetic
+C001191;crescimento;26-35;SBCF;Confins;Minas Gerais;2021-04-29;Topazio;1;1;0;2683;WhatsApp;1;synthetic
+C001192;em_risco;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2018-10-15;Safira;1;1;1;2699;App;1;synthetic
+C001193;ocasional;26-35;SBGR;Guarulhos;São Paulo;2019-04-28;Topazio;1;0;0;3988;App;1;synthetic
+C001194;ocasional;26-35;SBCT;Curitiba;Paraná;2022-05-29;Topazio;1;1;0;4143;App;1;synthetic
+C001195;alto_valor;36-45;SBCF;Confins;Minas Gerais;2020-09-29;Safira;1;0;0;3056;WhatsApp;1;synthetic
+C001196;premium;46-55;SBUL;Uberlândia;Minas Gerais;2023-05-14;Safira;1;0;1;2188;App;1;synthetic
+C001197;crescimento;66+;SBCY;Cuiabá;Mato Grosso;2021-05-26;Topazio;1;1;0;2855;App;1;synthetic
+C001198;alto_valor;46-55;SBCF;Confins;Minas Gerais;2021-04-04;Safira;1;0;0;3673;App;0;synthetic
+C001199;alto_valor;46-55;SBSP;São Paulo;São Paulo;2023-03-08;Diamante;1;1;1;6310;WhatsApp;0;synthetic
+C001200;premium;36-45;SBCF;Confins;Minas Gerais;2022-10-31;Diamante;1;1;0;3290;WhatsApp;1;synthetic
+C001201;alto_valor;36-45;SBEG;Manaus;Amazonas;2022-08-21;Diamante;1;0;0;35195;WhatsApp;1;synthetic
+C001202;crescimento;46-55;SBSP;São Paulo;São Paulo;2024-10-27;Topazio;1;1;0;6247;WhatsApp;1;synthetic
+C001203;ocasional;56-65;SBGR;Guarulhos;São Paulo;2020-06-08;Topazio;1;0;0;11379;WhatsApp;0;synthetic
+C001204;ocasional;36-45;SBKP;Campinas;São Paulo;2024-08-21;Basico;1;0;0;806;Email;1;synthetic
+C001205;crescimento;56-65;SBEG;Manaus;Amazonas;2022-09-02;Safira;1;0;0;3166;App;1;synthetic
+C001206;premium;26-35;SBRF;Recife;Pernambuco;2024-05-11;Diamante;1;1;1;6679;Email;1;synthetic
+C001207;crescimento;36-45;SBKP;Campinas;São Paulo;2024-03-26;Basico;1;0;1;3938;WhatsApp;0;synthetic
+C001208;alto_valor;26-35;SBBE;Belém;Pará;2023-02-10;Topazio;1;1;1;14845;Email;1;synthetic
+C001209;ocasional;46-55;SBCF;Confins;Minas Gerais;2021-08-20;Basico;1;0;0;9639;Email;1;synthetic
+C001210;ocasional;46-55;SBKP;Campinas;São Paulo;2022-07-10;Basico;1;0;0;3128;Email;1;synthetic
+C001211;ocasional;56-65;SBCF;Confins;Minas Gerais;2023-02-04;Topazio;1;0;0;25608;Email;1;synthetic
+C001212;ocasional;56-65;SBEG;Manaus;Amazonas;2024-07-06;Basico;1;0;0;3689;SMS;1;synthetic
+C001213;alto_valor;36-45;SBKP;Campinas;São Paulo;2025-07-13;Safira;1;1;1;11092;App;1;synthetic
+C001214;premium;36-45;SBGO;Goiânia;Goiás;2019-11-19;Safira;1;1;0;5265;WhatsApp;1;synthetic
+C001215;crescimento;36-45;SBSV;Salvador;Bahia;2023-11-03;Topazio;1;0;0;20585;WhatsApp;1;synthetic
+C001216;ocasional;46-55;SBRF;Recife;Pernambuco;2022-10-24;Topazio;1;0;0;953;App;1;synthetic
+C001217;em_risco;26-35;SBCF;Confins;Minas Gerais;2023-05-22;Basico;1;0;0;6513;App;0;synthetic
+C001218;crescimento;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2019-01-05;Basico;1;0;1;5175;App;1;synthetic
+C001219;ocasional;56-65;SBBR;Brasília;Distrito Federal;2018-11-01;Basico;1;1;0;1110;App;1;synthetic
+C001220;crescimento;56-65;SBCF;Confins;Minas Gerais;2020-01-07;Safira;1;1;0;7577;App;0;synthetic
+C001221;crescimento;56-65;SBRF;Recife;Pernambuco;2020-12-31;Safira;1;1;0;37489;Email;1;synthetic
+C001222;ocasional;36-45;SBSP;São Paulo;São Paulo;2025-04-05;Basico;1;0;0;1437;App;0;synthetic
+C001223;alto_valor;36-45;SBCT;Curitiba;Paraná;2020-09-03;Diamante;1;0;0;48444;App;1;synthetic
+C001224;alto_valor;26-35;SBCF;Confins;Minas Gerais;2024-06-14;Diamante;1;0;0;14421;App;1;synthetic
+C001225;ocasional;66+;SBGR;Guarulhos;São Paulo;2018-11-01;Basico;1;0;0;3611;App;1;synthetic
+C001226;alto_valor;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2023-11-01;Topazio;1;0;1;1950;WhatsApp;1;synthetic
+C001227;crescimento;18-25;SBKP;Campinas;São Paulo;2022-04-19;Basico;1;1;0;1525;App;0;synthetic
+C001228;ocasional;26-35;SBMO;Maceió;Alagoas;2021-04-06;Basico;1;0;1;3566;App;1;synthetic
+C001229;crescimento;46-55;SBCF;Confins;Minas Gerais;2018-12-11;Topazio;1;1;1;10316;WhatsApp;1;synthetic
+C001230;ocasional;36-45;SBCT;Curitiba;Paraná;2020-01-31;Basico;1;0;0;742;App;1;synthetic
+C001231;ocasional;46-55;SBKP;Campinas;São Paulo;2022-07-09;Basico;1;0;0;9511;WhatsApp;1;synthetic
+C001232;ocasional;26-35;SBKP;Campinas;São Paulo;2025-01-03;Topazio;1;0;0;1131;Email;1;synthetic
+C001233;crescimento;66+;SBCF;Confins;Minas Gerais;2021-05-20;Basico;1;1;1;1081;WhatsApp;1;synthetic
+C001234;crescimento;26-35;SBKP;Campinas;São Paulo;2021-09-23;Safira;1;1;0;9005;App;1;synthetic
+C001235;crescimento;36-45;SBCF;Confins;Minas Gerais;2020-08-04;Basico;1;0;1;442;App;1;synthetic
+C001236;ocasional;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2022-06-14;Basico;1;0;0;1611;App;1;synthetic
+C001237;ocasional;26-35;SBGR;Guarulhos;São Paulo;2020-09-19;Basico;1;1;0;2678;Email;1;synthetic
+C001238;ocasional;36-45;SBRF;Recife;Pernambuco;2021-10-19;Topazio;1;0;0;10911;Email;1;synthetic
+C001239;crescimento;36-45;SBKP;Campinas;São Paulo;2025-06-27;Topazio;1;0;1;6397;WhatsApp;1;synthetic
+C001240;premium;66+;SBVT;Vitória;Espírito Santo;2019-06-01;Safira;1;1;0;4682;Email;1;synthetic
+C001241;ocasional;18-25;SBSL;São Luís;Maranhão;2025-01-13;Basico;1;1;0;6535;App;0;synthetic
+C001242;alto_valor;36-45;SBKP;Campinas;São Paulo;2024-01-02;Topazio;1;0;1;6138;App;1;synthetic
+C001243;alto_valor;46-55;SBCT;Curitiba;Paraná;2021-12-21;Diamante;1;1;0;40369;App;1;synthetic
+C001244;alto_valor;26-35;SBKP;Campinas;São Paulo;2018-10-23;Diamante;1;1;0;9798;WhatsApp;1;synthetic
+C001245;alto_valor;36-45;SBCY;Cuiabá;Mato Grosso;2022-09-27;Diamante;1;1;1;37130;WhatsApp;1;synthetic
+C001246;em_risco;26-35;SBKP;Campinas;São Paulo;2020-07-31;Safira;1;0;0;20879;Email;1;synthetic
+C001247;ocasional;46-55;SBKP;Campinas;São Paulo;2022-05-20;Topazio;1;0;0;4984;Email;1;synthetic
+C001248;em_risco;36-45;SBFZ;Fortaleza;Ceará;2019-11-12;Basico;1;1;0;4394;WhatsApp;1;synthetic
+C001249;em_risco;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2022-08-06;Topazio;1;1;0;2862;Email;1;synthetic
+C001250;ocasional;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2019-08-02;Topazio;1;0;0;11481;Email;1;synthetic
+C001251;ocasional;18-25;SBGR;Guarulhos;São Paulo;2021-01-11;Topazio;1;0;1;9486;App;1;synthetic
+C001252;crescimento;46-55;SBGR;Guarulhos;São Paulo;2019-12-11;Basico;1;1;0;1173;App;1;synthetic
+C001253;premium;18-25;SBKP;Campinas;São Paulo;2025-07-11;Diamante;1;1;1;25945;App;1;synthetic
+C001254;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-03-24;Diamante;1;1;1;10562;WhatsApp;1;synthetic
+C001255;crescimento;18-25;SBGL;Rio de Janeiro;Rio de Janeiro;2024-11-01;Safira;1;1;0;8816;Email;1;synthetic
+C001256;ocasional;36-45;SBSP;São Paulo;São Paulo;2021-07-16;Topazio;1;0;0;6068;Email;1;synthetic
+C001257;ocasional;26-35;SBGR;Guarulhos;São Paulo;2023-01-22;Basico;1;0;0;5712;SMS;1;synthetic
+C001258;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2024-06-06;Safira;1;1;0;7796;App;1;synthetic
+C001259;ocasional;56-65;SBBE;Belém;Pará;2020-11-12;Topazio;1;0;1;21512;Email;1;synthetic
+C001260;premium;46-55;SBCF;Confins;Minas Gerais;2019-01-31;Diamante;1;1;1;2852;App;1;synthetic
+C001261;alto_valor;56-65;SBCT;Curitiba;Paraná;2024-03-15;Diamante;1;0;0;16714;WhatsApp;1;synthetic
+C001262;crescimento;46-55;SBKP;Campinas;São Paulo;2021-07-07;Topazio;1;0;0;19420;WhatsApp;1;synthetic
+C001263;ocasional;46-55;SBKP;Campinas;São Paulo;2023-11-01;Basico;1;0;0;7531;App;1;synthetic
+C001264;ocasional;66+;SBCF;Confins;Minas Gerais;2024-12-20;Topazio;1;0;0;27482;App;1;synthetic
+C001265;ocasional;18-25;SBCF;Confins;Minas Gerais;2023-07-29;Topazio;1;0;0;10993;Email;1;synthetic
+C001266;ocasional;46-55;SBSV;Salvador;Bahia;2023-12-21;Basico;1;0;0;951;App;1;synthetic
+C001267;em_risco;46-55;SBKP;Campinas;São Paulo;2019-10-06;Basico;1;0;1;2619;App;1;synthetic
+C001268;ocasional;36-45;SBKP;Campinas;São Paulo;2023-08-30;Basico;1;0;0;2146;App;1;synthetic
+C001269;crescimento;26-35;SBCF;Confins;Minas Gerais;2025-04-01;Topazio;1;0;0;9544;App;1;synthetic
+C001270;crescimento;36-45;SBCF;Confins;Minas Gerais;2020-10-05;Safira;1;1;1;2199;App;1;synthetic
+C001271;alto_valor;26-35;SBRP;Ribeirão Preto;São Paulo;2021-03-12;Topazio;1;1;0;4860;WhatsApp;1;synthetic
+C001272;ocasional;36-45;SBRF;Recife;Pernambuco;2019-02-13;Topazio;1;0;0;3110;Email;1;synthetic
+C001273;crescimento;18-25;SBSP;São Paulo;São Paulo;2021-08-19;Basico;1;1;1;797;App;1;synthetic
+C001274;ocasional;26-35;SBSG;Natal;Rio Grande do Norte;2022-06-26;Basico;1;0;1;2685;SMS;0;synthetic
+C001275;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-03-28;Basico;1;0;0;4238;WhatsApp;1;synthetic
+C001276;premium;36-45;SBEG;Manaus;Amazonas;2021-04-13;Safira;1;0;1;6013;App;1;synthetic
+C001277;crescimento;56-65;SBRF;Recife;Pernambuco;2022-10-13;Basico;1;0;1;943;Email;1;synthetic
+C001278;crescimento;26-35;SBCY;Cuiabá;Mato Grosso;2021-04-29;Safira;1;0;1;54188;Email;1;synthetic
+C001279;ocasional;46-55;SBCF;Confins;Minas Gerais;2018-12-31;Basico;1;0;0;655;SMS;1;synthetic
+C001280;crescimento;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-02-06;Basico;1;0;0;6222;Email;1;synthetic
+C001281;crescimento;18-25;SBCF;Confins;Minas Gerais;2025-05-23;Safira;1;1;0;15694;WhatsApp;1;synthetic
+C001282;crescimento;26-35;SBEG;Manaus;Amazonas;2019-09-20;Topazio;1;1;1;12347;App;1;synthetic
+C001283;ocasional;36-45;SBPS;Porto Seguro;Bahia;2023-02-13;Topazio;1;0;0;1460;Email;1;synthetic
+C001284;em_risco;56-65;SBFZ;Fortaleza;Ceará;2024-07-25;Topazio;1;1;1;20860;App;1;synthetic
+C001285;crescimento;56-65;SBPA;Porto Alegre;Rio Grande do Sul;2023-12-02;Basico;1;1;0;1161;App;0;synthetic
+C001286;ocasional;26-35;SBSV;Salvador;Bahia;2024-10-29;Topazio;1;0;0;16965;SMS;1;synthetic
+C001287;crescimento;26-35;SBCT;Curitiba;Paraná;2023-06-16;Topazio;1;1;1;3011;App;1;synthetic
+C001288;ocasional;46-55;SBRF;Recife;Pernambuco;2018-12-27;Topazio;1;1;0;4899;WhatsApp;1;synthetic
+C001289;crescimento;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2024-05-10;Basico;1;1;1;1905;App;1;synthetic
+C001290;alto_valor;26-35;SBSL;São Luís;Maranhão;2025-09-24;Topazio;1;1;1;6014;WhatsApp;1;synthetic
+C001291;em_risco;46-55;SBKP;Campinas;São Paulo;2024-01-23;Safira;1;0;1;5272;App;1;synthetic
+C001292;crescimento;56-65;SBSV;Salvador;Bahia;2023-10-28;Topazio;1;0;1;3440;WhatsApp;1;synthetic
+C001293;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-02-27;Basico;1;0;0;584;App;1;synthetic
+C001294;em_risco;56-65;SBFL;Florianópolis;Santa Catarina;2025-02-13;Topazio;1;0;0;4258;App;1;synthetic
+C001295;ocasional;46-55;SBKP;Campinas;São Paulo;2023-05-09;Basico;1;0;0;437;App;1;synthetic
+C001296;crescimento;26-35;SBCF;Confins;Minas Gerais;2023-11-29;Safira;1;1;0;9153;WhatsApp;1;synthetic
+C001297;ocasional;46-55;SBGO;Goiânia;Goiás;2021-07-03;Basico;1;0;0;8594;WhatsApp;1;synthetic
+C001298;alto_valor;18-25;SBKP;Campinas;São Paulo;2024-10-30;Topazio;1;1;0;7015;App;1;synthetic
+C001299;ocasional;46-55;SBRF;Recife;Pernambuco;2023-04-28;Basico;1;0;0;2962;App;1;synthetic
+C001300;ocasional;26-35;SBCF;Confins;Minas Gerais;2025-06-04;Topazio;1;1;0;1727;WhatsApp;0;synthetic
+C001301;ocasional;36-45;SBSP;São Paulo;São Paulo;2025-06-10;Topazio;1;0;0;846;Email;1;synthetic
+C001302;em_risco;46-55;SBKP;Campinas;São Paulo;2019-08-29;Topazio;1;0;1;3802;Email;1;synthetic
+C001303;premium;36-45;SBCF;Confins;Minas Gerais;2024-11-13;Safira;1;0;1;7744;Email;1;synthetic
+C001304;ocasional;46-55;SBEG;Manaus;Amazonas;2019-03-29;Basico;1;0;0;1092;App;1;synthetic
+C001305;crescimento;46-55;SBCY;Cuiabá;Mato Grosso;2021-12-24;Topazio;1;1;1;2481;Email;1;synthetic
+C001306;ocasional;36-45;SBKP;Campinas;São Paulo;2025-03-25;Basico;1;0;0;3896;SMS;1;synthetic
+C001307;ocasional;36-45;SBCF;Confins;Minas Gerais;2021-11-05;Basico;1;0;0;6077;App;1;synthetic
+C001308;ocasional;36-45;SBCF;Confins;Minas Gerais;2019-04-17;Basico;1;1;0;927;WhatsApp;1;synthetic
+C001309;premium;18-25;SBKP;Campinas;São Paulo;2024-12-15;Diamante;1;1;1;28697;WhatsApp;1;synthetic
+C001310;ocasional;36-45;SBKP;Campinas;São Paulo;2020-11-30;Basico;1;0;0;1650;App;1;synthetic
+C001311;alto_valor;66+;SBSP;São Paulo;São Paulo;2019-08-14;Diamante;1;1;0;8061;App;1;synthetic
+C001312;crescimento;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2022-04-17;Topazio;1;0;0;1401;Email;1;synthetic
+C001313;em_risco;36-45;SBCT;Curitiba;Paraná;2024-09-20;Topazio;1;1;0;479;App;1;synthetic
+C001314;crescimento;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2019-07-06;Safira;1;0;0;4269;WhatsApp;1;synthetic
+C001315;em_risco;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-09-14;Safira;1;0;0;17424;Email;1;synthetic
+C001316;alto_valor;36-45;SBKP;Campinas;São Paulo;2023-10-28;Topazio;1;1;1;4246;App;1;synthetic
+C001317;premium;36-45;SBSP;São Paulo;São Paulo;2022-06-27;Diamante;1;0;0;16062;App;1;synthetic
+C001318;ocasional;46-55;SBBR;Brasília;Distrito Federal;2024-03-10;Topazio;1;1;0;3067;App;1;synthetic
+C001319;ocasional;36-45;SBSV;Salvador;Bahia;2025-09-10;Topazio;1;0;0;4720;Email;0;synthetic
+C001320;alto_valor;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2018-11-16;Diamante;1;0;1;3752;SMS;1;synthetic
+C001321;em_risco;26-35;SBKP;Campinas;São Paulo;2019-11-24;Safira;1;1;0;4075;WhatsApp;1;synthetic
+C001322;em_risco;26-35;SBGR;Guarulhos;São Paulo;2023-12-12;Topazio;1;0;0;791;App;1;synthetic
+C001323;ocasional;26-35;SBKP;Campinas;São Paulo;2024-08-17;Basico;1;0;0;801;SMS;1;synthetic
+C001324;ocasional;26-35;SBEG;Manaus;Amazonas;2025-03-01;Basico;1;1;0;3164;App;1;synthetic
+C001325;alto_valor;56-65;SBKP;Campinas;São Paulo;2021-03-09;Diamante;1;1;0;6214;App;1;synthetic
+C001326;em_risco;36-45;SBKP;Campinas;São Paulo;2020-11-16;Safira;1;0;0;10626;App;1;synthetic
+C001327;crescimento;56-65;SBCY;Cuiabá;Mato Grosso;2025-06-14;Safira;1;0;1;3277;WhatsApp;1;synthetic
+C001328;alto_valor;26-35;SBGL;Rio de Janeiro;Rio de Janeiro;2025-07-22;Diamante;1;1;0;6511;App;1;synthetic
+C001329;crescimento;36-45;SBCF;Confins;Minas Gerais;2021-06-04;Safira;1;0;0;3062;App;1;synthetic
+C001330;ocasional;36-45;SBMO;Maceió;Alagoas;2022-02-17;Basico;1;0;0;1924;App;1;synthetic
+C001331;crescimento;36-45;SBKP;Campinas;São Paulo;2019-02-12;Topazio;1;0;0;893;WhatsApp;1;synthetic
+C001332;crescimento;36-45;SBCF;Confins;Minas Gerais;2020-01-14;Topazio;1;1;0;800;App;1;synthetic
+C001333;alto_valor;66+;SBFZ;Fortaleza;Ceará;2020-03-21;Topazio;1;1;0;6871;Email;1;synthetic
+C001334;crescimento;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-07-29;Safira;1;1;0;4091;WhatsApp;1;synthetic
+C001335;premium;46-55;SBFL;Florianópolis;Santa Catarina;2019-07-29;Diamante;1;1;1;2258;App;1;synthetic
+C001336;crescimento;46-55;SBCF;Confins;Minas Gerais;2020-07-03;Topazio;1;0;1;612;Email;1;synthetic
+C001337;alto_valor;56-65;SBKP;Campinas;São Paulo;2019-06-25;Topazio;1;1;1;13186;Email;1;synthetic
+C001338;crescimento;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2023-04-21;Safira;1;1;0;6371;App;1;synthetic
+C001339;crescimento;26-35;SBSP;São Paulo;São Paulo;2020-04-23;Topazio;1;1;0;602;WhatsApp;1;synthetic
+C001340;alto_valor;36-45;SBSR;São José do Rio Preto;São Paulo;2019-05-03;Safira;1;0;0;1100;WhatsApp;1;synthetic
+C001341;crescimento;26-35;SBKP;Campinas;São Paulo;2020-11-09;Basico;1;1;0;3325;App;1;synthetic
+C001342;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2024-09-08;Basico;1;0;0;5948;WhatsApp;1;synthetic
+C001343;crescimento;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2022-06-23;Topazio;1;0;0;2090;Email;1;synthetic
+C001344;crescimento;36-45;SBKP;Campinas;São Paulo;2022-01-16;Safira;1;1;0;11654;Email;1;synthetic
+C001345;crescimento;26-35;SBEG;Manaus;Amazonas;2021-05-20;Basico;1;0;1;1769;App;1;synthetic
+C001346;ocasional;26-35;SBKP;Campinas;São Paulo;2021-06-08;Basico;1;0;0;2309;WhatsApp;1;synthetic
+C001347;ocasional;26-35;SBCY;Cuiabá;Mato Grosso;2018-11-13;Topazio;1;0;0;3948;Email;1;synthetic
+C001348;ocasional;36-45;SBKP;Campinas;São Paulo;2023-08-16;Topazio;1;1;0;5859;Email;1;synthetic
+C001349;ocasional;36-45;SBKP;Campinas;São Paulo;2023-11-25;Basico;1;0;0;11527;App;1;synthetic
+C001350;alto_valor;66+;SBSV;Salvador;Bahia;2023-04-01;Diamante;1;0;0;6188;Email;1;synthetic
+C001351;crescimento;56-65;SBCT;Curitiba;Paraná;2023-05-29;Basico;1;1;0;881;WhatsApp;1;synthetic
+C001352;ocasional;36-45;SBCY;Cuiabá;Mato Grosso;2025-04-05;Topazio;1;0;0;5261;Email;1;synthetic
+C001353;premium;26-35;SBKP;Campinas;São Paulo;2020-04-14;Safira;1;1;1;1806;SMS;1;synthetic
+C001354;crescimento;46-55;SBMO;Maceió;Alagoas;2020-08-31;Safira;1;0;1;2979;App;0;synthetic
+C001355;ocasional;56-65;SBMO;Maceió;Alagoas;2019-12-27;Basico;1;1;0;8983;App;1;synthetic
+C001356;ocasional;46-55;SBKP;Campinas;São Paulo;2020-02-23;Basico;1;0;0;667;WhatsApp;1;synthetic
+C001357;premium;36-45;SBRF;Recife;Pernambuco;2023-04-08;Safira;1;1;0;6239;WhatsApp;1;synthetic
+C001358;crescimento;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2020-03-26;Basico;1;0;0;2408;App;1;synthetic
+C001359;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2022-08-05;Diamante;1;1;0;1763;App;1;synthetic
+C001360;crescimento;26-35;SBUL;Uberlândia;Minas Gerais;2022-10-10;Topazio;1;1;1;1605;WhatsApp;1;synthetic
+C001361;ocasional;56-65;SBCT;Curitiba;Paraná;2021-07-07;Basico;1;0;0;2017;App;1;synthetic
+C001362;crescimento;46-55;SBKP;Campinas;São Paulo;2020-02-15;Safira;1;0;0;12613;App;1;synthetic
+C001363;ocasional;26-35;SBBE;Belém;Pará;2020-11-02;Basico;1;1;0;2612;Email;1;synthetic
+C001364;em_risco;26-35;SBKP;Campinas;São Paulo;2022-07-26;Basico;1;1;0;4301;App;1;synthetic
+C001365;em_risco;26-35;SBMO;Maceió;Alagoas;2025-02-12;Basico;1;0;1;478;App;1;synthetic
+C001366;ocasional;66+;SBSG;Natal;Rio Grande do Norte;2019-07-05;Topazio;1;0;0;17818;WhatsApp;1;synthetic
+C001367;ocasional;66+;SBRP;Ribeirão Preto;São Paulo;2019-09-30;Topazio;1;1;0;2452;App;1;synthetic
+C001368;ocasional;26-35;SBBR;Brasília;Distrito Federal;2020-03-07;Basico;1;0;1;1733;WhatsApp;1;synthetic
+C001369;ocasional;36-45;SBCT;Curitiba;Paraná;2019-08-17;Basico;1;0;0;8496;App;1;synthetic
+C001370;ocasional;56-65;SBSP;São Paulo;São Paulo;2025-04-16;Basico;1;0;0;2038;Email;1;synthetic
+C001371;alto_valor;26-35;SBGR;Guarulhos;São Paulo;2022-07-10;Diamante;1;1;1;18884;App;1;synthetic
+C001372;alto_valor;36-45;SBCF;Confins;Minas Gerais;2020-09-22;Safira;1;1;1;7951;Email;1;synthetic
+C001373;crescimento;36-45;SBCT;Curitiba;Paraná;2020-09-30;Basico;1;1;1;507;WhatsApp;1;synthetic
+C001374;alto_valor;46-55;SBRF;Recife;Pernambuco;2022-01-11;Topazio;1;1;1;3350;App;1;synthetic
+C001375;ocasional;36-45;SBCT;Curitiba;Paraná;2021-09-07;Basico;1;1;1;11333;App;1;synthetic
+C001376;alto_valor;56-65;SBRF;Recife;Pernambuco;2021-08-20;Safira;1;1;1;1496;App;1;synthetic
+C001377;ocasional;46-55;SBCT;Curitiba;Paraná;2019-04-24;Basico;1;0;1;1293;WhatsApp;1;synthetic
+C001378;ocasional;36-45;SBMO;Maceió;Alagoas;2025-07-27;Basico;1;1;0;10039;WhatsApp;1;synthetic
+C001379;ocasional;46-55;SBKP;Campinas;São Paulo;2025-02-26;Basico;1;0;1;6662;WhatsApp;1;synthetic
+C001380;premium;26-35;SBCF;Confins;Minas Gerais;2020-05-23;Safira;1;1;1;3672;App;0;synthetic
+C001381;crescimento;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-11-12;Safira;1;1;1;54593;App;1;synthetic
+C001382;ocasional;66+;SBCT;Curitiba;Paraná;2022-08-12;Basico;1;0;0;1737;App;1;synthetic
+C001383;alto_valor;66+;SBKP;Campinas;São Paulo;2021-10-30;Safira;1;0;1;13463;App;1;synthetic
+C001384;crescimento;46-55;SBKP;Campinas;São Paulo;2024-05-19;Topazio;1;1;1;3154;WhatsApp;1;synthetic
+C001385;em_risco;26-35;SBCF;Confins;Minas Gerais;2019-07-19;Safira;1;1;1;12571;Email;1;synthetic
+C001386;crescimento;36-45;SBRP;Ribeirão Preto;São Paulo;2023-02-01;Topazio;1;0;1;6599;App;1;synthetic
+C001387;crescimento;56-65;SBBR;Brasília;Distrito Federal;2023-08-26;Topazio;1;0;0;2047;App;1;synthetic
+C001388;premium;56-65;SBKP;Campinas;São Paulo;2025-04-26;Diamante;1;1;1;6994;Email;1;synthetic
+C001389;ocasional;46-55;SBCF;Confins;Minas Gerais;2021-01-08;Basico;1;0;0;1689;App;1;synthetic
+C001390;ocasional;46-55;SBCY;Cuiabá;Mato Grosso;2022-12-30;Basico;1;0;0;2172;SMS;1;synthetic
+C001391;premium;26-35;SBGR;Guarulhos;São Paulo;2019-01-03;Safira;1;1;1;2014;Email;1;synthetic
+C001392;crescimento;26-35;SBSP;São Paulo;São Paulo;2020-03-02;Topazio;1;0;0;2395;WhatsApp;1;synthetic
+C001393;alto_valor;56-65;SBBE;Belém;Pará;2021-12-22;Diamante;1;1;0;25291;Email;1;synthetic
+C001394;ocasional;18-25;SBKP;Campinas;São Paulo;2024-12-17;Basico;1;1;0;3091;WhatsApp;1;synthetic
+C001395;crescimento;56-65;SBCF;Confins;Minas Gerais;2020-07-03;Basico;1;1;0;4831;SMS;1;synthetic
+C001396;ocasional;36-45;SBKP;Campinas;São Paulo;2020-07-24;Basico;1;0;0;363;App;1;synthetic
+C001397;premium;56-65;SBGO;Goiânia;Goiás;2019-01-11;Diamante;1;1;1;16338;App;1;synthetic
+C001398;ocasional;18-25;SBBE;Belém;Pará;2023-10-16;Basico;1;0;0;1778;WhatsApp;1;synthetic
+C001399;alto_valor;36-45;SBCF;Confins;Minas Gerais;2020-02-22;Safira;1;0;1;12046;WhatsApp;1;synthetic
+C001400;ocasional;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-08-20;Basico;1;0;0;530;App;1;synthetic
+C001401;crescimento;66+;SBCF;Confins;Minas Gerais;2022-12-27;Safira;1;1;0;21575;WhatsApp;1;synthetic
+C001402;crescimento;46-55;SBCT;Curitiba;Paraná;2019-09-18;Safira;1;0;1;21376;App;1;synthetic
+C001403;ocasional;36-45;SBGR;Guarulhos;São Paulo;2018-10-21;Topazio;1;0;0;12471;App;1;synthetic
+C001404;alto_valor;56-65;SBKP;Campinas;São Paulo;2020-07-26;Diamante;1;1;1;12000;App;1;synthetic
+C001405;ocasional;26-35;SBKP;Campinas;São Paulo;2025-06-01;Topazio;1;0;0;7144;Email;1;synthetic
+C001406;ocasional;46-55;SBKP;Campinas;São Paulo;2024-07-08;Basico;1;0;0;3071;App;1;synthetic
+C001407;ocasional;26-35;SBGR;Guarulhos;São Paulo;2021-01-03;Basico;1;0;1;4404;App;1;synthetic
+C001408;alto_valor;46-55;SBKP;Campinas;São Paulo;2022-04-26;Safira;1;0;1;2704;Email;1;synthetic
+C001409;em_risco;36-45;SBCY;Cuiabá;Mato Grosso;2024-02-16;Safira;1;1;0;2272;App;1;synthetic
+C001410;crescimento;46-55;SBPA;Porto Alegre;Rio Grande do Sul;2022-02-05;Basico;1;1;0;3759;WhatsApp;1;synthetic
+C001411;ocasional;56-65;SBSP;São Paulo;São Paulo;2024-07-24;Topazio;1;1;0;6927;SMS;1;synthetic
+C001412;ocasional;26-35;SBKP;Campinas;São Paulo;2019-05-04;Topazio;1;0;0;3277;WhatsApp;1;synthetic
+C001413;alto_valor;46-55;SBKP;Campinas;São Paulo;2022-01-04;Topazio;1;0;1;2252;WhatsApp;1;synthetic
+C001414;em_risco;36-45;SBKP;Campinas;São Paulo;2019-09-30;Basico;1;0;1;3192;App;1;synthetic
+C001415;alto_valor;36-45;SBGR;Guarulhos;São Paulo;2025-08-02;Diamante;1;1;1;8548;Email;1;synthetic
+C001416;alto_valor;46-55;SBCF;Confins;Minas Gerais;2024-07-04;Safira;1;0;1;7197;WhatsApp;1;synthetic
+C001417;alto_valor;26-35;SBCF;Confins;Minas Gerais;2023-02-15;Topazio;1;1;1;12066;WhatsApp;1;synthetic
+C001418;ocasional;26-35;SBKP;Campinas;São Paulo;2020-01-30;Topazio;1;0;1;2873;App;0;synthetic
+C001419;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2023-05-15;Safira;1;1;0;9174;Email;1;synthetic
+C001420;crescimento;46-55;SBKP;Campinas;São Paulo;2025-04-20;Basico;1;1;1;1647;App;1;synthetic
+C001421;em_risco;46-55;SBCF;Confins;Minas Gerais;2021-08-10;Safira;1;0;0;7476;Email;1;synthetic
+C001422;ocasional;18-25;SBMO;Maceió;Alagoas;2023-11-25;Basico;1;0;0;5355;App;1;synthetic
+C001423;ocasional;36-45;SBKP;Campinas;São Paulo;2021-10-17;Basico;1;0;0;2519;Email;1;synthetic
+C001424;crescimento;18-25;SBRF;Recife;Pernambuco;2020-07-21;Safira;1;0;0;2860;SMS;1;synthetic
+C001425;crescimento;26-35;SBKP;Campinas;São Paulo;2022-01-31;Topazio;1;1;0;3558;Email;1;synthetic
+C001426;crescimento;46-55;SBKP;Campinas;São Paulo;2023-06-05;Basico;1;0;1;749;SMS;1;synthetic
+C001427;ocasional;46-55;SBRF;Recife;Pernambuco;2025-07-18;Basico;1;0;0;1863;WhatsApp;1;synthetic
+C001428;ocasional;66+;SBPA;Porto Alegre;Rio Grande do Sul;2021-01-27;Topazio;1;0;0;5716;WhatsApp;0;synthetic
+C001429;ocasional;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2020-04-08;Basico;1;0;1;3838;WhatsApp;1;synthetic
+C001430;alto_valor;36-45;SBSL;São Luís;Maranhão;2018-10-19;Topazio;1;1;1;2539;WhatsApp;1;synthetic
+C001431;em_risco;56-65;SBKP;Campinas;São Paulo;2020-06-06;Topazio;1;0;1;5714;Email;1;synthetic
+C001432;ocasional;26-35;SBRF;Recife;Pernambuco;2025-07-22;Basico;1;0;0;739;WhatsApp;0;synthetic
+C001433;ocasional;36-45;SBCY;Cuiabá;Mato Grosso;2025-05-16;Basico;1;0;0;919;App;1;synthetic
+C001434;ocasional;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-08-27;Basico;1;0;0;1589;WhatsApp;1;synthetic
+C001435;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2021-10-07;Basico;1;0;0;3175;Email;1;synthetic
+C001436;ocasional;46-55;SBRF;Recife;Pernambuco;2024-03-31;Basico;1;0;0;6221;Email;1;synthetic
+C001437;ocasional;36-45;SBPA;Porto Alegre;Rio Grande do Sul;2018-12-12;Basico;1;0;1;1911;SMS;1;synthetic
+C001438;ocasional;46-55;SBRF;Recife;Pernambuco;2023-01-03;Topazio;1;0;0;767;App;1;synthetic
+C001439;alto_valor;36-45;SBRJ;Rio de Janeiro;Rio de Janeiro;2025-03-20;Topazio;1;1;1;3702;App;1;synthetic
+C001440;ocasional;36-45;SBCF;Confins;Minas Gerais;2023-12-03;Basico;1;0;1;1449;App;1;synthetic
+C001441;em_risco;18-25;SBRF;Recife;Pernambuco;2025-01-16;Safira;1;1;1;15286;Email;1;synthetic
+C001442;em_risco;18-25;SBCF;Confins;Minas Gerais;2019-11-14;Topazio;1;0;0;51592;Email;1;synthetic
+C001443;crescimento;26-35;SBSR;São José do Rio Preto;São Paulo;2020-12-12;Safira;1;1;0;12096;WhatsApp;0;synthetic
+C001444;crescimento;26-35;SBKP;Campinas;São Paulo;2023-01-18;Safira;1;1;0;6519;Email;1;synthetic
+C001445;crescimento;36-45;SBCY;Cuiabá;Mato Grosso;2024-01-08;Safira;1;1;0;29244;App;1;synthetic
+C001446;alto_valor;18-25;SBSP;São Paulo;São Paulo;2020-09-22;Safira;1;0;0;10052;Email;1;synthetic
+C001447;em_risco;36-45;SBCY;Cuiabá;Mato Grosso;2024-08-29;Safira;1;0;0;3759;App;1;synthetic
+C001448;em_risco;46-55;SBKP;Campinas;São Paulo;2023-07-29;Basico;1;0;0;545;App;1;synthetic
+C001449;ocasional;26-35;SBKP;Campinas;São Paulo;2021-02-17;Basico;1;0;0;4105;WhatsApp;1;synthetic
+C001450;ocasional;56-65;SBRJ;Rio de Janeiro;Rio de Janeiro;2020-05-07;Topazio;1;0;1;4632;Email;1;synthetic
+C001451;crescimento;36-45;SBKP;Campinas;São Paulo;2019-06-10;Topazio;1;1;0;8651;WhatsApp;1;synthetic
+C001452;ocasional;18-25;SBUL;Uberlândia;Minas Gerais;2022-05-01;Topazio;1;0;0;3884;App;1;synthetic
+C001453;ocasional;26-35;SBPA;Porto Alegre;Rio Grande do Sul;2020-02-18;Basico;1;0;0;3999;App;0;synthetic
+C001454;ocasional;36-45;SBRF;Recife;Pernambuco;2022-08-27;Basico;1;1;0;2427;WhatsApp;1;synthetic
+C001455;crescimento;26-35;SBKP;Campinas;São Paulo;2020-08-16;Safira;1;1;1;54117;Email;1;synthetic
+C001456;em_risco;36-45;SBSV;Salvador;Bahia;2023-10-15;Safira;1;1;0;4681;App;1;synthetic
+C001457;ocasional;26-35;SBKP;Campinas;São Paulo;2025-09-25;Topazio;1;0;0;1291;Email;1;synthetic
+C001458;ocasional;46-55;SBUL;Uberlândia;Minas Gerais;2020-08-11;Basico;1;0;0;7849;Email;1;synthetic
+C001459;ocasional;56-65;SBVT;Vitória;Espírito Santo;2022-05-15;Topazio;1;0;0;5261;Email;1;synthetic
+C001460;ocasional;18-25;SBKP;Campinas;São Paulo;2020-12-02;Basico;1;0;0;1773;App;1;synthetic
+C001461;crescimento;46-55;SBKP;Campinas;São Paulo;2025-09-25;Basico;1;0;0;998;Email;1;synthetic
+C001462;ocasional;46-55;SBKP;Campinas;São Paulo;2020-07-17;Basico;1;0;1;4368;Email;1;synthetic
+C001463;ocasional;36-45;SBCF;Confins;Minas Gerais;2024-10-28;Basico;1;0;0;7228;App;1;synthetic
+C001464;ocasional;36-45;SBGL;Rio de Janeiro;Rio de Janeiro;2019-05-29;Basico;1;0;0;14516;App;0;synthetic
+C001465;em_risco;46-55;SBGR;Guarulhos;São Paulo;2022-02-25;Topazio;1;0;1;42898;App;1;synthetic
+C001466;crescimento;56-65;SBRF;Recife;Pernambuco;2022-04-10;Basico;1;1;0;1920;App;1;synthetic
+C001467;crescimento;26-35;SBGR;Guarulhos;São Paulo;2021-04-30;Topazio;1;0;0;14979;WhatsApp;0;synthetic
+C001468;ocasional;46-55;SBCF;Confins;Minas Gerais;2024-04-02;Basico;1;0;0;1225;WhatsApp;1;synthetic
+C001469;ocasional;26-35;SBCF;Confins;Minas Gerais;2023-05-30;Basico;1;1;0;602;App;1;synthetic
+C001470;alto_valor;56-65;SBKP;Campinas;São Paulo;2024-01-09;Topazio;1;1;1;11786;App;1;synthetic
+C001471;ocasional;26-35;SBRF;Recife;Pernambuco;2023-08-08;Basico;1;0;1;2233;WhatsApp;1;synthetic
+C001472;crescimento;26-35;SBCT;Curitiba;Paraná;2021-10-21;Safira;1;0;1;8220;SMS;1;synthetic
+C001473;alto_valor;36-45;SBPS;Porto Seguro;Bahia;2023-02-12;Topazio;1;0;0;8636;Email;1;synthetic
+C001474;crescimento;26-35;SBKP;Campinas;São Paulo;2020-06-11;Safira;1;0;0;21137;App;1;synthetic
+C001475;alto_valor;46-55;SBRJ;Rio de Janeiro;Rio de Janeiro;2021-03-04;Topazio;1;1;1;17645;SMS;1;synthetic
+C001476;crescimento;46-55;SBRF;Recife;Pernambuco;2025-06-11;Basico;1;0;1;6204;App;1;synthetic
+C001477;ocasional;26-35;SBKP;Campinas;São Paulo;2023-01-28;Basico;1;0;1;1467;App;1;synthetic
+C001478;alto_valor;46-55;SBKP;Campinas;São Paulo;2020-03-20;Topazio;1;1;1;1654;Email;1;synthetic
+C001479;alto_valor;46-55;SBKP;Campinas;São Paulo;2024-06-26;Safira;1;0;0;5385;App;1;synthetic
+C001480;crescimento;36-45;SBBE;Belém;Pará;2023-06-19;Topazio;1;1;0;16516;App;1;synthetic
+C001481;alto_valor;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2024-06-01;Safira;1;1;1;49821;Email;1;synthetic
+C001482;em_risco;46-55;SBRP;Ribeirão Preto;São Paulo;2021-07-12;Topazio;1;0;0;3648;App;1;synthetic
+C001483;crescimento;26-35;SBCF;Confins;Minas Gerais;2019-12-11;Basico;1;1;1;6426;WhatsApp;1;synthetic
+C001484;ocasional;26-35;SBKP;Campinas;São Paulo;2024-01-06;Basico;1;1;0;10290;Email;1;synthetic
+C001485;crescimento;26-35;SBGR;Guarulhos;São Paulo;2021-01-27;Topazio;1;0;0;7278;App;1;synthetic
+C001486;em_risco;26-35;SBKP;Campinas;São Paulo;2021-03-24;Basico;1;0;1;1318;WhatsApp;1;synthetic
+C001487;crescimento;26-35;SBCT;Curitiba;Paraná;2019-09-14;Safira;1;1;1;12196;Email;1;synthetic
+C001488;ocasional;46-55;SBSP;São Paulo;São Paulo;2021-03-20;Basico;1;0;1;4483;Email;1;synthetic
+C001489;crescimento;46-55;SBSP;São Paulo;São Paulo;2019-04-23;Topazio;1;1;0;3034;WhatsApp;1;synthetic
+C001490;ocasional;46-55;SBSP;São Paulo;São Paulo;2021-04-23;Topazio;1;0;0;1238;Email;1;synthetic
+C001491;ocasional;46-55;SBKP;Campinas;São Paulo;2022-06-09;Basico;1;0;0;1994;WhatsApp;1;synthetic
+C001492;ocasional;46-55;SBGL;Rio de Janeiro;Rio de Janeiro;2023-10-09;Basico;1;0;0;49118;App;1;synthetic
+C001493;ocasional;46-55;SBCT;Curitiba;Paraná;2019-10-06;Basico;1;0;0;3720;App;1;synthetic
+C001494;em_risco;46-55;SBCF;Confins;Minas Gerais;2024-07-11;Safira;1;0;0;29613;WhatsApp;1;synthetic
+C001495;crescimento;26-35;SBCF;Confins;Minas Gerais;2021-08-12;Basico;1;0;0;15092;WhatsApp;1;synthetic
+C001496;em_risco;36-45;SBCF;Confins;Minas Gerais;2023-03-09;Safira;1;1;0;3003;WhatsApp;1;synthetic
+C001497;crescimento;36-45;SBBE;Belém;Pará;2022-06-06;Safira;1;1;1;61931;Email;1;synthetic
+C001498;alto_valor;56-65;SBGR;Guarulhos;São Paulo;2020-10-26;Topazio;1;0;1;13211;App;1;synthetic
+C001499;premium;36-45;SBKP;Campinas;São Paulo;2020-01-28;Diamante;1;1;1;25297;WhatsApp;1;synthetic
+C001500;ocasional;36-45;SBUL;Uberlândia;Minas Gerais;2022-03-21;Topazio;1;1;1;16093;WhatsApp;1;synthetic

@@ -1,0 +1,98 @@
+﻿table;column;data_type;data_nature;description
+crm_customers_mvp.csv;customer_id;string;synthetic;Identificador anonimo do cliente.
+crm_customers_mvp.csv;synthetic_segment;category;synthetic;Segmento latente usado somente para gerar o cenario do MVP.
+crm_customers_mvp.csv;age_band;category;synthetic;Faixa etaria sem dado pessoal identificavel.
+crm_customers_mvp.csv;home_airport_icao;string;mixed;Aeroporto-base associado ao cliente sintetico.
+crm_customers_mvp.csv;tier_current;category;synthetic;Nivel atual no programa de fidelidade.
+crm_customers_mvp.csv;clube_azul_subscriber;boolean;synthetic;Indica assinatura do Clube Azul.
+crm_customers_mvp.csv;azul_itau_card;boolean;synthetic;Indica posse do cartao Azul Itau.
+crm_customers_mvp.csv;points_balance;integer;synthetic;Saldo simulado de pontos.
+crm_flights_mvp.csv;customer_flight_id;string;synthetic;Chave da associacao cliente-voo.
+crm_flights_mvp.csv;customer_id;string;synthetic;Chave estrangeira do cliente.
+crm_flights_mvp.csv;flight_date;date;ANAC+synthetic;Data operacional do VRA associada a um cliente sintetico.
+crm_flights_mvp.csv;origin_icao;string;ANAC;Aeroporto de origem.
+crm_flights_mvp.csv;destination_icao;string;ANAC;Aeroporto de destino.
+crm_flights_mvp.csv;departure_delay_minutes;integer;ANAC;Diferenca entre partida real e prevista.
+crm_flights_mvp.csv;cancelled;boolean;ANAC;Indica cancelamento do voo.
+crm_flights_mvp.csv;fare_reference_brl;decimal;ANAC aggregate;Tarifa media ponderada por assentos na rota e no mes.
+crm_flights_mvp.csv;fare_paid_brl;decimal;synthetic;Valor simulado pago pelo cliente.
+crm_interactions_mvp.csv;interaction_id;string;synthetic;Identificador da interacao.
+crm_interactions_mvp.csv;interaction_type;category;synthetic;Campanha, pesquisa NPS ou atendimento.
+crm_interactions_mvp.csv;opened;boolean;synthetic;Abertura da comunicacao.
+crm_interactions_mvp.csv;clicked;boolean;synthetic;Clique na comunicacao.
+crm_interactions_mvp.csv;converted;boolean;synthetic;Conversao atribuida a campanha.
+crm_interactions_mvp.csv;complaint;boolean;synthetic;Indica contato de reclamacao.
+crm_interactions_mvp.csv;resolved;boolean;synthetic;Indica resolucao da reclamacao.
+crm_interactions_mvp.csv;nps_score;integer;synthetic;Nota simulada de 0 a 10.
+crm_customer_360_mvp.csv;flights_3m;integer;calculated;Quantidade de voos nos ultimos 90 dias.
+crm_customer_360_mvp.csv;flights_12m;integer;calculated;Quantidade de voos nos ultimos 365 dias.
+crm_customer_360_mvp.csv;spend_12m_brl;decimal;calculated;Valor total simulado em voos realizados nos ultimos 12 meses.
+crm_customer_360_mvp.csv;recency_days;integer;calculated;Dias desde o ultimo voo.
+crm_customer_360_mvp.csv;on_time_rate_12m;decimal;calculated;Percentual de partidas com atraso de ate 15 minutos.
+crm_customer_360_mvp.csv;cancellation_rate_12m;decimal;calculated;Percentual de voos cancelados.
+crm_customer_360_mvp.csv;campaign_engagement_rate;decimal;calculated;Cliques divididos por campanhas enviadas.
+crm_customer_360_mvp.csv;customer_value_score;decimal;calculated;Valor atual e potencial, de 0 a 100.
+crm_customer_360_mvp.csv;relationship_health_score;decimal;calculated;Saude do relacionamento, de 0 a 100.
+crm_customer_360_mvp.csv;churn_risk_score;decimal;calculated;Risco de enfraquecimento, de 0 a 100.
+crm_customer_360_mvp.csv;next_best_experience;category;calculated;Experiencia ou acao recomendada.
+crm_customer_360_mvp.csv;next_best_experience_reason;string;calculated;Motivo explicavel da recomendacao.
+crm_customers_mvp.csv;home_city;string;ANAC+synthetic;Cidade associada ao aeroporto-base.
+crm_customers_mvp.csv;home_state;string;ANAC+synthetic;UF ou estado associado ao aeroporto-base.
+crm_customers_mvp.csv;join_date;date;synthetic;Data simulada de entrada no relacionamento.
+crm_customers_mvp.csv;mundo_azul_member;boolean;synthetic;Indica participacao no programa Mundo Azul.
+crm_customers_mvp.csv;preferred_channel;category;synthetic;Canal preferido para relacionamento.
+crm_customers_mvp.csv;consent_marketing;boolean;synthetic;Indica consentimento para comunicacoes de marketing.
+crm_customers_mvp.csv;record_nature;string;synthetic;Classifica a natureza sintetica do registro.
+crm_flights_mvp.csv;flight_number;string;ANAC;Numero do voo informado no VRA.
+crm_flights_mvp.csv;scheduled_departure;datetime;ANAC;Data e hora previstas para partida.
+crm_flights_mvp.csv;actual_departure;datetime;ANAC;Data e hora realizadas para partida.
+crm_flights_mvp.csv;scheduled_arrival;datetime;ANAC;Data e hora previstas para chegada.
+crm_flights_mvp.csv;actual_arrival;datetime;ANAC;Data e hora realizadas para chegada.
+crm_flights_mvp.csv;flight_status;string;ANAC;Situacao operacional do voo.
+crm_flights_mvp.csv;arrival_delay_minutes;decimal;ANAC;Diferenca entre chegada real e prevista.
+crm_flights_mvp.csv;equipment_model;string;ANAC;Modelo do equipamento informado no VRA.
+crm_flights_mvp.csv;seat_capacity;integer;ANAC;Capacidade de assentos informada no VRA.
+crm_flights_mvp.csv;booking_date;date;synthetic;Data simulada da reserva.
+crm_flights_mvp.csv;booking_lead_days;integer;synthetic;Dias entre reserva e voo.
+crm_flights_mvp.csv;points_earned;integer;synthetic;Pontos simulados acumulados na viagem.
+crm_flights_mvp.csv;points_redeemed;integer;synthetic;Pontos simulados usados na viagem.
+crm_flights_mvp.csv;trip_purpose;category;synthetic;Motivo sintetico da viagem.
+crm_flights_mvp.csv;customer_data_nature;string;synthetic;Classifica a natureza sintetica dos dados do cliente.
+crm_flights_mvp.csv;operational_data_source;string;ANAC;Origem do contexto operacional.
+crm_flights_mvp.csv;fare_data_source;string;synthetic;Origem da referencia tarifaria.
+crm_interactions_mvp.csv;customer_id;string;synthetic;Identificador anonimo do cliente.
+crm_interactions_mvp.csv;interaction_date;date;synthetic;Data simulada da interacao.
+crm_interactions_mvp.csv;campaign_name;string;synthetic;Campanha ou jornada associada a interacao.
+crm_interactions_mvp.csv;channel;category;synthetic;Canal usado na interacao.
+crm_interactions_mvp.csv;sent;boolean;synthetic;Indica envio de comunicacao.
+crm_interactions_mvp.csv;response_hours;decimal;synthetic;Tempo simulado de resposta do atendimento.
+crm_interactions_mvp.csv;record_nature;string;synthetic;Classifica a natureza sintetica do registro.
+crm_customer_360_mvp.csv;customer_id;string;synthetic;Identificador anonimo do cliente.
+crm_customer_360_mvp.csv;synthetic_segment;category;synthetic;Synthetic segment.
+crm_customer_360_mvp.csv;age_band;category;synthetic;Age band.
+crm_customer_360_mvp.csv;home_airport_icao;string;ANAC+synthetic;Home airport icao.
+crm_customer_360_mvp.csv;home_city;string;ANAC+synthetic;Cidade associada ao aeroporto-base.
+crm_customer_360_mvp.csv;home_state;string;ANAC+synthetic;UF ou estado associado ao aeroporto-base.
+crm_customer_360_mvp.csv;join_date;date;synthetic;Data simulada de entrada no relacionamento.
+crm_customer_360_mvp.csv;tier_current;category;synthetic;Tier current.
+crm_customer_360_mvp.csv;mundo_azul_member;boolean;synthetic;Indica participacao no programa Mundo Azul.
+crm_customer_360_mvp.csv;clube_azul_subscriber;boolean;synthetic;Clube azul subscriber.
+crm_customer_360_mvp.csv;azul_itau_card;boolean;synthetic;Azul itau card.
+crm_customer_360_mvp.csv;points_balance;integer;synthetic;Points balance.
+crm_customer_360_mvp.csv;preferred_channel;category;synthetic;Canal preferido para relacionamento.
+crm_customer_360_mvp.csv;consent_marketing;boolean;synthetic;Indica consentimento para comunicacoes de marketing.
+crm_customer_360_mvp.csv;record_nature;string;synthetic;Classifica a natureza sintetica do registro.
+crm_customer_360_mvp.csv;flights_previous_3m;integer;calculated;Voos entre 91 e 180 dias antes da referencia.
+crm_customer_360_mvp.csv;average_ticket_brl;decimal;calculated;Valor medio simulado por voo realizado.
+crm_customer_360_mvp.csv;average_departure_delay_minutes;decimal;calculated;Atraso medio de partida nos ultimos 12 meses.
+crm_customer_360_mvp.csv;cancelled_flights_12m;integer;calculated;Quantidade de voos cancelados nos ultimos 12 meses.
+crm_customer_360_mvp.csv;campaign_conversions_12m;integer;calculated;Conversoes de campanha nos ultimos 12 meses.
+crm_customer_360_mvp.csv;complaints_12m;integer;calculated;Reclamacoes simuladas nos ultimos 12 meses.
+crm_customer_360_mvp.csv;complaint_resolution_rate;decimal;calculated;Percentual de reclamacoes resolvidas.
+crm_customer_360_mvp.csv;latest_nps;integer;calculated;Nota NPS mais recente na escala de 0 a 10.
+crm_customer_360_mvp.csv;value_band;category;calculated;Faixa baixa, media ou alta do Customer Value Score.
+crm_customer_360_mvp.csv;relationship_band;category;calculated;Faixa saudavel, atencao ou critica do relacionamento.
+crm_customer_360_mvp.csv;recommended_channel;string;calculated;Canal recomendado para executar a proxima acao.
+crm_customer_360_mvp.csv;estimated_action_cost_brl;decimal;calculated;Custo sintetico estimado da acao.
+crm_customer_360_mvp.csv;expected_retention_uplift_pct;decimal;calculated;Ganho sintetico esperado de retencao em pontos percentuais.
+crm_customer_360_mvp.csv;score_reference_date;date;calculated;Data de referencia dos indicadores e scores.

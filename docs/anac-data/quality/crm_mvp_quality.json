@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "generated_on": "2026-10-24",
+  "random_seed": 20261024,
+  "reference_date": "2026-09-30",
+  "customer_data_policy": "Todos os clientes, perfis, valores pagos, pontos e interacoes sao sinteticos.",
+  "anac_usage": "Rotas e contexto operacional sao amostrados do VRA; referencias de tarifa sao agregadas dos microdados de tarifas.",
+  "source_files": {
+    "vra": [
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_01.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_02.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_03.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_04.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_05.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_06.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_07.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_08.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_09.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_10.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_11.csv",
+      "docs/anac-data/raw/operations/vra/2025/VRA_2025_12.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_01.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_02.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_03.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_04.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_05.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_06.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_07.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_08.csv",
+      "docs/anac-data/raw/operations/vra/2026/VRA_2026_09.csv"
+    ],
+    "tarifas": [
+      "docs/anac-data/raw/market/domestic-fares/2025/202501.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202502.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202503.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202504.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202505.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202506.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202507.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202508.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202509.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202510.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202511.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2025/202512.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202601.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202602.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202603.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202604.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202605.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202606.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202607.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202608.CSV",
+      "docs/anac-data/raw/market/domestic-fares/2026/202609.CSV"
+    ],
+    "aerodromos": [
+      "docs/anac-data/raw/dimensions/aerodromes/AerodromosPublicos.csv"
+    ]
+  },
+  "row_counts": {
+    "crm_customers_mvp.csv": 1500,
+    "crm_flights_mvp.csv": 13719,
+    "crm_interactions_mvp.csv": 9941,
+    "crm_customer_360_mvp.csv": 1500,
+    "crm_data_dictionary.csv": 97
+  },
+  "checks": {
+    "customers_unique": true,
+    "customer_flights_unique": true,
+    "interactions_unique": true,
+    "flight_foreign_keys_valid": true,
+    "interaction_foreign_keys_valid": true,
+    "scores_in_range": true
+  },
+  "status": "pass",
+  "score_ranges": {
+    "customer_value_score": [
+      7.1,
+      98.5
+    ],
+    "relationship_health_score": [
+      22.5,
+      100
+    ],
+    "churn_risk_score": [
+      4.5,
+      83.1
+    ]
+  },
+  "next_best_experience_distribution": {
+    "Protecao de jornada": 204,
+    "Oferta Clube Azul": 211,
+    "Acelerador de tier": 453,
+    "Reativacao personalizada": 152,
+    "Reconhecimento exclusivo": 181,
+    "Oferta Cartao Azul Itau": 295,
+    "Recuperacao premium": 4
+  }
+}
