@@ -4,8 +4,8 @@ O QUE FAZ: pega a recomendação que o motor de regras já escolheu para um clie
 redige um RASCUNHO de mensagem. Ele NÃO decide a ação, NÃO envia nada e respeita guardrails.
 
 Uso (na raiz do repositório, só biblioteca padrão do Python):
-  python agent/agente_mensagens.py C000634        # um cliente
-  python agent/agente_mensagens.py --top 10       # os 10 de maior valor em risco
+  python prototype/agent/agente_mensagens.py C000634   # um cliente
+  python prototype/agent/agente_mensagens.py --top 10  # os 10 de maior valor em risco
 
 Modo de regras (padrão): texto de modelo por ação. Modo LLM (opcional): defina
 LLM_API_KEY, LLM_BASE_URL (API compatível com OpenAI) e LLM_MODEL. Se o LLM falhar ou
@@ -16,9 +16,9 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "docs" / "anac-data" / "processed"
-OUT = ROOT / "agent" / "outputs"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA = PROJECT_ROOT / "docs" / "anac-data" / "processed"
+OUT = Path(__file__).resolve().parent / "outputs"
 APROVACAO_HUMANA = {"Recuperacao premium", "Protecao de jornada"}
 
 

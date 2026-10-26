@@ -8,12 +8,12 @@ O agente **não decide a ação, não envia nada** e passa por guardrails. Dados
 Na raiz do repositório:
 
 ```powershell
-python agent/agente_mensagens.py C000634
-python agent/agente_mensagens.py --top 10
+python prototype/agent/agente_mensagens.py C000634
+python prototype/agent/agente_mensagens.py --top 10
 ```
 
-`--top N` pega os N clientes com maior valor em risco e salva `agent/outputs/mensagens_exemplo.csv`.
-Cada execução é registrada em `agent/outputs/auditoria.jsonl`.
+`--top N` pega os N clientes com maior valor em risco e salva `prototype/agent/outputs/mensagens_exemplo.csv`.
+Cada execução é registrada em `prototype/agent/outputs/auditoria.jsonl`.
 
 ## O que o agente faz
 
@@ -26,3 +26,10 @@ Cada execução é registrada em `agent/outputs/auditoria.jsonl`.
 - O modo LLM não foi testado com um provedor real (só o retorno ao modo de regras quando ele falha).
 - Não envia mensagens e não mede resposta do cliente.
 - Os textos do modo de regras são modelos fixos.
+
+## Estado em 26/10/2026
+
+- Modo de regras: implementado e executável localmente.
+- Guardrails, consentimento e trilha de auditoria: implementados.
+- Integração com LLM: preparada por variáveis de ambiente, ainda sem homologação com provedor real.
+- Envio por CRM/canal: fora do MVP; os textos permanecem como rascunhos para revisão humana.

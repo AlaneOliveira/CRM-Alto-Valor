@@ -1,47 +1,86 @@
-# Protótipo — Painel de Retenção (Clientes Alto Valor)
+# CRM Alto Valor - Protótipo Next.js
 
-Painel estático (`index.html`, sem dependências, abre direto no navegador) que consome as tabelas já geradas em `docs/anac-data/processed`.
-Nada do pipeline existente foi alterado. Os dados são sintéticos; nenhum registro representa pessoa real.
+Aplicação analítica para demonstrar a estratégia de retenção do MVP. A interface lê diretamente os CSVs de `docs/anac-data/processed`; nenhum KPI principal fica copiado manualmente no código.
 
-## Ver o painel
+## Stack
 
-Não precisa de Python. Dê dois cliques em `prototype/index.html` ou clique com o botão direito, **Abrir com**, **Google Chrome**.
+- Next.js 16 com App Router;
+- React 19 e TypeScript;
+- Server Components para leitura e agregação dos CSVs;
+- componentes client-side somente para navegação e filtros interativos;
+- CSS responsivo próprio, sem dependência de um design system externo.
 
-Se o navegador bloquear algo, rode na raiz do repositório:
+## Rodar localmente
 
-```powershell
-python -m http.server 8000
-```
-
-e abra `http://localhost:8000/prototype/` no Chrome.
-
-## Rodar o Python
-
-1. Instale o Python 3.10 ou mais novo (python.org). No instalador, marque **Add python.exe to PATH**.
-2. Confirme no PowerShell: `python --version`.
-3. Instale a dependência do protótipo: `pip install pandas`.
-
-Os scripts do pipeline (`scripts/anac/*.py`) usam só a biblioteca padrão, sem pacotes extras.
-
-## Atualizar os dados do painel
-
-Rode **na raiz do repositório**:
+No PowerShell, a partir da pasta `prototype`:
 
 ```powershell
-python prototype/build_data.py
+npm.cmd install
+npm.cmd run dev
 ```
 
-O script lê `crm_customer_360_mvp.csv` e `crm_flights_mvp.csv` de `docs/anac-data/processed` e grava os dados direto dentro de `prototype/index.html`. Depois é só atualizar a página no navegador.
+Abra `http://localhost:3000`.
 
-## Regenerar a base do CRM (opcional)
+Também é possível executar a partir da raiz:
 
 ```powershell
-python scripts/anac/build_catalog.py
-python scripts/anac/build_crm_mvp.py
+npm.cmd --prefix prototype install
+npm.cmd --prefix prototype run dev
 ```
 
-Atenção: esses comandos exigem os CSVs originais da ANAC em `docs/anac-data/raw`, que não estão no Git (ignorados pelo `.gitignore`). Sem eles o script não gera a base. Para só ver ou atualizar o painel, as tabelas já prontas em `processed` bastam.
+## Verificações
 
-## Confidencialidade
+```powershell
+npm.cmd run typecheck
+npm.cmd run build
+```
 
-Manter o repositório privado (exigência do desafio).
+## Áreas da aplicação
+
+- `/`: visão executiva, KPIs, scores, fila prioritária e principais rotas;
+- `/clientes`: busca e filtros sobre os 1.500 clientes sintéticos;
+- `/clientes/[id]`: perfil 360 com scores, recomendação, voos e interações;
+- `/experiencias`: distribuição e impacto estimado das Next Best Experiences;
+- `/rotas`: ranking operacional derivado de todos os voos sintéticos;
+- `/dados`: catálogo e acesso paginado a todas as tabelas processadas;
+- `/dados/[dataset]`: busca em qualquer coluna e navegação por todos os registros.
+
+## Organização
+
+```text
+prototype/
+|-- app/                  # rotas, páginas e estilos globais
+|-- components/           # shell, tabelas, filtros e componentes visuais
+|-- lib/                  # leitura de CSV, tipos e formatação
+|-- agent/                # agente de mensagens do MVP
+|-- legacy/               # protótipo HTML anterior preservado
+|-- package.json
+`-- next.config.ts
+```
+
+## Dados
+
+A camada de acesso resolve `../docs/anac-data/processed` quando a aplicação é executada em `prototype`. São consumidos:
+
+- `crm_customers_mvp.csv`;
+- `crm_customer_360_mvp.csv`;
+- `crm_flights_mvp.csv`;
+- `crm_interactions_mvp.csv`;
+- `crm_data_dictionary.csv`.
+
+Os clientes e seus eventos são inteiramente sintéticos. Os dados públicos da ANAC são usados somente para calibração de tarifa, rota e experiência operacional.
+
+## Protótipo anterior
+
+O HTML autocontido e seu atualizador foram preservados em `prototype/legacy`. Eles servem como referência histórica, mas a aplicação principal agora é o projeto Next.js.
+
+## Agente
+
+O agente continua independente da interface:
+
+```powershell
+python prototype/agent/agente_mensagens.py C000634
+python prototype/agent/agente_mensagens.py --top 10
+```
+
+O modo de regras é o fluxo padrão. A integração LLM permanece opcional e ainda precisa de homologação com um provedor real.
