@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRM Alto Valor - Documentação completa do projeto - v3.0</title>
+  <style>
+    :root { --blue:#063c78; --navy:#09254a; --cyan:#00a5df; --ink:#152438; --muted:#5c6b7d; --line:#d8e1eb; --pale:#eef5fb; --green:#15734f; --amber:#9a5a00; --red:#a73535; }
+    * { box-sizing:border-box; }
+    @page { size:A4; margin:0; }
+    html, body { margin:0; padding:0; background:#e8edf2; color:var(--ink); font-family:"Segoe UI", Arial, sans-serif; font-size:9.4pt; line-height:1.38; }
+    .page { position:relative; width:210mm; height:297mm; margin:0 auto 8mm; padding:15mm 16mm 16mm; background:white; overflow:hidden; page-break-after:always; }
+    .page:last-child { page-break-after:auto; }
+    .topbar { height:5px; background:linear-gradient(90deg,var(--cyan),var(--blue),var(--navy)); position:absolute; top:0; left:0; right:0; }
+    .footer { position:absolute; bottom:7mm; left:16mm; right:16mm; padding-top:2.5mm; border-top:1px solid var(--line); color:var(--muted); font-size:7.8pt; display:flex; justify-content:space-between; }
+    h1 { margin:0; color:var(--navy); font-size:27pt; line-height:1.08; letter-spacing:-.4px; }
+    h2 { margin:0 0 5mm; color:var(--blue); font-size:18pt; line-height:1.15; border-bottom:2px solid var(--cyan); padding-bottom:2.2mm; }
+    h3 { margin:4mm 0 1.5mm; color:var(--navy); font-size:11.2pt; }
+    p { margin:0 0 2.5mm; }
+    ul, ol { margin:1.5mm 0 3mm 5mm; padding-left:4mm; }
+    li { margin:.9mm 0; }
+    code { font-family:Consolas, monospace; font-size:8.1pt; color:#123d67; }
+    pre { margin:2mm 0 3mm; padding:3mm; border:1px solid #c9d8e8; background:#f5f8fb; border-radius:3px; white-space:pre-wrap; font:7.9pt/1.45 Consolas, monospace; color:#173550; }
+    table { width:100%; border-collapse:collapse; margin:2mm 0 4mm; font-size:8.3pt; }
+    th { text-align:left; color:white; background:var(--blue); padding:2mm 2.2mm; }
+    td { padding:1.8mm 2.2mm; border-bottom:1px solid var(--line); vertical-align:top; }
+    tr:nth-child(even) td { background:#f7f9fb; }
+    .cover { background:linear-gradient(145deg,#061e3e 0%,#073d78 62%,#006da5 100%); color:white; padding:24mm 20mm; }
+    .cover h1 { color:white; font-size:36pt; max-width:155mm; }
+    .cover .kicker { color:#8de0ff; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; margin-bottom:7mm; }
+    .cover .subtitle { font-size:16pt; max-width:150mm; margin-top:6mm; color:#e7f6ff; }
+    .cover .rule { width:32mm; height:4px; background:#49c9f5; margin:12mm 0 10mm; }
+    .cover .meta { margin-top:15mm; display:grid; grid-template-columns:1fr 1fr; gap:4mm; max-width:150mm; }
+    .cover .meta div { background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.2); padding:4mm; }
+    .cover .meta b { display:block; color:#8de0ff; font-size:8pt; text-transform:uppercase; letter-spacing:.7px; margin-bottom:1mm; }
+    .cover .notice { position:absolute; left:20mm; right:20mm; bottom:23mm; font-size:8.5pt; color:#d9ecf8; border-top:1px solid rgba(255,255,255,.28); padding-top:4mm; }
+    .cover .footer { color:#cbe6f5; border-color:rgba(255,255,255,.25); left:20mm; right:20mm; }
+    .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:4mm; }
+    .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; }
+    .card { border:1px solid var(--line); border-left:4px solid var(--cyan); padding:3.5mm; border-radius:3px; background:white; }
+    .card h3 { margin-top:0; }
+    .callout { padding:3.5mm 4mm; background:var(--pale); border-left:4px solid var(--blue); margin:3mm 0; }
+    .warning { background:#fff6e7; border-left-color:#e19b27; }
+    .success { background:#edf8f3; border-left-color:var(--green); }
+    .metric { border:1px solid var(--line); border-radius:4px; padding:3mm; background:#fafcfe; }
+    .metric b { display:block; color:var(--blue); font-size:15pt; line-height:1.1; }
+    .metric span { color:var(--muted); font-size:7.8pt; }
+    .badge { display:inline-block; border-radius:12px; padding:.7mm 2.2mm; font-size:7.5pt; font-weight:700; }
+    .done { background:#ddf3e9; color:var(--green); }
+    .partial { background:#fff0cf; color:var(--amber); }
+    .future { background:#eef1f5; color:#536171; }
+    .formula { font:8.2pt/1.45 Consolas, monospace; background:#f4f7fa; border:1px solid var(--line); padding:3mm; margin:2mm 0 3mm; }
+    .small { font-size:8pt; color:var(--muted); }
+    .tight td, .tight th { padding:1.25mm 1.7mm; }
+    .tree { font:8pt/1.35 Consolas, monospace; white-space:pre; background:#f7f9fb; border:1px solid var(--line); padding:3mm; }
+    .label { color:var(--cyan); font-weight:700; text-transform:uppercase; letter-spacing:.7px; font-size:7.6pt; }
+    .check { color:var(--green); font-weight:700; }
+    .pending { color:var(--amber); font-weight:700; }
+    @media print { html, body { background:white; } .page { margin:0; } }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div class="topbar"></div>
+    <div class="kicker">Hacka Business - Rec'n'Play 2026</div>
+    <h1>CRM Alto Valor</h1>
+    <div class="subtitle">Documentação completa do projeto, dados, aplicação Next.js, ativação e agente de mensagens</div>
+    <div class="rule"></div>
+    <p style="font-size:13pt;max-width:145mm">Identificar, compreender e reter clientes estratégicos com uma base sintética calibrada por dados públicos e recomendações de próxima melhor experiência.</p>
+    <div class="meta">
+      <div><b>Versão</b>3.0 - protótipo Next.js</div>
+      <div><b>Status de referência</b>26/10/2026</div>
+      <div><b>Dados de clientes</b>100% sintéticos</div>
+      <div><b>Programa</b>Azul Fidelidade</div>
+    </div>
+    <div class="notice"><strong>Confidencial.</strong> Uso restrito aos participantes. Manter o repositório privado e respeitar os termos do desafio.</div>
+    <div class="footer"><span>CRM Alto Valor</span><span>Página 1 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>1. Resumo executivo e estado atual</h2>
+    <p>O MVP organiza sinais públicos da ANAC e uma camada sintética de clientes para responder a três perguntas de CRM: quem possui alto valor atual ou potencial, cuja relação está enfraquecendo e qual experiência deve ser recomendada para preservar o vínculo.</p>
+    <div class="grid3">
+      <div class="card"><div class="label">Score 1</div><h3>Customer Value</h3><p>Valor atual e potencial por gasto, frequência, recência, tier, ativos de fidelidade e tendência.</p></div>
+      <div class="card"><div class="label">Score 2</div><h3>Relationship Health</h3><p>Força da relação por NPS, pontualidade, cancelamento, engajamento, resolução e tendência.</p></div>
+      <div class="card"><div class="label">Decisão</div><h3>Next Best Experience</h3><p>Ação permitida, razão explicável, canal, custo hipotético e uplift estimado.</p></div>
+    </div>
+    <h3>Estado comprovado em 26/10/2026</h3>
+    <table class="tight">
+      <tr><th>Componente</th><th>Status</th><th>Evidência e limite</th></tr>
+      <tr><td>Pipeline e base analítica</td><td><span class="badge done">Concluído</span></td><td>Scripts, tabelas processadas, catálogo, manifesto e relatório de qualidade no repositório.</td></tr>
+      <tr><td>Aplicação Next.js</td><td><span class="badge done">Concluído</span></td><td>App Router, visão executiva, Customer 360, NBE, rotas, catálogo e interface responsiva.</td></tr>
+      <tr><td>Central de Ativação</td><td><span class="badge done">Concluído para MVP</span></td><td>Individual/lote, mensagem, guardrails, aprovação, envio e eventos simulados com auditoria local.</td></tr>
+      <tr><td>Agente de mensagens</td><td><span class="badge partial">Regras validadas</span></td><td>Modo determinístico e guardrails implementados. Integração LLM é opcional e ainda não homologada.</td></tr>
+      <tr><td>Testes automatizados</td><td><span class="badge done">25 aprovados</span></td><td>Vitest e Testing Library cobrem regras, dados, filtros, paginação e ativação.</td></tr>
+      <tr><td>Integrações corporativas</td><td><span class="badge future">Arquitetura futura</span></td><td>Snowflake, Salesforce e canais de comunicação não estão conectados no MVP.</td></tr>
+      <tr><td>Modelos treinados de ML</td><td><span class="badge future">Não implementado</span></td><td>Os scores atuais são heurísticos e explicáveis; não representam CLV ou churn supervisionado.</td></tr>
+    </table>
+    <div class="callout success"><strong>Estado desta versão:</strong> o Next.js é o protótipo principal. O HTML anterior foi movido para <code>prototype/legacy</code>. Nenhuma mensagem real é enviada e o histórico de ativações permanece local ao navegador.</div>
+    <h3>Indicadores do snapshot</h3>
+    <div class="grid3">
+      <div class="metric"><b>1.500</b><span>clientes sintéticos</span></div>
+      <div class="metric"><b>385</b><span>clientes de alto valor</span></div>
+      <div class="metric"><b>109</b><span>alto valor em atenção</span></div>
+      <div class="metric"><b>R$ 2,00 mi</b><span>valor estimado em risco</span></div>
+      <div class="metric"><b>R$ 503,9 mil</b><span>retorno estimado das ações</span></div>
+      <div class="metric"><b>206</b><span>clientes expostos a atrito operacional</span></div>
+    </div>
+    <div class="footer"><span>Resumo executivo</span><span>Página 2 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>2. Desafio, objetivo e nomenclatura</h2>
+    <h3>Problema</h3>
+    <p>Clientes frequentes, rentáveis e influentes sustentam receitas importantes e o programa de fidelidade. O desafio pede um MVP que identifique perfis de alto valor com dados públicos, construa uma base sintética e proponha uma estratégia de CRM plausível e adaptável aos dados reais.</p>
+    <h3>Objetivo do produto</h3>
+    <ol>
+      <li>Priorizar clientes por valor e risco, sem depender de identificação pessoal.</li>
+      <li>Explicar os fatores que elevam ou reduzem cada score.</li>
+      <li>Transformar diagnóstico em uma fila acionável de retenção.</li>
+      <li>Permitir a troca posterior da camada sintética por dados corporativos.</li>
+    </ol>
+    <h3>Nomenclatura oficial adotada</h3>
+    <table>
+      <tr><th>Termo</th><th>Uso neste projeto</th></tr>
+      <tr><td><strong>Azul Fidelidade</strong></td><td>Nome do programa de fidelidade citado no enunciado oficial e usado para tiers, pontos e benefícios.</td></tr>
+      <tr><td><strong>Clube Azul</strong></td><td>Assinatura mensal modelada como ativo de fidelidade e oportunidade de ativação.</td></tr>
+      <tr><td><strong>Cartão Azul Itaú</strong></td><td>Cartão co-branded modelado como ativo de fidelidade e oportunidade de ativação.</td></tr>
+      <tr><td><strong>Mundo Azul</strong></td><td>Termo mencionado em mentoria. O campo legado foi renomeado para <code>azul_fidelidade_member</code> e não substitui Azul Fidelidade.</td></tr>
+      <tr><td><strong>NPS</strong></td><td>Indicador de recomendação e satisfação. A sigla correta é NPS; não “NDS”.</td></tr>
+      <tr><td><strong>On-time performance</strong></td><td>Pontualidade operacional usada como sinal de experiência, agregada por cliente sintético.</td></tr>
+    </table>
+    <div class="callout warning"><strong>Regra de comunicação:</strong> usar “Azul Fidelidade” no texto institucional. “Clube Azul” e “Cartão Azul Itaú” são produtos ou ativos relacionados, não sinônimos do programa.</div>
+    <h3>Escopo do MVP</h3>
+    <div class="grid2">
+      <div class="card"><h3>Dentro do escopo</h3><ul><li>dados públicos ANAC;</li><li>clientes e eventos sintéticos;</li><li>scores heurísticos;</li><li>segmentação e NBE;</li><li>aplicação Next.js;</li><li>ativação e eventos simulados;</li><li>rascunhos com guardrails.</li></ul></div>
+      <div class="card"><h3>Fora do escopo atual</h3><ul><li>dados reais de passageiros;</li><li>envio de campanha;</li><li>preço ou oferta real;</li><li>modelo supervisionado de churn;</li><li>integração ativa com Salesforce;</li><li>produção em Snowflake.</li></ul></div>
+    </div>
+    <div class="footer"><span>Desafio e nomenclatura</span><span>Página 3 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>3. Fontes e arquitetura de dados</h2>
+    <p>A base separa contexto público de mercado e operação da camada sintética de clientes. Dados da ANAC não identificam passageiros e, isoladamente, não permitem dizer quem realizou dez voos em três meses. Essa granularidade é simulada apenas para demonstrar a solução.</p>
+    <h3>Fontes públicas ativas</h3>
+    <table class="tight">
+      <tr><th>Fonte</th><th>Sinais aproveitados</th><th>Papel no MVP</th></tr>
+      <tr><td>Microdados de tarifas domésticas</td><td>rota, mês, empresa e tarifa vendida</td><td>calibração de preço e gasto sintético</td></tr>
+      <tr><td>VRA - histórico de voos</td><td>origem, destino, atraso, cancelamento e regularidade</td><td>calibração de exposição operacional</td></tr>
+      <tr><td>Dados estatísticos de demanda e oferta</td><td>passageiros, RPK, ASK e mercado</td><td>contexto e plausibilidade de rotas</td></tr>
+      <tr><td>Cadastro de aeródromos</td><td>ICAO, município e UF</td><td>dimensão geográfica</td></tr>
+      <tr><td>Cadastro de empresas aéreas</td><td>identificação de operadores</td><td>dimensão e validação</td></tr>
+    </table>
+    <h3>Camadas</h3>
+    <div class="grid3">
+      <div class="card"><div class="label">Raw</div><h3>Dados originais</h3><p>Arquivos baixados, preservados por domínio e período. Não editar manualmente.</p></div>
+      <div class="card"><div class="label">Processed</div><h3>Camada analítica</h3><p>Tabelas sintéticas integradas e prontas para score, painel e agente.</p></div>
+      <div class="card"><div class="label">Quality</div><h3>Controles</h3><p>Contagens, chaves, domínios e verificações de consistência.</p></div>
+    </div>
+    <h3>Fluxo reproduzível</h3>
+    <div class="formula">ANAC raw + premissas sintéticas
+  -> scripts/anac/build_catalog.py
+  -> scripts/anac/build_crm_mvp.py
+  -> docs/anac-data/processed/*.csv
+  -> prototype/lib/data.ts
+  -> páginas e componentes Next.js
+  -> Central de Ativação / agente Python</div>
+    <h3>Princípio de substituição</h3>
+    <p>Em uma continuidade, tabelas corporativas substituem as fontes sintéticas mantendo contratos de dados equivalentes. A lógica de score, o painel e o agente continuam consumindo a camada processada, reduzindo retrabalho.</p>
+    <div class="callout"><strong>Importante:</strong> “calibrado por dados públicos” não significa que os clientes vieram da ANAC. Significa que distribuições de rota, preço e operação orientam a simulação.</div>
+    <div class="footer"><span>Fontes e arquitetura de dados</span><span>Página 4 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>4. Modelo sintético, tabelas e qualidade</h2>
+    <h3>Tabelas processadas</h3>
+    <table class="tight">
+      <tr><th>Tabela</th><th>Grão</th><th>Uso</th></tr>
+      <tr><td><code>crm_customers_mvp.csv</code></td><td>1 linha por cliente</td><td>cadastro sintético, tier, consentimento e ativos de fidelidade</td></tr>
+      <tr><td><code>crm_flights_mvp.csv</code></td><td>1 linha por voo sintético</td><td>frequência, rota, tarifa, atraso e cancelamento</td></tr>
+      <tr><td><code>crm_interactions_mvp.csv</code></td><td>1 linha por interação</td><td>NPS, campanha, reclamação e resposta</td></tr>
+      <tr><td><code>crm_customer_360_mvp.csv</code></td><td>1 linha por cliente</td><td>features, scores, segmento e recomendação final</td></tr>
+      <tr><td><code>crm_data_dictionary.csv</code></td><td>1 linha por campo</td><td>nome, tipo, definição e origem</td></tr>
+      <tr><td><code>crm_mvp_manifest.json</code></td><td>1 manifesto</td><td>versão, parâmetros, arquivos e linhagem</td></tr>
+    </table>
+    <h3>Sinais sintéticos principais</h3>
+    <div class="grid2">
+      <ul><li>recência e frequência de voos;</li><li>gasto em 12 meses;</li><li>frequência recente contra período anterior;</li><li>tier atual e saldo de pontos;</li><li>assinatura Clube Azul;</li><li>posse de Cartão Azul Itaú.</li></ul>
+      <ul><li>pontualidade e cancelamentos;</li><li>atraso médio de partida;</li><li>NPS mais recente;</li><li>reclamações e resolução;</li><li>engajamento de campanha;</li><li>consentimento de marketing.</li></ul>
+    </div>
+    <h3>Segmentos gerados</h3>
+    <table class="tight">
+      <tr><th>Segmento</th><th>Clientes</th><th>Leitura</th></tr>
+      <tr><td>Ocasional</td><td>609</td><td>baixa recorrência, menor valor atual</td></tr>
+      <tr><td>Crescimento</td><td>403</td><td>trajetória positiva e potencial de evolução</td></tr>
+      <tr><td>Alto valor</td><td>244</td><td>valor forte, ainda sem perfil premium completo</td></tr>
+      <tr><td>Em risco</td><td>169</td><td>relação enfraquecida ou perda de frequência</td></tr>
+      <tr><td>Premium</td><td>75</td><td>alto valor e forte vínculo de fidelidade</td></tr>
+    </table>
+    <h3>Controles de qualidade</h3>
+    <ul><li>unicidade de <code>customer_id</code> na visão 360;</li><li>integridade das chaves entre clientes, voos e interações;</li><li>faixa de 0 a 100 para os scores;</li><li>domínios controlados para tier, segmento, canal e ação;</li><li>manifesto e dicionário para rastreabilidade;</li><li>declaração explícita de que nenhum registro representa pessoa real.</li></ul>
+    <div class="footer"><span>Modelo sintético e qualidade</span><span>Página 5 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>5. Scores, risco e explicabilidade</h2>
+    <h3>Customer Value Score</h3>
+    <div class="formula">CVS = 30% gasto + 25% frequência + 15% recência
+    + 15% tier + 10% ativos de fidelidade + 5% tendência</div>
+    <p>Gasto e frequência usam posição relativa na base. Recência favorece atividade recente. Tier, Clube Azul, Cartão Azul Itaú, pontos e tendência completam a visão de valor potencial.</p>
+    <h3>Relationship Health Score</h3>
+    <div class="formula">RHS = 25% NPS + 25% pontualidade + 15% ausência de cancelamento
+    + 15% engajamento + 10% resolução + 10% tendência</div>
+    <p>O score combina percepção, operação e comportamento. A composição exibida no painel permite explicar por que a saúde está saudável, em atenção ou crítica.</p>
+    <h3>Churn Risk Score</h3>
+    <div class="formula">Risco = limitar[ 0, 100 ](
+  100 - RHS
+  + penalidade por recência
+  + penalidade por queda de frequência
+  + penalidade por reclamação não resolvida
+)</div>
+    <h3>Faixas usadas no painel</h3>
+    <table class="tight">
+      <tr><th>Dimensão</th><th>Baixa/saudável</th><th>Média/atenção</th><th>Alta/crítica</th></tr>
+      <tr><td>Valor</td><td>&lt; 40</td><td>40 a 69,9</td><td>&gt;= 70</td></tr>
+      <tr><td>Saúde</td><td>&gt;= 70</td><td>45 a 69,9</td><td>&lt; 45</td></tr>
+    </table>
+    <h3>Limite analítico</h3>
+    <div class="callout warning">Os três scores são regras heurísticas calibradas para demonstração. “CLV” e “predição de churn” devem ser apresentados como evolução futura até existirem histórico real, janela de observação, rótulo, treino, teste e métricas de validação.</div>
+    <h3>Leitura executiva</h3>
+    <ul><li>alto valor + saúde baixa: prioridade máxima de preservação;</li><li>alto valor + saúde alta: reconhecimento e expansão de vínculo;</li><li>valor médio + crescimento: aceleração de tier e fidelidade;</li><li>baixa atividade + recência alta: reativação com controle de custo.</li></ul>
+    <div class="footer"><span>Scores e explicabilidade</span><span>Página 6 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>6. Next Best Experience e indicadores</h2>
+    <p>O motor de regras seleciona uma ação por cliente e registra o motivo. Custo e uplift são hipóteses de negócio para comparação, não resultados de campanha nem promessa comercial.</p>
+    <table class="tight">
+      <tr><th>Ação</th><th>Clientes</th><th>Lógica principal</th></tr>
+      <tr><td>Acelerador de tier</td><td>453</td><td>potencial de evolução e recorrência</td></tr>
+      <tr><td>Oferta Cartão Azul Itaú</td><td>295</td><td>frequência relevante sem cartão</td></tr>
+      <tr><td>Oferta Clube Azul</td><td>211</td><td>recorrência sem assinatura</td></tr>
+      <tr><td>Proteção de jornada</td><td>204</td><td>atrito por atraso ou cancelamento</td></tr>
+      <tr><td>Reconhecimento exclusivo</td><td>181</td><td>relação saudável e valor alto</td></tr>
+      <tr><td>Reativação personalizada</td><td>152</td><td>inatividade ou queda de frequência</td></tr>
+      <tr><td>Recuperação premium</td><td>4</td><td>cliente premium em condição crítica</td></tr>
+    </table>
+    <h3>Indicadores diferenciadores</h3>
+    <div class="grid2">
+      <div class="card"><h3>Valor em risco</h3><p><code>gasto_12m x risco / 100</code>. No snapshot: <strong>R$ 2.004.873,01</strong>.</p></div>
+      <div class="card"><h3>Retorno estimado</h3><p><code>gasto x uplift - custo</code>. No snapshot: <strong>R$ 503.907,17</strong>.</p></div>
+      <div class="card"><h3>Gap experiência-valor</h3><p>Alto valor combinado a saúde baixa. São <strong>109</strong> clientes em atenção.</p></div>
+      <div class="card"><h3>Exposição operacional</h3><p>Clientes afetados por atraso/cancelamento: <strong>206</strong>.</p></div>
+      <div class="card"><h3>Queda de frequência</h3><p>Voos recentes abaixo do período anterior: <strong>489</strong> clientes.</p></div>
+      <div class="card"><h3>Potencial de fidelidade</h3><p>Frequentes sem clube ou cartão: <strong>736</strong> clientes.</p></div>
+    </div>
+    <h3>Uso correto</h3>
+    <ul><li>ordenar a fila por valor em risco e urgência;</li><li>testar ação, canal e frequência em experimento controlado;</li><li>substituir uplift hipotético por efeito observado;</li><li>manter aprovação humana para casos sensíveis ou de alto valor.</li></ul>
+    <div class="footer"><span>Next Best Experience</span><span>Página 7 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>7. Aplicação Next.js e funcionalidades</h2>
+    <h3>Estado atual</h3>
+    <p>A interface principal está em <code>prototype</code> e usa Next.js 16, React 19 e TypeScript. Os CSVs processados são lidos no servidor; filtros e ativações usam componentes client-side. O painel HTML anterior permanece em <code>prototype/legacy</code>.</p>
+    <h3>Áreas disponíveis</h3>
+    <table class="tight">
+      <tr><th>Rota</th><th>Função</th></tr>
+      <tr><td><code>/</code></td><td>visão executiva, scores, segmentos, fila prioritária e sinais</td></tr>
+      <tr><td><code>/clientes</code> e <code>/clientes/[id]</code></td><td>explorador paginado e perfil Customer 360</td></tr>
+      <tr><td><code>/experiencias</code></td><td>portfólio de Next Best Experiences e impacto hipotético</td></tr>
+      <tr><td><code>/ativacoes</code></td><td>público, mensagem, guardrails, aprovação, revisão e histórico</td></tr>
+      <tr><td><code>/rotas</code></td><td>contexto operacional agregado e paginado</td></tr>
+      <tr><td><code>/dados</code></td><td>catálogo e busca sobre todas as tabelas processadas</td></tr>
+    </table>
+    <h3>Executar e verificar</h3>
+    <pre>npm.cmd --prefix prototype install
+npm.cmd --prefix prototype run dev
+# abrir http://localhost:3000
+
+npm.cmd --prefix prototype test
+npm.cmd --prefix prototype run typecheck
+npm.cmd --prefix prototype run build</pre>
+    <div class="callout success"><strong>Qualidade atual:</strong> 5 arquivos e 25 testes aprovados, TypeScript aprovado e build de produção aprovado.</div>
+    <h3>Atualização dos dados</h3>
+    <pre>python scripts/anac/build_catalog.py
+python scripts/anac/build_crm_mvp.py</pre>
+    <p>A próxima renderização do Next.js passa a consumir os CSVs atualizados. Não existe snapshot JavaScript intermediário.</p>
+    <div class="footer"><span>Aplicação Next.js</span><span>Página 8 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>8. Ativação, agente e guardrails</h2>
+    <h3>Fluxo demonstrado na interface</h3>
+    <p>A Central de Ativação transforma a NBE em um fluxo verificável: selecionar público individual ou em lote, revisar mensagem, validar guardrails, registrar aprovação humana e simular envio. O histórico local permite avançar por entregue, aberto e convertido.</p>
+    <div class="formula">público → mensagem → guardrails → revisão → envio simulado
+  → entrega → abertura → conversão</div>
+    <h3>Agente independente</h3>
+    <p><code>prototype/agent/agente_mensagens.py</code> recebe a ação já escolhida na visão 360, monta um pacote mínimo e redige um rascunho determinístico. O código suporta uma API compatível com OpenAI, porém essa rota ainda não foi homologada.</p>
+    <div class="grid2">
+      <div class="card"><h3>O agente faz</h3><ul><li>lê a recomendação existente;</li><li>seleciona somente campos necessários;</li><li>aplica consentimento e restrições;</li><li>redige rascunho;</li><li>grava auditoria.</li></ul></div>
+      <div class="card"><h3>O agente não faz</h3><ul><li>não escolhe a ação;</li><li>não consulta dados pessoais reais;</li><li>não promete preço ou desconto;</li><li>não envia mensagem;</li><li>não substitui aprovação humana.</li></ul></div>
+    </div>
+    <h3>Executar na raiz do repositório</h3>
+    <pre>python prototype/agent/agente_mensagens.py C000634
+python prototype/agent/agente_mensagens.py --top 10</pre>
+    <p>As saídas ficam em <code>prototype/agent/outputs</code>. Cada execução acrescenta uma linha a <code>auditoria.jsonl</code>; lotes gravam <code>mensagens_exemplo.csv</code>.</p>
+    <h3>Modo LLM opcional</h3>
+    <pre>$env:LLM_API_KEY="..."
+$env:LLM_BASE_URL="https://provedor.exemplo/v1"
+$env:LLM_MODEL="modelo"
+python prototype/agent/agente_mensagens.py C000634</pre>
+    <p>Se variáveis estiverem ausentes, a chamada falhar ou o texto violar um guardrail, o agente retorna automaticamente ao modo de regras.</p>
+    <h3>Guardrails implementados</h3>
+    <ul><li>sem consentimento, o cliente é bloqueado ou removido do lote;</li><li>texto limitado e sem promessa de preço, percentual, desconto ou gratuidade;</li><li>alto valor, recuperação premium e proteção de jornada exigem aprovação;</li><li>o agente não muda ação, público, canal ou custo;</li><li>histórico da interface usa <code>localStorage</code>; auditoria Python usa JSONL/CSV.</li></ul>
+    <div class="callout success"><strong>Status correto:</strong> ativação e eventos são simulações; o modo de regras está validado; nenhuma mensagem real é enviada.</div>
+    <div class="footer"><span>Ativação e agente</span><span>Página 9 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>9. Arquitetura alvo, LGPD e IA responsável</h2>
+    <h3>Arquitetura atual</h3>
+    <div class="formula">CSV processado → lib/data.ts → Server Components
+  → Client Components interativos → localStorage para simulação</div>
+    <p>Next.js lê os dados no servidor; React controla filtros e ativação; Vitest valida regras e fluxos. Não existe API de escrita no MVP.</p>
+    <h3>Arquitetura de evolução</h3>
+    <div class="formula">Fontes públicas / fontes corporativas
+  -> ingestão e qualidade
+  -> Snowflake: raw, curated, analytics
+  -> features e scores versionados
+  -> motor de Next Best Experience
+  -> agente de redação com guardrails
+  -> Salesforce CRM / canais
+  -> resposta, conversão e aprendizado</div>
+    <p>Snowflake e Salesforce são referências de integração futura. Nenhuma conexão com esses ambientes está ativa no MVP.</p>
+    <h3>Princípios de IA responsável</h3>
+    <table class="tight">
+      <tr><th>Princípio</th><th>Aplicação no MVP</th></tr>
+      <tr><td>Minimização</td><td>o agente recebe apenas atributos sintéticos necessários para a mensagem</td></tr>
+      <tr><td>Transparência</td><td>scores têm componentes e pesos visíveis; NBE registra a razão</td></tr>
+      <tr><td>Controle humano</td><td>ações sensíveis ficam em revisão; nenhum envio é automático</td></tr>
+      <tr><td>Auditabilidade</td><td>execuções do agente registram entrada permitida, modo, status e resultado</td></tr>
+      <tr><td>Segurança</td><td>sem credencial no código; chaves entram apenas por variáveis de ambiente</td></tr>
+      <tr><td>Equidade</td><td>atributos protegidos não fazem parte das regras de priorização</td></tr>
+    </table>
+    <h3>Antes de produção</h3>
+    <ul><li>base legal, consentimento e política de retenção de dados;</li><li>RBAC, segregação de funções e cofre de segredos;</li><li>testes de vieses por região, renda proxy, canal e acessibilidade;</li><li>avaliação offline e online de modelos e campanhas;</li><li>monitoramento de drift, custo, reclamação e opt-out;</li><li>aprovação jurídica para textos, benefícios e frequência de contato;</li><li>mecanismo de explicação e contestação para decisões automatizadas.</li></ul>
+    <div class="callout warning"><strong>Limite de responsabilidade:</strong> o protótipo demonstra decisão assistida. Ação comercial real depende de governança, dados reais autorizados e validação com áreas de negócio, jurídico e segurança.</div>
+    <div class="footer"><span>Arquitetura alvo e governança</span><span>Página 10 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>10. Mapa do repositório e comandos</h2>
+    <div class="tree">CRM-Alto-Valor/
+|-- README.md
+|-- docs/
+|   |-- README.md
+|   |-- PROTOTIPO_E_FUNCIONALIDADES.md
+|   |-- ARQUITETURA_TECNICA.md
+|   |-- TESTES_E_QUALIDADE.md
+|   |-- data/                    # modelo, análises e guia
+|   |-- documentacao/           # HTML consolidado
+|   `-- anac-data/              # raw, archive, processed e quality
+|-- scripts/anac/               # catálogo e pipeline
+|-- prototype/
+|   |-- app/                    # rotas Next.js
+|   |-- components/             # UI e fluxos interativos
+|   |-- lib/                    # dados, regras, tipos e formatação
+|   |-- tests/                  # Vitest e Testing Library
+|   |-- agent/                  # agente Python
+|   `-- legacy/                 # painel HTML anterior
+`-- output/pdf/                 # exportações anteriores</div>
+    <h3>Sequência completa</h3>
+    <pre># 1. Gerar catálogo e tabelas do MVP
+python scripts/anac/build_catalog.py
+python scripts/anac/build_crm_mvp.py
+
+# 2. Instalar e executar a aplicação
+npm.cmd --prefix prototype install
+npm.cmd --prefix prototype run dev
+
+# 3. Validar
+npm.cmd --prefix prototype test
+npm.cmd --prefix prototype run typecheck
+npm.cmd --prefix prototype run build
+
+# 4. Executar o agente independente
+python prototype/agent/agente_mensagens.py --top 10</pre>
+    <h3>Contratos importantes</h3>
+    <ul><li>rodar os comandos a partir da raiz do repositório;</li><li>não mover a pasta <code>processed</code> sem atualizar os caminhos;</li><li>não editar arquivos públicos brutos;</li><li>não versionar credenciais, dados reais ou trilhas com dados pessoais;</li><li>manter o repositório privado conforme o enunciado.</li></ul>
+    <div class="footer"><span>Mapa e execução</span><span>Página 11 de 12</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topbar"></div>
+    <h2>11. Status final de 26/10 e roteiro de entrega</h2>
+    <h3>Checklist final do repositório</h3>
+    <table class="tight">
+      <tr><th>Item</th><th>Status em 26/10/2026</th><th>Observação</th></tr>
+      <tr><td>Base sintética e calibração pública</td><td class="check">Concluído</td><td>1.500 clientes e tabelas integradas</td></tr>
+      <tr><td>Documentação e dicionário</td><td class="check">Concluído</td><td>guia, modelo, análises, catálogos e este documento</td></tr>
+      <tr><td>Scores e NBE</td><td class="check">Concluído para MVP</td><td>heurísticos, explicáveis e não supervisionados</td></tr>
+      <tr><td>Aplicação Next.js</td><td class="check">Concluído</td><td>rotas analíticas, responsividade e catálogo navegável</td></tr>
+      <tr><td>Central de Ativação</td><td class="check">Concluído para MVP</td><td>individual/lote, aprovação, simulação e histórico local</td></tr>
+      <tr><td>Agente por regras</td><td class="check">Concluído</td><td>rascunho, consentimento, fallback e auditoria</td></tr>
+      <tr><td>Testes automatizados</td><td class="check">25 aprovados</td><td>regras, dados, componentes e fluxo de ativação</td></tr>
+      <tr><td>Agente com LLM real</td><td class="pending">Pendente de homologação</td><td>integração preparada, provedor não testado</td></tr>
+      <tr><td>Vídeo de pitch de até 5 minutos</td><td class="pending">Não localizado no repositório</td><td>confirmar gravação e submissão</td></tr>
+      <tr><td>Link do protótipo</td><td class="pending">Confirmar na plataforma</td><td>Next.js funciona localmente; hospedagem não foi verificada</td></tr>
+      <tr><td>Pull request / branch final</td><td class="pending">Confirmar</td><td>branch estava sincronizada antes destas correções locais</td></tr>
+    </table>
+    <h3>Roteiro sugerido de pitch</h3>
+    <ol><li><strong>Problema:</strong> preservar clientes estratégicos antes que a relação se deteriore.</li><li><strong>Dados:</strong> ANAC fornece contexto; clientes são sintéticos e substituíveis.</li><li><strong>Inteligência:</strong> valor, saúde e risco explicáveis.</li><li><strong>Ação:</strong> NBE transforma análise em fila priorizada.</li><li><strong>Demonstração:</strong> visão executiva, perfil 360 e Central de Ativação.</li><li><strong>Guardrails:</strong> consentimento, conteúdo seguro e aprovação humana.</li><li><strong>Aprendizado:</strong> simular entrega, abertura e conversão.</li><li><strong>Evolução:</strong> Snowflake, Salesforce, canais e experimentos.</li></ol>
+    <h3>Perguntas críticas e respostas</h3>
+    <p><strong>Os clientes são reais?</strong> Não. São sintéticos, calibrados por padrões públicos.</p>
+    <p><strong>A ANAC permite contar voos por cliente?</strong> Não. Essa frequência existe apenas na simulação.</p>
+    <p><strong>O agente usa LLM hoje?</strong> O caminho está preparado, mas o modo validado no MVP é o determinístico por regras.</p>
+    <p><strong>O retorno é comprovado?</strong> Não. É uma estimativa para priorização e deve ser substituída por uplift experimental.</p>
+    <div class="callout"><strong>Próximo passo imediato:</strong> executar testes e build, revisar o protótipo em navegador, gravar o vídeo e confirmar os links de submissão.</div>
+    <div class="footer"><span>Status final e entrega</span><span>Página 12 de 12</span></div>
+  </section>
+</body>
+</html>

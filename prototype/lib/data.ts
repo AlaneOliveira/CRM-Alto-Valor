@@ -25,8 +25,8 @@ export const DATASETS: DatasetDefinition[] = [
 function processedDirectory() {
   const current = process.cwd();
   return current.endsWith(`${path.sep}prototype`)
-    ? path.resolve(current, "..", "docs", "anac-data", "processed")
-    : path.resolve(current, "docs", "anac-data", "processed");
+    ? path.resolve(current, "..", "data", "processed")
+    : path.resolve(current, "data", "processed");
 }
 
 function parseDelimited(content: string, delimiter = ";") {

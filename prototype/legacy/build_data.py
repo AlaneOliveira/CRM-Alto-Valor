@@ -13,7 +13,7 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PROCESSED_DIR = PROJECT_ROOT / "docs" / "anac-data" / "processed"
+PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 INDEX_PATH = Path(__file__).resolve().parent / "index.html"
 
 

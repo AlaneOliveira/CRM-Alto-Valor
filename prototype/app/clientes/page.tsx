@@ -20,7 +20,6 @@ export default function CustomersPage() {
   }));
   return <>
     <PageHeader eyebrow="Customer 360" title="Explorador de clientes" description="Pesquise, filtre e priorize toda a carteira sintética. A ordenação padrão destaca o maior valor em risco." action={<a className="button secondary" href="/dados/customer-360"><Download size={15} /> Ver dados completos</a>} />
-    <div className="callout" style={{ marginBottom: 16 }}><Users size={19} /><div><strong>1.500 perfis, sem identificação pessoal</strong><p>Cada cliente combina comportamento sintético com contexto público de tarifa, rota e operação.</p></div></div>
     <CustomerExplorer customers={customers} />
   </>;
 }

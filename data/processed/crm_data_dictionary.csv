@@ -39,7 +39,7 @@ crm_customer_360_mvp.csv;next_best_experience_reason;string;calculated;Motivo ex
 crm_customers_mvp.csv;home_city;string;ANAC+synthetic;Cidade associada ao aeroporto-base.
 crm_customers_mvp.csv;home_state;string;ANAC+synthetic;UF ou estado associado ao aeroporto-base.
 crm_customers_mvp.csv;join_date;date;synthetic;Data simulada de entrada no relacionamento.
-crm_customers_mvp.csv;mundo_azul_member;boolean;synthetic;Indica participacao no programa Mundo Azul.
+crm_customers_mvp.csv;azul_fidelidade_member;boolean;synthetic;Indica participacao no programa Azul Fidelidade.
 crm_customers_mvp.csv;preferred_channel;category;synthetic;Canal preferido para relacionamento.
 crm_customers_mvp.csv;consent_marketing;boolean;synthetic;Indica consentimento para comunicacoes de marketing.
 crm_customers_mvp.csv;record_nature;string;synthetic;Classifica a natureza sintetica do registro.
@@ -75,7 +75,7 @@ crm_customer_360_mvp.csv;home_city;string;ANAC+synthetic;Cidade associada ao aer
 crm_customer_360_mvp.csv;home_state;string;ANAC+synthetic;UF ou estado associado ao aeroporto-base.
 crm_customer_360_mvp.csv;join_date;date;synthetic;Data simulada de entrada no relacionamento.
 crm_customer_360_mvp.csv;tier_current;category;synthetic;Tier current.
-crm_customer_360_mvp.csv;mundo_azul_member;boolean;synthetic;Indica participacao no programa Mundo Azul.
+crm_customer_360_mvp.csv;azul_fidelidade_member;boolean;synthetic;Indica participacao no programa Azul Fidelidade.
 crm_customer_360_mvp.csv;clube_azul_subscriber;boolean;synthetic;Clube azul subscriber.
 crm_customer_360_mvp.csv;azul_itau_card;boolean;synthetic;Azul itau card.
 crm_customer_360_mvp.csv;points_balance;integer;synthetic;Points balance.

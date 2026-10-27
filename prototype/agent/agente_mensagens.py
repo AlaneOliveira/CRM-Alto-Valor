@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA = PROJECT_ROOT / "docs" / "anac-data" / "processed"
+DATA = PROJECT_ROOT / "data" / "processed"
 OUT = Path(__file__).resolve().parent / "outputs"
 APROVACAO_HUMANA = {"Recuperacao premium", "Protecao de jornada"}
 

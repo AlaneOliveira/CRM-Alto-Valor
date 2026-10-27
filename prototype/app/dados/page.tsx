@@ -18,7 +18,7 @@ export default function DataCatalogPage() {
       <StatCard label="Natureza dos clientes" value="Sintética" detail="nenhum passageiro real" tone="green" />
       <StatCard label="Formato analítico" value="CSV" detail="aberto e substituível" tone="amber" />
     </section>
-    <div className="callout" style={{ marginBottom: 17 }}><ShieldCheck size={19} /><div><strong>Fonte de verdade única</strong><p>As páginas, KPIs e tabelas usam os arquivos de <code>docs/anac-data/processed</code>. Alterar a base e recarregar a aplicação atualiza as análises.</p></div></div>
+    <div className="callout" style={{ marginBottom: 17 }}><ShieldCheck size={19} /><div><strong>Fonte de verdade única</strong><p>As páginas, KPIs e tabelas usam os arquivos de <code>data/processed</code>. Alterar a base e recarregar a aplicação atualiza as análises.</p></div></div>
     <section className="dataset-grid">{datasets.map((dataset) => { const Icon = icons[dataset.id]; return <Link key={dataset.id} className="dataset-card" href={`/dados/${dataset.id}`}><span className="dataset-icon"><Icon size={19} /></span><span className="dataset-arrow">↗</span><h2>{dataset.label}</h2><p>{dataset.description}</p><div className="dataset-stats"><div><strong>{number(dataset.count)}</strong><span> registros</span></div><span>{dataset.grain}</span></div></Link>; })}</section>
     <div className="footer-note"><Database size={13} style={{ verticalAlign: "middle", marginRight: 6 }} /> Paginação e busca permitem percorrer todos os registros sem carregar a base inteira no navegador.</div>
   </>;

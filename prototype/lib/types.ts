@@ -106,3 +106,48 @@ export interface DatasetDefinition {
   description: string;
   grain: string;
 }
+
+export interface ActivationCandidate {
+  customerId: string;
+  city: string;
+  state: string;
+  tier: string;
+  consent: boolean;
+  action: string;
+  reason: string;
+  recommendedChannel: string;
+  actionCost: number;
+  expectedUplift: number;
+  spend: number;
+  valueScore: number;
+  healthScore: number;
+  riskScore: number;
+  flights12m: number;
+}
+
+export type ActivationMode = "individual" | "batch";
+export type ActivationStatus = "sent" | "delivered" | "opened" | "converted";
+
+export interface ActivationEvent {
+  status: ActivationStatus | "approved" | "created";
+  at: string;
+}
+
+export interface ActivationRecord {
+  id: string;
+  createdAt: string;
+  mode: ActivationMode;
+  customerId?: string;
+  sampleCustomerIds: string[];
+  action: string;
+  channel: string;
+  message: string;
+  audienceCount: number;
+  blockedCount: number;
+  requiresHumanApproval: boolean;
+  approved: boolean;
+  estimatedCost: number;
+  expectedReturn: number;
+  status: ActivationStatus;
+  events: ActivationEvent[];
+}

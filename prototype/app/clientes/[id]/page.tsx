@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Bot, CheckCircle2, Clock3, Mail, MapPin, Plane, ShieldCheck } from "lucide-react";
+import { ArrowLeft, Bot, CheckCircle2, Clock3, Mail, MapPin, Plane, Send, ShieldCheck } from "lucide-react";
 
 import { Badge, ProgressBar, ScoreRing, SectionHeader } from "@/components/ui";
 import { getCustomerDetail } from "@/lib/data";
@@ -30,7 +30,7 @@ export default async function CustomerDetailPage({ params }: { params: Promise<{
     <Link className="button ghost" href="/clientes"><ArrowLeft size={15} /> Voltar para clientes</Link>
     <section className="detail-header" style={{ marginTop: 15 }}>
       <article className="card profile-card"><div className="profile-avatar">{customer.customer_id.slice(-3)}</div><div><h1>{customer.customer_id}</h1><p><MapPin size={12} style={{ verticalAlign: "middle", marginRight: 4 }} />{customer.home_city} - {customer.home_state} · Base {customer.home_airport_icao}</p><div className="profile-tags"><Badge tone="info">{tierLabel(customer.tier_current)}</Badge><Badge tone={customer.relationship_band === "saudavel" ? "success" : customer.relationship_band === "atencao" ? "warning" : "danger"}>{customer.relationship_band}</Badge><Badge>{customer.synthetic_segment.replaceAll("_", " ")}</Badge></div></div></article>
-      <article className="card nbe-card"><span>Next Best Experience</span><h2>{actionLabel(customer.next_best_experience)}</h2><p>{customer.next_best_experience_reason}</p><div className="nbe-meta"><div>Canal<strong>{customer.recommended_channel}</strong></div><div>Custo estimado<strong>{money(numeric(customer.estimated_action_cost_brl))}</strong></div><div>Uplift hipotético<strong>{percent(numeric(customer.expected_retention_uplift_pct))}</strong></div></div></article>
+      <article className="card nbe-card"><span>Next Best Experience</span><h2>{actionLabel(customer.next_best_experience)}</h2><p>{customer.next_best_experience_reason}</p><div className="nbe-meta"><div>Canal<strong>{customer.recommended_channel}</strong></div><div>Custo estimado<strong>{money(numeric(customer.estimated_action_cost_brl))}</strong></div><div>Uplift hipotético<strong>{percent(numeric(customer.expected_retention_uplift_pct))}</strong></div></div><Link className="button nbe-action" href={`/ativacoes?customer=${customer.customer_id}`}>Criar ativação <Send size={15} /></Link></article>
     </section>
     <section className="stats-grid">
       <article className="card"><ScoreRing value={numeric(customer.customer_value_score)} label="Customer Value" /><p className="score-caption">Valor atual e potencial</p></article>

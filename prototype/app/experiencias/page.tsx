@@ -1,4 +1,5 @@
-import { Bot, CheckCircle2, CircleDollarSign, Sparkles, Target } from "lucide-react";
+import Link from "next/link";
+import { Bot, CheckCircle2, CircleDollarSign, Send, Sparkles, Target } from "lucide-react";
 
 import { Badge, PageHeader, ProgressBar, SectionHeader, StatCard } from "@/components/ui";
 import { getCustomers } from "@/lib/data";
@@ -40,7 +41,7 @@ export default function ExperiencesPage() {
         <div className="insight"><span className="insight-icon"><CircleDollarSign size={16} /></span><div><strong>4. Experimento aprende</strong><p>Uplift hipotético deve ser substituído por efeito incremental observado.</p></div></div>
       </div></article>
     </section>
-    <article className="card table-card"><SectionHeader title="Portfólio de jornadas" description="Impacto estimado e canal dominante por recomendação." /><div className="table-wrap"><table className="data-table"><thead><tr><th>Experiência</th><th>Clientes</th><th>Canal dominante</th><th>Risco médio</th><th>Custo estimado</th><th>Retorno potencial</th><th>Status</th></tr></thead><tbody>{actions.map((action) => { const requiresApproval = action.name.includes("premium") || action.name.includes("Protecao"); return <tr key={action.name}><td><strong>{actionLabel(action.name)}</strong></td><td>{number(action.count)}</td><td>{action.channel}</td><td>{action.averageRisk.toFixed(1)}</td><td>{money(action.cost)}</td><td>{money(action.return)}</td><td><Badge tone={requiresApproval ? "warning" : "success"}>{requiresApproval ? "Aprovação humana" : "Pronto para teste"}</Badge></td></tr>; })}</tbody></table></div></article>
+    <article className="card table-card"><SectionHeader title="Portfólio de jornadas" description="Impacto estimado e canal dominante por recomendação." /><div className="table-wrap"><table className="data-table"><thead><tr><th>Experiência</th><th>Clientes</th><th>Canal dominante</th><th>Risco médio</th><th>Custo estimado</th><th>Retorno potencial</th><th>Status</th><th /></tr></thead><tbody>{actions.map((action) => { const requiresApproval = action.name.includes("premium") || action.name.includes("Protecao"); return <tr key={action.name}><td><strong>{actionLabel(action.name)}</strong></td><td>{number(action.count)}</td><td>{action.channel}</td><td>{action.averageRisk.toFixed(1)}</td><td>{money(action.cost)}</td><td>{money(action.return)}</td><td><Badge tone={requiresApproval ? "warning" : "success"}>{requiresApproval ? "Aprovação humana" : "Pronto para teste"}</Badge></td><td><Link className="table-link activate" href={`/ativacoes?mode=batch&action=${encodeURIComponent(action.name)}`}>Ativar público <Send size={13} /></Link></td></tr>; })}</tbody></table></div></article>
     <div className="footer-note"><Sparkles size={13} style={{ verticalAlign: "middle", marginRight: 6 }} /> Valores de custo e uplift são premissas sintéticas, não resultados comerciais observados.</div>
   </>;
 }
