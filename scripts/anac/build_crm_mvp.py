@@ -16,7 +16,7 @@ CUSTOMER_COUNT = 1500
 AS_OF_DATE = date(2026, 9, 30)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_ROOT = PROJECT_ROOT / "docs" / "anac-data"
+DATA_ROOT = PROJECT_ROOT / "data"
 RAW_ROOT = DATA_ROOT / "raw"
 PROCESSED_ROOT = DATA_ROOT / "processed"
 QUALITY_ROOT = DATA_ROOT / "quality"
@@ -274,7 +274,7 @@ def build_data() -> tuple[list[dict], list[dict], list[dict], list[dict], list[d
                 "home_state": location.get("state", ""),
                 "join_date": (AS_OF_DATE - timedelta(days=join_days)).isoformat(),
                 "tier_current": tier,
-                "mundo_azul_member": 1,
+                "azul_fidelidade_member": 1,
                 "clube_azul_subscriber": clube,
                 "azul_itau_card": card,
                 "points_balance": points_balance,
@@ -648,7 +648,7 @@ def data_dictionary(table_samples: dict[str, dict]) -> list[dict]:
         "home_city": "Cidade associada ao aeroporto-base.",
         "home_state": "UF ou estado associado ao aeroporto-base.",
         "join_date": "Data simulada de entrada no relacionamento.",
-        "mundo_azul_member": "Indica participacao no programa Mundo Azul.",
+        "azul_fidelidade_member": "Indica participacao no programa Azul Fidelidade.",
         "preferred_channel": "Canal preferido para relacionamento.",
         "consent_marketing": "Indica consentimento para comunicacoes de marketing.",
         "record_nature": "Classifica a natureza sintetica do registro.",
@@ -691,7 +691,7 @@ def data_dictionary(table_samples: dict[str, dict]) -> list[dict]:
         "score_reference_date": "Data de referencia dos indicadores e scores.",
     }
     boolean_fields = {
-        "mundo_azul_member", "clube_azul_subscriber", "azul_itau_card", "consent_marketing",
+        "azul_fidelidade_member", "clube_azul_subscriber", "azul_itau_card", "consent_marketing",
         "cancelled", "sent", "opened", "clicked", "converted", "complaint", "resolved",
     }
     integer_fields = {

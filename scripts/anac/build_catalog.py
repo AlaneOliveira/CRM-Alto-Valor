@@ -10,11 +10,11 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_ROOT = PROJECT_ROOT / "docs" / "anac-data"
+DATA_ROOT = PROJECT_ROOT / "data"
 RAW_ROOT = DATA_ROOT / "raw"
 ARCHIVE_ROOT = DATA_ROOT / "archive"
-JSON_OUTPUT = PROJECT_ROOT / "docs" / "database.json"
-CSV_OUTPUT = PROJECT_ROOT / "docs" / "database.csv"
+JSON_OUTPUT = PROJECT_ROOT / "data" / "database.json"
+CSV_OUTPUT = PROJECT_ROOT / "data" / "database.csv"
 
 DATASETS = {
     "demanda_oferta": {

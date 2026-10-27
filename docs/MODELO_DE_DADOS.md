@@ -113,6 +113,19 @@ As regras são avaliadas na ordem abaixo. A primeira condição verdadeira defin
 
 Cada ação tem canal preferido, custo estimado e uplift hipotético de retenção. Esses valores servem para priorização no hackathon e precisam de calibração experimental antes de uso real.
 
+### Uso na Central de Ativação
+
+A página `/ativacoes` recebe uma projeção tipada da visão Customer 360 com ID, localidade, tier, consentimento, NBE, canal, custo, uplift, gasto e scores. Ela aplica as regras abaixo:
+
+- clientes sem consentimento são removidos do público elegível;
+- valor igual ou superior a 70 exige aprovação humana;
+- Recuperação premium e Proteção de jornada exigem aprovação independentemente do score;
+- o custo exibido é o custo estimado da ação ou benefício, não o custo do canal;
+- o retorno potencial é `gasto × uplift / 100 - custo da ação`;
+- envio, entrega, abertura e conversão são simulados e não alteram a base processada.
+
+O histórico da simulação fica no navegador e não integra o modelo persistente de dados.
+
 ## Regras de junção
 
 - Cliente → voos: `customer_id`.
@@ -125,3 +138,11 @@ Cada ação tem canal preferido, custo estimado e uplift hipotético de retenç�
 ## Natureza e governança dos campos
 
 O dicionário classifica cada variável como `ANAC`, `ANAC aggregate`, `synthetic`, `ANAC+synthetic` ou `calculated`. Em produção, os campos sintéticos devem ser substituídos pelas fontes internas sem alterar os identificadores e os contratos das tabelas. Dados pessoais devem permanecer pseudonimizados e sujeitos a consentimento, finalidade e controles de acesso compatíveis com a LGPD.
+
+## Contrato com a aplicação
+
+- `prototype/lib/types.ts` replica os contratos necessários no TypeScript;
+- `prototype/lib/data.ts` lê e agrega as tabelas no servidor;
+- `prototype/lib/activations.ts` implementa regras e guardrails da ativação;
+- mudanças de nome, tipo ou semântica exigem atualização coordenada no pipeline, dicionário, tipos, testes e documentação;
+- os testes em `prototype/tests/data.test.ts` validam unicidade, agregações, ordenação, busca e relacionamento entre tabelas.

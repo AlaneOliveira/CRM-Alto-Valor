@@ -1,7 +1,14 @@
-# Fontes ANAC locais são grandes e podem ser baixadas novamente.
-docs/anac-data/raw/**/*.csv
-docs/anac-data/archive/**/*.csv
+# Fontes ANAC brutas e arquivadas sao mantidas localmente (inventario em data/database.json)
+data/raw/
+data/archive/
 
 # Artefatos locais de Python.
 __pycache__/
 *.py[cod]
+
+# Aplicação Next.js do protótipo.
+prototype/node_modules/
+prototype/.next/
+prototype/.npm-cache/
+prototype/out/
+prototype/*.tsbuildinfo

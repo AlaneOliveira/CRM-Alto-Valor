@@ -1,4 +1,4 @@
-﻿customer_id;synthetic_segment;age_band;home_airport_icao;home_city;home_state;join_date;tier_current;mundo_azul_member;clube_azul_subscriber;azul_itau_card;points_balance;preferred_channel;consent_marketing;record_nature
+﻿customer_id;synthetic_segment;age_band;home_airport_icao;home_city;home_state;join_date;tier_current;azul_fidelidade_member;clube_azul_subscriber;azul_itau_card;points_balance;preferred_channel;consent_marketing;record_nature
 C000001;alto_valor;56-65;SBGL;Rio de Janeiro;Rio de Janeiro;2023-07-22;Diamante;1;1;1;4952;App;1;synthetic
 C000002;crescimento;56-65;SBKP;Campinas;São Paulo;2023-05-03;Basico;1;0;1;20416;App;1;synthetic
 C000003;alto_valor;56-65;SBCF;Confins;Minas Gerais;2022-04-14;Diamante;1;0;1;44004;Email;1;synthetic

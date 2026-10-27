@@ -93,14 +93,30 @@ Essas medidas servem como hipótese de priorização. Não devem ser apresentada
 - Quais clientes têm afinidade com Clube Azul ou cartão Itaú?
 - Em quais rotas a referência tarifária e a experiência operacional mais pressionam a relação?
 
-## Estrutura sugerida para o dashboard
+## Estrutura implementada no protótipo
 
-1. **Visão executiva:** clientes, valor em risco, saúde média, churn médio e distribuição das ações.
-2. **Matriz valor × saúde:** quadrantes e lista acionável de clientes.
-3. **Experiência operacional:** pontualidade, cancelamento, atraso e impacto em NPS.
-4. **Fidelidade:** tier, clube, cartão, pontos, frequência e oportunidades de evolução.
-5. **Rotas e aeroportos:** mapa, concentração, preço de referência e risco operacional.
-6. **Next Best Experience:** ação, motivo, canal, custo, uplift hipotético e retorno estimado.
+1. **Visão executiva:** clientes, valor em risco, pulso de valor/saúde/risco, segmentos, fila acionável e rotas.
+2. **Explorador de clientes:** pesquisa, tier, segmento, saúde, paginação e acesso ao perfil 360.
+3. **Perfil 360:** scores, drivers, fidelidade, experiência operacional, interações e NBE.
+4. **Next Best Experience:** ação, motivo, canal, custo, uplift hipotético, retorno e atalho de ativação.
+5. **Rotas:** recorrência, atraso, cancelamento, tarifa, viagens de negócio e paginação.
+6. **Catálogo:** visualização e busca sobre todas as tabelas processadas.
+7. **Central de Ativação:** público individual ou em lote, mensagem, guardrails, aprovação, revisão, envio simulado e histórico.
+
+Detalhes de cada rota estão em [Protótipo e funcionalidades](../PROTOTIPO_E_FUNCIONALIDADES.md).
+
+## Indicadores de execução simulada
+
+| Indicador | Definição no MVP | Uso futuro |
+|---|---|---|
+| Público elegível | clientes da NBE com consentimento | alcance autorizado da campanha |
+| Bloqueados | clientes removidos por ausência de consentimento | controle de conformidade |
+| Custo estimado da ação | soma de `estimated_action_cost_brl` | orçamento de benefício |
+| Retorno potencial | soma de gasto × uplift menos custo | hipótese para priorização |
+| Ativações simuladas | registros criados no navegador | campanhas aprovadas |
+| Entrega, abertura e conversão | eventos avançados manualmente | webhooks automáticos por canal |
+
+O custo técnico do canal ainda não é calculado. Em produção, deve ser separado do custo do benefício.
 
 ## Validação futura em produção
 
