@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CRM Alto Valor - Documentação completa do projeto - v3.0</title>
+  <title>CRM Alto Valor - Documentação completa do projeto - v4.0</title>
   <style>
     :root { --blue:#063c78; --navy:#09254a; --cyan:#00a5df; --ink:#152438; --muted:#5c6b7d; --line:#d8e1eb; --pale:#eef5fb; --green:#15734f; --amber:#9a5a00; --red:#a73535; }
     * { box-sizing:border-box; }
@@ -64,11 +64,11 @@
     <div class="topbar"></div>
     <div class="kicker">Hacka Business - Rec'n'Play 2026</div>
     <h1>CRM Alto Valor</h1>
-    <div class="subtitle">Documentação completa do projeto, dados, aplicação Next.js, ativação e agente de mensagens</div>
+    <div class="subtitle">Documentação definitiva do projeto, dados, aplicação Next.js, ativação e agente de mensagens</div>
     <div class="rule"></div>
     <p style="font-size:13pt;max-width:145mm">Identificar, compreender e reter clientes estratégicos com uma base sintética calibrada por dados públicos e recomendações de próxima melhor experiência.</p>
     <div class="meta">
-      <div><b>Versão</b>3.0 - protótipo Next.js</div>
+      <div><b>Versão</b>4.0 - versão final homologada</div>
       <div><b>Status de referência</b>26/10/2026</div>
       <div><b>Dados de clientes</b>100% sintéticos</div>
       <div><b>Programa</b>Azul Fidelidade</div>
@@ -93,11 +93,11 @@
       <tr><td>Aplicação Next.js</td><td><span class="badge done">Concluído</span></td><td>App Router, visão executiva, Customer 360, NBE, rotas, catálogo e interface responsiva.</td></tr>
       <tr><td>Central de Ativação</td><td><span class="badge done">Concluído para MVP</span></td><td>Individual/lote, mensagem, guardrails, aprovação, envio e eventos simulados com auditoria local.</td></tr>
       <tr><td>Agente de mensagens</td><td><span class="badge partial">Regras validadas</span></td><td>Modo determinístico e guardrails implementados. Integração LLM é opcional e ainda não homologada.</td></tr>
-      <tr><td>Testes automatizados</td><td><span class="badge done">25 aprovados</span></td><td>Vitest e Testing Library cobrem regras, dados, filtros, paginação e ativação.</td></tr>
+      <tr><td>Testes automatizados</td><td><span class="badge done">26 aprovados</span></td><td>Vitest e Testing Library cobrem regras, dados, filtros, paginação e ativação.</td></tr>
       <tr><td>Integrações corporativas</td><td><span class="badge future">Arquitetura futura</span></td><td>Snowflake, Salesforce e canais de comunicação não estão conectados no MVP.</td></tr>
       <tr><td>Modelos treinados de ML</td><td><span class="badge future">Não implementado</span></td><td>Os scores atuais são heurísticos e explicáveis; não representam CLV ou churn supervisionado.</td></tr>
     </table>
-    <div class="callout success"><strong>Estado desta versão:</strong> o Next.js é o protótipo principal. O HTML anterior foi movido para <code>prototype/legacy</code>. Nenhuma mensagem real é enviada e o histórico de ativações permanece local ao navegador.</div>
+    <div class="callout success"><strong>Estado desta versão:</strong> o Next.js é a aplicação principal e homologada. Os dados analíticos residem na raiz em <code>data/</code>. O HTML anterior foi arquivado em <code>prototype/legacy</code>. Nenhuma mensagem real é enviada e o histórico de ativações é persistido no navegador.</div>
     <h3>Indicadores do snapshot</h3>
     <div class="grid3">
       <div class="metric"><b>1.500</b><span>clientes sintéticos</span></div>
@@ -164,7 +164,7 @@
     <div class="formula">ANAC raw + premissas sintéticas
   -> scripts/anac/build_catalog.py
   -> scripts/anac/build_crm_mvp.py
-  -> docs/anac-data/processed/*.csv
+  -> data/processed/*.csv
   -> prototype/lib/data.ts
   -> páginas e componentes Next.js
   -> Central de Ativação / agente Python</div>
@@ -269,14 +269,14 @@
     <div class="topbar"></div>
     <h2>7. Aplicação Next.js e funcionalidades</h2>
     <h3>Estado atual</h3>
-    <p>A interface principal está em <code>prototype</code> e usa Next.js 16, React 19 e TypeScript. Os CSVs processados são lidos no servidor; filtros e ativações usam componentes client-side. O painel HTML anterior permanece em <code>prototype/legacy</code>.</p>
+    <p>A interface principal está em <code>prototype</code> e usa Next.js 16, React 19 e TypeScript. Os CSVs processados são lidos no servidor a partir de <code>data/processed</code>; filtros e ativações usam componentes client-side. O painel HTML anterior permanece arquivado em <code>prototype/legacy</code>.</p>
     <h3>Áreas disponíveis</h3>
     <table class="tight">
       <tr><th>Rota</th><th>Função</th></tr>
       <tr><td><code>/</code></td><td>visão executiva, scores, segmentos, fila prioritária e sinais</td></tr>
       <tr><td><code>/clientes</code> e <code>/clientes/[id]</code></td><td>explorador paginado e perfil Customer 360</td></tr>
       <tr><td><code>/experiencias</code></td><td>portfólio de Next Best Experiences e impacto hipotético</td></tr>
-      <tr><td><code>/ativacoes</code></td><td>público, mensagem, guardrails, aprovação, revisão e histórico</td></tr>
+      <tr><td><code>/ativacoes</code></td><td>histórico, preparação, mensagem, guardrails, aprovação e envio</td></tr>
       <tr><td><code>/rotas</code></td><td>contexto operacional agregado e paginado</td></tr>
       <tr><td><code>/dados</code></td><td>catálogo e busca sobre todas as tabelas processadas</td></tr>
     </table>
@@ -288,7 +288,7 @@ npm.cmd --prefix prototype run dev
 npm.cmd --prefix prototype test
 npm.cmd --prefix prototype run typecheck
 npm.cmd --prefix prototype run build</pre>
-    <div class="callout success"><strong>Qualidade atual:</strong> 5 arquivos e 25 testes aprovados, TypeScript aprovado e build de produção aprovado.</div>
+    <div class="callout success"><strong>Qualidade atual:</strong> 5 arquivos e 26 testes aprovados (100% sucesso), TypeScript estrito aprovado e build de produção aprovado.</div>
     <h3>Atualização dos dados</h3>
     <pre>python scripts/anac/build_catalog.py
 python scripts/anac/build_crm_mvp.py</pre>
@@ -300,9 +300,9 @@ python scripts/anac/build_crm_mvp.py</pre>
     <div class="topbar"></div>
     <h2>8. Ativação, agente e guardrails</h2>
     <h3>Fluxo demonstrado na interface</h3>
-    <p>A Central de Ativação transforma a NBE em um fluxo verificável: selecionar público individual ou em lote, revisar mensagem, validar guardrails, registrar aprovação humana e simular envio. O histórico local permite avançar por entregue, aberto e convertido.</p>
-    <div class="formula">público → mensagem → guardrails → revisão → envio simulado
-  → entrega → abertura → conversão</div>
+    <p>A Central de Ativação transforma a NBE em um fluxo executivo verificável: histórico de ativações em primeiro plano, seleção de público individual ou em lote, revisão de mensagem, validação de guardrails em tempo real, registro de aprovação humana com badge visual e simulação de envio. O histórico local permite avançar por entregue, aberto e convertido.</p>
+    <div class="formula">histórico → público → mensagem → guardrails → aprovação humana
+  → envio simulado → entrega → abertura → conversão</div>
     <h3>Agente independente</h3>
     <p><code>prototype/agent/agente_mensagens.py</code> recebe a ação já escolhida na visão 360, monta um pacote mínimo e redige um rascunho determinístico. O código suporta uma API compatível com OpenAI, porém essa rota ainda não foi homologada.</p>
     <div class="grid2">
@@ -362,24 +362,32 @@ python prototype/agent/agente_mensagens.py C000634</pre>
     <div class="topbar"></div>
     <h2>10. Mapa do repositório e comandos</h2>
     <div class="tree">CRM-Alto-Valor/
-|-- README.md
-|-- docs/
-|   |-- README.md
+|-- README.md                   # guia mestre do projeto
+|-- data/                       # dados e inventário analítico
+|   |-- processed/              # tabelas do MVP (clientes, voos, interações)
+|   |-- quality/                # relatórios de consistência e integridade
+|   |-- database.json           # catálogo técnico detalhado
+|   |-- database.csv            # catálogo tabular exportado
+|   |-- raw/                    # fontes brutas ANAC (mantidas localmente)
+|   `-- archive/                # arquivos históricos e snapshots
+|-- docs/                       # documentação oficial
+|   |-- README.md               # índice mestre
 |   |-- PROTOTIPO_E_FUNCIONALIDADES.md
 |   |-- ARQUITETURA_TECNICA.md
 |   |-- TESTES_E_QUALIDADE.md
-|   |-- data/                    # modelo, análises e guia
-|   |-- documentacao/           # HTML consolidado
-|   `-- anac-data/              # raw, archive, processed e quality
-|-- scripts/anac/               # catálogo e pipeline
-|-- prototype/
-|   |-- app/                    # rotas Next.js
-|   |-- components/             # UI e fluxos interativos
-|   |-- lib/                    # dados, regras, tipos e formatação
-|   |-- tests/                  # Vitest e Testing Library
-|   |-- agent/                  # agente Python
-|   `-- legacy/                 # painel HTML anterior
-`-- output/pdf/                 # exportações anteriores</div>
+|   |-- MODELO_DE_DADOS.md
+|   |-- ANALISES.md
+|   `-- documentacao/           # HTML e PDF consolidado
+|-- scripts/anac/               # pipeline e catalogação
+|   |-- build_catalog.py
+|   `-- build_crm_mvp.py
+`-- prototype/                  # aplicação Next.js 16
+    |-- app/                    # rotas e páginas do App Router
+    |-- components/             # UI, Central de Ativação, Shell
+    |-- lib/                    # dados, regras NBE, guardrails e tipos
+    |-- tests/                  # 26 testes automatizados (Vitest)
+    |-- agent/                  # agente Python com guardrails
+    `-- legacy/                 # painel HTML estático anterior</div>
     <h3>Sequência completa</h3>
     <pre># 1. Gerar catálogo e tabelas do MVP
 python scripts/anac/build_catalog.py
@@ -413,14 +421,14 @@ python prototype/agent/agente_mensagens.py --top 10</pre>
       <tr><td>Aplicação Next.js</td><td class="check">Concluído</td><td>rotas analíticas, responsividade e catálogo navegável</td></tr>
       <tr><td>Central de Ativação</td><td class="check">Concluído para MVP</td><td>individual/lote, aprovação, simulação e histórico local</td></tr>
       <tr><td>Agente por regras</td><td class="check">Concluído</td><td>rascunho, consentimento, fallback e auditoria</td></tr>
-      <tr><td>Testes automatizados</td><td class="check">25 aprovados</td><td>regras, dados, componentes e fluxo de ativação</td></tr>
+      <tr><td>Testes automatizados</td><td class="check">26 aprovados</td><td>regras, dados, componentes e fluxo de ativação</td></tr>
       <tr><td>Agente com LLM real</td><td class="pending">Pendente de homologação</td><td>integração preparada, provedor não testado</td></tr>
       <tr><td>Vídeo de pitch de até 5 minutos</td><td class="pending">Não localizado no repositório</td><td>confirmar gravação e submissão</td></tr>
       <tr><td>Link do protótipo</td><td class="pending">Confirmar na plataforma</td><td>Next.js funciona localmente; hospedagem não foi verificada</td></tr>
-      <tr><td>Pull request / branch final</td><td class="pending">Confirmar</td><td>branch estava sincronizada antes destas correções locais</td></tr>
+      <tr><td>Pull request / branch final</td><td class="check">Concluído</td><td>branch feat/prototipo-dashboard sincronizada e enviada ao GitHub</td></tr>
     </table>
     <h3>Roteiro sugerido de pitch</h3>
-    <ol><li><strong>Problema:</strong> preservar clientes estratégicos antes que a relação se deteriore.</li><li><strong>Dados:</strong> ANAC fornece contexto; clientes são sintéticos e substituíveis.</li><li><strong>Inteligência:</strong> valor, saúde e risco explicáveis.</li><li><strong>Ação:</strong> NBE transforma análise em fila priorizada.</li><li><strong>Demonstração:</strong> visão executiva, perfil 360 e Central de Ativação.</li><li><strong>Guardrails:</strong> consentimento, conteúdo seguro e aprovação humana.</li><li><strong>Aprendizado:</strong> simular entrega, abertura e conversão.</li><li><strong>Evolução:</strong> Snowflake, Salesforce, canais e experimentos.</li></ol>
+    <ol><li><strong>Problema:</strong> preservar clientes estratégicos antes que a relação se deteriore.</li><li><strong>Dados:</strong> ANAC fornece contexto; clientes são sintéticos e substituíveis.</li><li><strong>Inteligência:</strong> valor, saúde e risco explicáveis.</li><li><strong>Ação:</strong> NBE transforma análise em fila priorizada.</li><li><strong>Demonstração:</strong> visão executiva, perfil 360 e Central de Ativação ao vivo.</li><li><strong>Confiabilidade:</strong> 26 testes automatizados e guardrails de IA aplicados em tempo real.</li><li><strong>Aprendizado:</strong> ciclo de vida de ativação simulada (entrega, abertura e conversão).</li><li><strong>Evolução:</strong> Snowflake, Salesforce, canais e modelos supervisionados.</li></ol>
     <h3>Perguntas críticas e respostas</h3>
     <p><strong>Os clientes são reais?</strong> Não. São sintéticos, calibrados por padrões públicos.</p>
     <p><strong>A ANAC permite contar voos por cliente?</strong> Não. Essa frequência existe apenas na simulação.</p>

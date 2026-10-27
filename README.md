@@ -8,7 +8,7 @@ Projeto do Hacka Business para identificar clientes de alto valor, acompanhar a 
 - [Protótipo e funcionalidades](docs/PROTOTIPO_E_FUNCIONALIDADES.md): telas, indicadores e Central de Ativação.
 - [Arquitetura técnica](docs/ARQUITETURA_TECNICA.md): Next.js, React, TypeScript, componentes e execução.
 - [Testes e qualidade](docs/TESTES_E_QUALIDADE.md): cobertura automatizada e controles do pipeline.
-- [Documentação completa do projeto](docs/documentacao/CRM_ALTO_VALOR_DOCUMENTACAO_COMPLETA.html): visão executiva, arquitetura, painel, agente, execução e status de 26/10/2026.
+- [Documentação definitiva em PDF](docs/documentacao/CRM_Alto_Valor_Documentacao_Definitiva_v4.pdf) e [versão HTML navegável](docs/documentacao/CRM_ALTO_VALOR_DOCUMENTACAO_COMPLETA.html): visão executiva, arquitetura, Next.js, Central de Ativação, testes e governança.
 - [Modelo de dados](docs/MODELO_DE_DADOS.md): tabelas, chaves, métricas, scores e regras de recomendação.
 - [Catálogo de análises](docs/ANALISES.md): indicadores, segmentações, perguntas e estrutura de dashboard.
 - [Catálogo técnico JSON](data/database.json) e [catálogo tabular CSV](data/database.csv): inventário gerado das fontes ativas.
