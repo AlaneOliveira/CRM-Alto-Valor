@@ -27,7 +27,7 @@ Nenhum registro representa uma pessoa real. Os dados públicos da ANAC fornecem 
 | [Modelo de dados](MODELO_DE_DADOS.md) | tabelas, chaves, métricas, scores e regras de NBE |
 | [Catálogo de análises](ANALISES.md) | indicadores, segmentações e perguntas de negócio |
 | [Camadas de dados](../data/README.md) | política de `raw`, `archive`, `processed` e `quality` |
-| [Documentação completa em HTML](documentacao/CRM_ALTO_VALOR_DOCUMENTACAO_COMPLETA.html) | versão consolidada para leitura e exportação em PDF |
+| [Documentação definitiva em PDF](documentacao/CRM_Alto_Valor_Documentacao_Definitiva_v4.pdf) | versão consolidada diagramada para entrega oficial (e [versão HTML](documentacao/CRM_ALTO_VALOR_DOCUMENTACAO_COMPLETA.html)) |
 | [Catálogo JSON](../data/database.json) | inventário técnico detalhado das fontes |
 | [Catálogo CSV](../data/database.csv) | inventário tabular para Excel e BI |
 
